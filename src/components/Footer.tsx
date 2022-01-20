@@ -8,8 +8,8 @@ const footerLinks = [
     title: "Ecosystem",
     links: [
       {
-        name: "Home",
-        href: "https://docs.xp.network/",
+        name: "Hello",
+        href: "/docs/hello",
       },
       {
         name: "Multichain NFT Bridge",

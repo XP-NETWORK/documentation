@@ -27,7 +27,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/facebook/docusaurus/edit/main/website/",
+          editUrl: "https://github.com/xp-network/docs",
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -58,7 +58,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "Home",
+            docId: "hello",
             position: "left",
             label: "Home",
           },
