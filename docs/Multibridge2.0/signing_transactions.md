@@ -1,6 +1,6 @@
 ---
-sidebar_label: '4. Signing the bridging transactions'
-sidebar_position: 5
+sidebar_label: '5. Signing the bridging transactions'
+sidebar_position: 6
 ---
 
 # Signing the bridging transaction

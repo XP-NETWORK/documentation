@@ -85,8 +85,8 @@ const config = {
                 to: "/docs/home",
               },
               {
-                label: "Whitepaper v 3.0",
-                to: "/docs/Whitepaper3.0/introduction",
+                label: "Whitepaper v 2.0",
+                to: "/docs/Whitepaper2.0/introduction",
               },
             ],
           },

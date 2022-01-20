@@ -1,6 +1,6 @@
 ---
-sidebar_label: '3. Viewing NFTs'
-sidebar_position: 4
+sidebar_label: '4. Viewing NFTs'
+sidebar_position: 5
 ---
 
 # Viewing NFTs

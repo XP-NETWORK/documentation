@@ -1,6 +1,6 @@
 ---
-sidebar_label: '5. Viewing the Results of Bridging'
-sidebar_position: 6
+sidebar_label: '6. Viewing the Results of Bridging'
+sidebar_position: 7
 ---
 
 # Viewing the Results of Bridging
