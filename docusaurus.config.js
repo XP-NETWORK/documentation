@@ -82,7 +82,7 @@ const config = {
             items: [
               {
                 label: "Wiki",
-                to: "/docs/Home",
+                to: "/docs/home",
               },
               {
                 label: "Whitepaper v 3.0",
