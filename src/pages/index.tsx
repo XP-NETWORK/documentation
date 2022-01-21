@@ -4,14 +4,14 @@ import { Cards } from "../components/Cards";
 import { Repos } from "../components/Repos";
 import { BottomCards } from "../components/BottomCards";
 import { Footer } from "../components/Footer";
-
 import { Navbar } from "../components/Navbar";
 import { SearchBar } from "../components/SearchBar";
 
 const Home = () => {
   useEffect(() => {
     document.body.classList.add("bg-[#F7F8FA]", "dark:bg-[#22242F]");
-  }, []);
+    // document.querySelector(".markdown").classList.add("prose");
+  });
   return (
     <div>
       <div className="max-w-4xl mx-auto pb-16 dark:text-white px-4">
