@@ -26,10 +26,18 @@ export const Navbar = () => {
           <p className="dark:text-white">XP.NETWORK</p>
         </a>
 
-        <a href="/whitepaper">Whitepaper</a>
-        <a href="https://github.com/xp-network">API</a>
-        <a href="https://xp.network">XP.network</a>
-        <a href="https://github.com/xp-network">Github</a>
+        <a className="hidden md:inline" href="/whitepaper">
+          Whitepaper
+        </a>
+        <a className="hidden md:inline" href="https://github.com/xp-network">
+          API
+        </a>
+        <a className="hidden md:inline" href="https://xp.network">
+          XP.network
+        </a>
+        <a className="hidden md:inline" href="https://github.com/xp-network">
+          Github
+        </a>
       </div>
       <div className="btn">
         <div className="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
