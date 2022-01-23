@@ -42,8 +42,8 @@ const footerLinks = [
         name: "Linkedin",
         href: "https://www.linkedin.com/company/xp-network/",
       },
-      { name: "Discord", href: "/uniswap" },
-      { name: "Bitclout", href: "/xp" },
+      { name: "Discord", href: "https://discord.gg/g3vkcsmd38" },
+      { name: "Bitclout", href: "https://bitclout.com/u/XPnetwork" },
     ],
   },
 ];
