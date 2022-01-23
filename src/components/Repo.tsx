@@ -8,7 +8,7 @@ export const Repo = ({ name, link }: RepoProps) => {
     // <Link href={link}>
     <a
       href={link}
-      className="flex text-black dark:text-white bg-white dark:bg-[#323545] w-full p-5 rounded-xl space-x-4"
+      className="flex text-black dark:text-white bg-white dark:bg-[#323545] w-full p-5 rounded-xl space-x-4 items-center"
       target="_blank"
     >
       <svg
