@@ -32,11 +32,11 @@ const Home = () => {
         <Repos />
 
         <h1 className="text-center mt-20 font-bold text-3xl">
-          Developer Links
+          Join XP communities
         </h1>
         <p className="text-center text-gray-500 mt-8 max-w-lg mx-auto">
-          The Uniswap codebase is comprised of an ecosystem of open source
-          components.
+          Discover the power of QUIGON through a wide range of content, from
+          video interviews to real-time chats with the team.
         </p>
         <BottomCards />
       </div>
