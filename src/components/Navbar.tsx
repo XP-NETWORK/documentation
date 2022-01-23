@@ -14,7 +14,7 @@ export const Navbar = () => {
 
   return (
     <nav className="py-4 flex w-full justify-between dark:text-white">
-      <div className="flex space-x-10 dark:hover:text-white">
+      <div className="flex space-x-10">
         <a className="flex space-x-2 items-center">
           <img
             className="block pt-2"
@@ -26,16 +26,28 @@ export const Navbar = () => {
           <p className="dark:text-white">XP.NETWORK</p>
         </a>
 
-        <a className="hidden md:inline" href="/whitepaper">
+        <a
+          className="hidden md:inline dark:hover:text-white"
+          href="https://xp.network/whitepaper/"
+        >
           Whitepaper
         </a>
-        <a className="hidden md:inline" href="https://github.com/xp-network">
+        <a
+          className="hidden md:inline dark:hover:text-white"
+          href="https://xp.network/api/"
+        >
           API
         </a>
-        <a className="hidden md:inline" href="https://xp.network">
+        <a
+          className="hidden md:inline dark:hover:text-white"
+          href="https://xp.network"
+        >
           XP.network
         </a>
-        <a className="hidden md:inline" href="https://github.com/xp-network">
+        <a
+          className="hidden md:inline dark:hover:text-white"
+          href="https://github.com/xp-network"
+        >
           Github
         </a>
       </div>
