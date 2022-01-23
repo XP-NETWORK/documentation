@@ -11,13 +11,13 @@ const katex = require("rehype-katex");
 const config = {
   title: "Welcome to the XP.NETWORK Docs",
   tagline: "",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://docs.xp.network",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/new/fav-icon.png",
   organizationName: "XP.NETWORK", // Usually your GitHub org/user name.
-  projectName: "wiki.xp.network", // Usually your repo name.
+  projectName: "docs.xp.network", // Usually your repo name.
 
   presets: [
     [
