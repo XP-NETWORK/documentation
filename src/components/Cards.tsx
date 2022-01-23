@@ -12,13 +12,13 @@ const card: CardProps[] = [
     description: "Technological and methodological background of XP.network",
     title: "Whitepaper",
     image: "/assets/file.svg",
-    link: "/docs/home",
+    link: "https://xp.network/whitepaper/",
   },
   {
     description: "An intuitive interface for integrating the Bridge into dApps",
     title: "JavaScript API",
     image: "/assets/api.svg",
-    link: "/docs/home",
+    link: "https://xp.network/api/",
   },
 ];
 
