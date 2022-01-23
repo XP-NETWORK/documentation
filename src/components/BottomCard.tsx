@@ -11,7 +11,7 @@ export const BottomCard = ({
   return (
     <a
       href={link}
-      className="flex flex-col items-start py-4 px-6 rounded-2xl w-full bg-white dark:bg-[#323545] hover:no-underline"
+      className="flex flex-col items-start py-4 px-6 rounded-2xl w-full bg-white dark:bg-[#323545] hover:no-underline transition ease-in-out hover:-translate-y-2"
     >
       <div className="flex space-x-4">
         <img
