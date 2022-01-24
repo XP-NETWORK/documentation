@@ -15,9 +15,12 @@ export const Navbar = () => {
   return (
     <nav className="py-4 flex w-full justify-between dark:text-white">
       <div className="flex space-x-10">
-        <a className="flex space-x-2 items-center">
+        <a
+          href="https://docs.xp.network"
+          className="flex space-x-2 justify-center hover:no-underline"
+        >
           <img
-            className="block pt-2"
+            className="shrink-0"
             src="/assets/logo.svg"
             alt="XP Network"
             width={20}
