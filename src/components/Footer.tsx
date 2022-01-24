@@ -222,7 +222,13 @@ export const Footer = () => {
                     target={link.target}
                     className="flex text-sm items-center text-gray-500 dark:text-gray-400 dark:hover:text-white hover:no-underline hover:text-black"
                   >
-                    {link.icon ? <div className="w-7">{link.icon}</div> : ""}
+                    {link.icon ? (
+                      <div className="w-5 mr-2 flex justify-center">
+                        {link.icon}
+                      </div>
+                    ) : (
+                      ""
+                    )}
                     {link.name}
                     {link.name == "GitHub" ? (
                       <span className="whitespace-nowrap text-xs ml-2 px-2 text-black bg-gray-200  dark:bg-gray-700 dark:text-white rounded-full">
