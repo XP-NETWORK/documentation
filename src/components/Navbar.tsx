@@ -14,7 +14,7 @@ export const Navbar = () => {
 
   return (
     <nav className="py-4 flex w-full justify-between dark:text-white">
-      <div className="flex space-x-10">
+      <div className="flex space-x-12">
         <a
           href="https://docs.xp.network"
           className="flex space-x-2 justify-center hover:no-underline"
