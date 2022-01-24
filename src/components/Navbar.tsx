@@ -1,15 +1,22 @@
 // import Link from "next/link";
 // import Image from "next/image";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import useDarkMode from "../hooks/useDarkMode";
 import React from "react";
 
 export const Navbar = () => {
   const { isDarkMode, toggle } = useDarkMode();
+  const [latestCommit, SetLatestCommit] = useState<number>();
 
   useEffect(() => {
     const html = document.querySelector("html");
     html?.classList.toggle("dark", isDarkMode);
+
+    fetch("https://xpvitaldata.herokuapp.com/last-commit")
+      .then((res) => res.json())
+      .then((latestCommit) => {
+        SetLatestCommit(Date.parse(latestCommit));
+      });
   }, [isDarkMode]);
 
   return (
@@ -49,10 +56,14 @@ export const Navbar = () => {
           Home
         </a>
         <a
+          target="_blank"
           className="hidden md:inline text-sm dark:hover:text-white hover:no-underline hover:opacity-50"
           href="https://github.com/xp-network"
         >
           GitHub
+          <span className="text-xs ml-2 px-2 text-white bg-green-600 rounded-full">
+            latest commit {new Date(latestCommit).toLocaleDateString()}
+          </span>
         </a>
       </div>
       <div className="btn">
