@@ -45,7 +45,7 @@ export const Navbar = () => {
           className="hidden md:inline dark:hover:text-white"
           href="https://xp.network"
         >
-          XP.NETWORK
+          Home
         </a>
         <a
           className="hidden md:inline dark:hover:text-white"
