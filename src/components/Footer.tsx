@@ -189,11 +189,15 @@ export const Footer = () => {
             <img
               src={
                 isDarkMode
-                  ? "/assets/logo-full-dark.svg"
-                  : "/assets/logo-full.svg"
+                  ? "/assets/xp-network-dark.svg"
+                  : "/assets/xp-network-light.svg"
               }
+              width="120"
               alt="logo"
-            />
+            />{" "}
+            <span className="text-sm text-gray-500 dark:text-gray-500">
+              | Docs
+            </span>
           </a>
           {/* </Link> */}
           {footerLinks.map((link, i) => (

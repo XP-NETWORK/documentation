@@ -425,10 +425,10 @@ html[data-theme="light"] .navbar__logo img {
 }
 
 html[data-theme="light"] .navbar__logo:after {
-  content: url("../../static/assets/logo-full.svg");
+  content: url("../../static/assets/xp-network-light.svg");
   display: block;
   position: relative;
-  bottom: -4px;
+  /* bottom: -4px; */
   width: 197px;
 }
 

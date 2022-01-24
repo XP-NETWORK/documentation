@@ -73,8 +73,8 @@ const config = {
       },
       navbar: {
         logo: {
-          alt: "XP.NETWORK Wiki",
-          src: "assets/logo-full-dark.svg",
+          alt: "XP.NETWORK Docs",
+          src: "assets/xp-network-dark.svg",
         },
         items: [
           {
