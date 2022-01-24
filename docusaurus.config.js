@@ -15,7 +15,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/new/fav-icon.png",
+  favicon: "favicon.ico",
   organizationName: "XP.NETWORK", // Usually your GitHub org/user name.
   projectName: "docs.xp.network", // Usually your repo name.
 
@@ -74,7 +74,7 @@ const config = {
       navbar: {
         logo: {
           alt: "XP.NETWORK Wiki",
-          src: "img/logo.svg",
+          src: "assets/logo-full-dark.svg",
         },
         items: [
           {
