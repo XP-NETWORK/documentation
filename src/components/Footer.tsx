@@ -11,22 +11,36 @@ const footerLinks = [
       {
         name: "Home",
         href: "https://xp.network/",
+        target: "_self",
       },
       {
         name: "Multi-Chain NFT Bridge",
         href: "https://bridge.xp.network/",
+        target: "_blank",
       },
-      { name: "XPNET Staking", href: "https://stake.xp.network/" },
+      {
+        name: "XPNET Staking",
+        href: "https://stake.xp.network/",
+        target: "_blank",
+      },
     ],
   },
   {
     id: 1,
     title: "Docs",
     links: [
-      { name: "Whitepaper", href: "https://xp.network/whitepaper/" },
-      { name: "Wiki", href: "https://xp.network/" },
-      { name: "API", href: "/docs/API/usage" },
-      { name: "GitHub", href: "https://github.com/XP-NETWORK" },
+      {
+        name: "Whitepaper",
+        href: "https://xp.network/whitepaper/",
+        target: "_self",
+      },
+      { name: "Wiki", href: "https://xp.network/", target: "_self" },
+      { name: "API", href: "/docs/API/usage", target: "_self" },
+      {
+        name: "GitHub",
+        target: "_black",
+        href: "https://github.com/XP-NETWORK",
+      },
     ],
   },
   {
@@ -36,6 +50,7 @@ const footerLinks = [
       {
         name: "Telegram",
         href: "https://t.me/xp_network",
+        target: "_blank",
         icon: (
           <svg
             width="19"
@@ -54,6 +69,7 @@ const footerLinks = [
       {
         name: "Twitter",
         href: "https://twitter.com/XPNetwork_?ref_src=twsrc%5Etfw",
+        target: "_blank",
         icon: (
           <svg
             width="20"
@@ -72,6 +88,7 @@ const footerLinks = [
       {
         name: "Reddit",
         href: "https://www.reddit.com/user/XP_network/",
+        target: "_blank",
         icon: (
           <svg
             width="19"
@@ -90,6 +107,7 @@ const footerLinks = [
       {
         name: "Linkedin",
         href: "https://www.linkedin.com/company/xp-network/",
+        target: "_blank",
         icon: (
           <svg
             width="16"
@@ -116,6 +134,7 @@ const footerLinks = [
       {
         name: "Discord",
         href: "https://discord.gg/g3vkcsmd38",
+        target: "_blank",
         icon: (
           <svg
             width="21"
@@ -134,6 +153,7 @@ const footerLinks = [
       {
         name: "Bitclout",
         href: "https://bitclout.com/u/XPnetwork",
+        target: "_blank",
         icon: (
           <svg
             width="14"
@@ -186,6 +206,7 @@ export const Footer = () => {
                   <a
                     href={link.href}
                     key={link.href}
+                    target={link.target}
                     className="flex text-sm items-center text-gray-500 dark:text-gray-400 dark:hover:text-white hover:no-underline hover:text-black"
                   >
                     {link.icon ? <div className="w-7">{link.icon}</div> : ""}
