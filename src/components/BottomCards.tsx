@@ -6,13 +6,13 @@ const bottomCards = [
     title: "Discord",
     description: "Hop in the #dev-chat to get realtime help.",
     image: "/assets/discord.svg",
-    link: "/",
+    link: "https://discord.gg/g3vkcsmd38",
   },
   {
     title: "Github",
     description: "Hop in the #dev-chat to get realtime help.",
     image: "/assets/github-blue.svg",
-    link: "/",
+    link: "https://github.com/XP-NETWORK",
   },
   {
     title: "Forum",
