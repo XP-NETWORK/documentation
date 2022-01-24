@@ -5,6 +5,7 @@ const card = [
   {
     description: "Who we are and what we can do for your business.",
     title: "What is XP.NETWORK",
+    color: "#EB5260",
     image: (
       <svg
         width="24"
@@ -22,6 +23,7 @@ const card = [
   {
     description: "Technological and methodological background of XP.NETWORK",
     title: "Whitepaper",
+    color: "#FB8417",
     image: (
       <svg
         width="24"
@@ -48,6 +50,7 @@ const card = [
   {
     description: "An intuitive interface for integrating the Bridge into dApps",
     title: "JavaScript API",
+    color: "#5ECDF3",
     image: (
       <svg
         width="24"

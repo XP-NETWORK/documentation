@@ -1,7 +1,7 @@
 // import Image from "next/image";
 import React from "react";
 
-export const Card = ({ title, description, image, link }: any) => {
+export const Card = ({ title, description, image, link, color }: any) => {
   return (
     <a
       href={link}
@@ -12,8 +12,8 @@ export const Card = ({ title, description, image, link }: any) => {
       <h4 className="text-lg mt-2 font-medium text-md z-10">{title}</h4>
       <p className="my-2 mb-8 z-10 text-sm">{description}</p>
       <svg
-        width="200"
-        height="150"
+        width="250"
+        height="180"
         viewBox="0 0 337 240"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ export const Card = ({ title, description, image, link }: any) => {
             height="111"
             rx="42.5"
             transform="rotate(165 402.693 258.964)"
-            stroke="#EB5260"
+            stroke={color}
             stroke-width="35"
           />
         </g>
