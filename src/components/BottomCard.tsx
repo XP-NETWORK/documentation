@@ -22,7 +22,7 @@ export const BottomCard = ({
           src={image}
           alt="info"
         />
-        <h4 className="text-lg mt-1 dark:text-white font-medium">{title}</h4>
+        <h4 className="text-xl mt-1 dark:text-white font-medium">{title}</h4>
       </div>
       <p className="mt-2 mb-4 dark:text-white">{description}</p>
       <img
