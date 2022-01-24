@@ -21,7 +21,7 @@ const card = [
     link: "/docs/home",
   },
   {
-    description: "Technological and methodological background of XP.NETWORK",
+    description: "Technological and methodological background of XP.NETWORK.",
     title: "Whitepaper",
     color: "#FB8417",
     image: (
@@ -48,7 +48,8 @@ const card = [
     link: "https://xp.network/whitepaper/",
   },
   {
-    description: "An intuitive interface for integrating the Bridge into dApps",
+    description:
+      "An intuitive interface for integrating the Bridge into dApps.",
     title: "JavaScript API",
     color: "#5ECDF3",
     image: (
