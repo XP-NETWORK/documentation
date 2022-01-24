@@ -9,8 +9,8 @@ export const Card = ({ title, description, image, link }: any) => {
     >
       {image}
 
-      <h4 className="text-lg mt-2 font-medium text-sm z-10">{title}</h4>
-      <p className="my-2 mb-8 z-10 text-xs">{description}</p>
+      <h4 className="text-lg mt-2 font-medium text-md z-10">{title}</h4>
+      <p className="my-2 mb-8 z-10 text-sm">{description}</p>
       <svg
         width="200"
         height="150"
