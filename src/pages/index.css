@@ -20,7 +20,7 @@
 }
 
 svg,
-svg * {
+svg path {
   fill: currentColor;
 }
 
