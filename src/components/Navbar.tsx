@@ -30,25 +30,25 @@ export const Navbar = () => {
         </a>
 
         <a
-          className="hidden md:inline dark:hover:text-white"
+          className="hidden md:inline dark:hover:text-white hover:no-underline hover:opacity-50"
           href="https://xp.network/whitepaper/"
         >
           Whitepaper
         </a>
         <a
-          className="hidden md:inline dark:hover:text-white"
+          className="hidden md:inline dark:hover:text-white hover:no-underline hover:opacity-50"
           href="https://xp.network/api/"
         >
           API
         </a>
         <a
-          className="hidden md:inline dark:hover:text-white"
+          className="hidden md:inline dark:hover:text-white hover:no-underline hover:opacity-50"
           href="https://xp.network"
         >
           Home
         </a>
         <a
-          className="hidden md:inline dark:hover:text-white"
+          className="hidden md:inline dark:hover:text-white hover:no-underline hover:opacity-50"
           href="https://github.com/xp-network"
         >
           GitHub
