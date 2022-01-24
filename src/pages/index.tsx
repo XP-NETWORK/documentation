@@ -22,7 +22,7 @@ const Home = () => {
         {/* <SearchBar /> */}
         <Cards />
 
-        <h1 className="text-center mt-20 font-bold text-3xl">
+        <h1 className="text-center mt-20 font-bold text-4xl">
           Developer Links
         </h1>
         <p className="text-center text-gray-500 mt-8 max-w-lg mx-auto">
@@ -31,7 +31,7 @@ const Home = () => {
         </p>
         <Repos />
 
-        <h1 className="text-center mt-20 font-bold text-3xl">
+        <h1 className="text-center mt-20 font-bold text-4xl">
           Join XP communities
         </h1>
         <p className="text-center text-gray-500 mt-8 max-w-lg mx-auto">
