@@ -9,7 +9,7 @@ const footerLinks = [
     links: [
       {
         name: "Home",
-        href: "/docs/home",
+        href: "https://xp.network/",
       },
       {
         name: "Multi-Chain NFT Bridge",
