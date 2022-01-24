@@ -9,7 +9,7 @@ const bottomCards = [
     link: "https://discord.gg/g3vkcsmd38",
   },
   {
-    title: "Github",
+    title: "GitHub",
     description: "Hop in the #dev-chat to get realtime help.",
     image: "/assets/github-blue.svg",
     link: "https://github.com/XP-NETWORK",
