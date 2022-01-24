@@ -61,8 +61,8 @@ export const Navbar = () => {
           href="https://github.com/xp-network"
         >
           GitHub
-          <span className="text-xs ml-2 px-2 text-white bg-green-600 rounded-full">
-            latest commit {new Date(latestCommit).toLocaleDateString()}
+          <span className="text-xs ml-2 px-2 text-black bg-gray-200 rounded-full">
+            Latest commit {new Date(latestCommit).toLocaleDateString()}
           </span>
         </a>
       </div>
