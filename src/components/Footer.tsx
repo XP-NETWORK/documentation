@@ -23,7 +23,7 @@ const footerLinks = [
     title: "Docs",
     links: [
       { name: "Whitepaper", href: "https://xp.network/whitepaper/" },
-      { name: "Wiki", href: "/" },
+      { name: "Wiki", href: "https://xp.network/" },
       { name: "API", href: "/docs/API/usage" },
       { name: "GitHub", href: "https://github.com/XP-NETWORK" },
     ],
