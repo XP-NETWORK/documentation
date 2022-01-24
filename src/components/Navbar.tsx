@@ -51,7 +51,7 @@ export const Navbar = () => {
           className="hidden md:inline dark:hover:text-white"
           href="https://github.com/xp-network"
         >
-          Github
+          GitHub
         </a>
       </div>
       <div className="btn">
