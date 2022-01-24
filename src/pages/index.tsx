@@ -26,8 +26,7 @@ const Home = () => {
           Developer Links
         </h1>
         <p className="text-center text-gray-500 mt-8 max-w-lg mx-auto">
-          The Uniswap codebase is comprised of an ecosystem of open source
-          components.
+          Quick access to the most popular code repositories.
         </p>
         <Repos />
 
