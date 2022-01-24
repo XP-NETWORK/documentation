@@ -12,7 +12,7 @@ const footerLinks = [
         href: "/docs/home",
       },
       {
-        name: "Multichain NFT Bridge",
+        name: "Multi-Chain NFT Bridge",
         href: "https://bridge.xp.network/",
       },
       { name: "XPNET Staking", href: "https://stake.xp.network/" },
