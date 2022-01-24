@@ -34,7 +34,7 @@ const Home = () => {
           Join XP communities
         </h1>
         <p className="text-center text-gray-500 mt-8 max-w-lg mx-auto">
-          Discover the power of QUIGON through a wide range of content, from
+          Discover the power of XP.NETWORK through a wide range of content, from
           video interviews to real-time chats with the team.
         </p>
         <BottomCards />
