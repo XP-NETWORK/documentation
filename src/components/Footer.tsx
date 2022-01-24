@@ -71,7 +71,7 @@ export const Footer = () => {
                   <a
                     href={link.href}
                     key={link.href}
-                    className="text-gray-600 dark:text-gray-400"
+                    className="text-gray-600 dark:text-gray-400 dark:hover:text-white hover:no-underline hover:text-black"
                   >
                     {link.name}
                   </a>
