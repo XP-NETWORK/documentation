@@ -163,7 +163,7 @@ export const Footer = () => {
   return (
     <div className="py-10 bg-[#DADDE2] dark:bg-[#1C1E26]">
       <div className="max-w-4xl mx-auto px-4">
-        <footer className="grid gap-y-10 md:gap-0 md:grid-cols-4 items-start">
+        <footer className="grid gap-y-10 md:gap-x-10 md:grid-cols-4 items-start">
           {/* <Link href="/"> */}
           <a className="flex items-center space-x-2">
             <img
