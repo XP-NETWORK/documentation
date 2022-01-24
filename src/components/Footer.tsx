@@ -1,6 +1,6 @@
 // import Image from "next/image";
 // import Link from "next/link";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import useDarkMode from "../hooks/useDarkMode";
 
 const footerLinks = [
@@ -179,6 +179,15 @@ const footerLinks = [
 
 export const Footer = () => {
   const { isDarkMode } = useDarkMode();
+  const [latestCommit, SetLatestCommit] = useState<number>();
+
+  useEffect(() => {
+    fetch("https://xpvitaldata.herokuapp.com/last-commit")
+      .then((res) => res.json())
+      .then((latestCommit) => {
+        SetLatestCommit(Date.parse(latestCommit));
+      });
+  }, []);
 
   return (
     <div className="py-10 bg-[#DADDE2] dark:bg-[#1C1E26]">
@@ -215,6 +224,23 @@ export const Footer = () => {
                   >
                     {link.icon ? <div className="w-7">{link.icon}</div> : ""}
                     {link.name}
+                    {link.name == "GitHub" ? (
+                      <span className="whitespace-nowrap text-xs ml-2 px-2 text-black bg-gray-200  dark:bg-gray-700 dark:text-white rounded-full">
+                        <svg
+                          className="inline-block mr-1 mb-1"
+                          width="7"
+                          height="8"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle cx="3.5" cy="4" r="3.5" fill="#1BEA6E" />
+                        </svg>
+                        Latest commit{" "}
+                        {new Date(latestCommit).toLocaleDateString()}
+                      </span>
+                    ) : (
+                      ""
+                    )}
                   </a>
                 ))}
               </div>

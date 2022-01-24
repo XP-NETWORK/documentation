@@ -61,7 +61,16 @@ export const Navbar = () => {
           href="https://github.com/xp-network"
         >
           GitHub
-          <span className="text-xs ml-2 px-2 text-black bg-gray-200 rounded-full">
+          <span className="text-xs ml-2 px-2 text-black bg-gray-200  dark:bg-gray-700 dark:text-white rounded-full">
+            <svg
+              className="inline-block mr-1 mb-1"
+              width="7"
+              height="8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="3.5" cy="4" r="3.5" fill="#1BEA6E" />
+            </svg>
             Latest commit {new Date(latestCommit).toLocaleDateString()}
           </span>
         </a>
