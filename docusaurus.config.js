@@ -53,10 +53,10 @@ const config = {
     ({
       algolia: {
         // If Algolia did not provide you any appId, use 'BH4D9OD16A'
-        appId: "3LAWQQQX0B",
+        appId: "H02IL3A4PJ",
 
         // Public API key: it is safe to commit it
-        apiKey: "c35136289c5d16e387ddff6e367fbcc9",
+        apiKey: "76386cfbc243f9953cbf09ecd8647be4",
 
         indexName: "xp_network_docs",
 
