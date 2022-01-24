@@ -178,13 +178,15 @@ export const Footer = () => {
           {/* </Link> */}
           {footerLinks.map((link, i) => (
             <div key={i}>
-              <h4 className="font-medium dark:text-white">{link.title}</h4>
+              <h4 className="font-bold text-sm dark:text-white">
+                {link.title}
+              </h4>
               <div className="flex flex-col gap-y-3 mt-5">
                 {link.links.map((link, i) => (
                   <a
                     href={link.href}
                     key={link.href}
-                    className="flex items-center text-gray-500 dark:text-gray-400 dark:hover:text-white hover:no-underline hover:text-black"
+                    className="flex text-sm items-center text-gray-500 dark:text-gray-400 dark:hover:text-white hover:no-underline hover:text-black"
                   >
                     {link.icon ? <div className="w-7">{link.icon}</div> : ""}
                     {link.name}
