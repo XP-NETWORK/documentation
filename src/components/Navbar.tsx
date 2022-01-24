@@ -14,19 +14,20 @@ export const Navbar = () => {
 
   return (
     <nav className="py-4 flex w-full justify-between dark:text-white">
-      <div className="flex space-x-12">
+      <div className="flex space-x-12 items-center">
         <a
           href="https://docs.xp.network"
-          className="flex space-x-2 justify-center hover:no-underline"
+          // className="flex space-x-2 justify-center hover:no-underline"
         >
           <img
             className="shrink-0"
-            src="/assets/logo.svg"
-            alt="XP Network"
-            width={20}
-            height={20}
+            src={
+              isDarkMode
+                ? "/assets/xp-network-dark.svg"
+                : "/assets/xp-network-light.svg"
+            }
+            alt="XP Network logo"
           />
-          <p className="dark:text-white">XP.NETWORK</p>
         </a>
 
         <a
