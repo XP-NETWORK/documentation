@@ -46,10 +46,31 @@ const config = {
       crossorigin: "anonymous",
     },
   ],
+  // themes: ["@docusaurus/theme-search-algolia"],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        // If Algolia did not provide you any appId, use 'BH4D9OD16A'
+        appId: "3LAWQQQX0B",
+
+        // Public API key: it is safe to commit it
+        apiKey: "c35136289c5d16e387ddff6e367fbcc9",
+
+        indexName: "xp_network_docs",
+
+        // Optional: see doc section below
+        // contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        // externalUrlRegex: "external\\.com|domain\\.com",
+
+        // Optional: Algolia search parameters
+        // searchParameters: {},
+
+        //... other Algolia params
+      },
       navbar: {
         logo: {
           alt: "XP.NETWORK Wiki",
