@@ -15,10 +15,10 @@ const bottomCards = [
     link: "https://github.com/XP-NETWORK",
   },
   {
-    title: "Forum",
+    title: "Telegram",
     description: "Hop in the #dev-chat to get realtime help.",
-    image: "/assets/forum.svg",
-    link: "/",
+    image: "/assets/telegram.svg",
+    link: "https://t.me/xp_network",
   },
 ];
 
