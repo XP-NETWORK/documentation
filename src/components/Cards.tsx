@@ -4,7 +4,7 @@ import React from "react";
 const card = [
   {
     description: "Who we are and what we can do for your business.",
-    title: "What is XP.network",
+    title: "What is XP.NETWORK",
     image: (
       <svg
         width="24"
@@ -20,7 +20,7 @@ const card = [
     link: "/docs/home",
   },
   {
-    description: "Technological and methodological background of XP.network",
+    description: "Technological and methodological background of XP.NETWORK",
     title: "Whitepaper",
     image: (
       <svg

@@ -17,7 +17,7 @@ const Home = () => {
       <div className="max-w-4xl mx-auto pb-16 dark:text-white px-4">
         <Navbar />
         <h1 className="text-4xl font-bold text-center my-16">
-          Welcome to XP.network Docs
+          Welcome to XP.NETWORK Docs
         </h1>
         {/* <SearchBar /> */}
         <Cards />
