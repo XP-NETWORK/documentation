@@ -19,6 +19,7 @@ const Home = () => {
         <title>XP.NETWORK Documentation</title>
         <meta name="description" content="Welcome to XP.NETWORK Docs" />
         <meta property="og:image" content="/cover-image.png" />
+        <meta property="og:image:secure" content="/cover-image.png" />
         <meta property="og:title" content="Welcome to XP.NETWORK Docs" />
         <meta
           property="og:description"
@@ -26,6 +27,13 @@ const Home = () => {
         />
         <meta property="og:image:width" content="1600" />
         <meta property="og:image:height" content="900" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Welcome to XP.NETWORK Docs" />
+        <meta
+          name="twitter:description"
+          content="Out-of-the-box multichain support for minted NFTs: connect to XP.NETWORK bridge to move NFTs and funds seamlessly across 10+ blockchains."
+        />
+        <meta name="twitter:image" content="/cover-image.png" />
       </Head>
       <div className="max-w-4xl mx-auto pb-16 dark:text-white px-4">
         <Navbar />
