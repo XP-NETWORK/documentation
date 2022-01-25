@@ -99,14 +99,14 @@ export const Navbar = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect x="6.28491" width="9" height="2" rx="1" fill="#1A1919" />
+            <rect x="6.28491" width="9" height="2" rx="1" fill="currentColor" />
             <rect
               x="0.284912"
               y="12"
               width="15"
               height="2"
               rx="1"
-              fill="#1A1919"
+              fill="currentColor"
             />
             <rect
               x="0.284912"
@@ -114,7 +114,7 @@ export const Navbar = () => {
               width="15"
               height="2"
               rx="1"
-              fill="#1A1919"
+              fill="currentColor"
             />
           </svg>
         )}
