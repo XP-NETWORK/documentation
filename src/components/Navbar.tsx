@@ -31,6 +31,7 @@ export const Navbar = () => {
         <a
           href="https://docs.xp.network"
           // className="flex space-x-2 justify-center hover:no-underline"
+          className="dark:text-white"
         >
           {isDarkMode ? (
             <svg
