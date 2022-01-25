@@ -29,6 +29,16 @@ const Home = () => {
         />
         <meta property="og:image:width" content="1600" />
         <meta property="og:image:height" content="900" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Welcome to XP.NETWORK Docs" />
+        <meta
+          name="twitter:description"
+          content="Out-of-the-box multichain support for minted NFTs: connect to XP.NETWORK bridge to move NFTs and funds seamlessly across 10+ blockchains."
+        />
+        <meta
+          name="twitter:image"
+          content="http://docs-staging.xp.network.s3-website-eu-west-1.amazonaws.com/cover-image.png"
+        />
       </Head>
       <div className="max-w-4xl mx-auto pb-16 dark:text-white px-4">
         <Navbar />
