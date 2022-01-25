@@ -4,19 +4,21 @@ import React from "react";
 const bottomCards = [
   {
     title: "Discord",
-    description: "Hop in the #dev-chat to get realtime help.",
+    description: "Get real-time dev support from the XP.NETWORK tech team.",
     image: "/assets/discord.svg",
     link: "https://discord.gg/g3vkcsmd38",
   },
   {
     title: "GitHub",
-    description: "Hop in the #dev-chat to get realtime help.",
+    description:
+      "Explore XP.NETWORK source code, bridge API, and latest developments.",
     image: "/assets/github-blue.svg",
     link: "https://github.com/XP-NETWORK",
   },
   {
     title: "Telegram",
-    description: "Hop in the #dev-chat to get realtime help.",
+    description:
+      "Keep in touch with our community, receive updates and discuss anything.",
     image: "/assets/telegram.svg",
     link: "https://t.me/xp_network",
   },
