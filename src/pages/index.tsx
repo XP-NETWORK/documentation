@@ -17,6 +17,7 @@ const Home = () => {
     <div>
       <Head>
         <title>XP.NETWORK Documentation</title>
+        <meta name="description" content="Welcome to XP.NETWORK Docs" />
         <meta property="og:image" content="/cover-image.png" />
         <meta property="og:title" content="Welcome to XP.NETWORK Docs" />
         <meta
