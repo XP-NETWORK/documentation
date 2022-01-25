@@ -39,7 +39,8 @@
 }
 
 svg,
-svg path {
+svg path,
+svg rect {
   fill: currentColor;
 }
 

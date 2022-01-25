@@ -14,14 +14,16 @@ export const Navbar = () => {
     const html = document.querySelector("html");
     html?.classList.toggle("dark", isDarkMode);
 
-    document.querySelector("#menu").classList.toggle("hidden");
-
     fetch("https://xpvitaldata.herokuapp.com/last-commit")
       .then((res) => res.json())
       .then((latestCommit) => {
         SetLatestCommit(Date.parse(latestCommit));
       });
   }, [isDarkMode, menuOpen]);
+
+  useEffect(() => {
+    document.querySelector("#menu").classList.toggle("hidden");
+  }, [menuOpen]);
 
   return (
     <nav className="w-full dark:text-white relative">
@@ -85,8 +87,52 @@ export const Navbar = () => {
           </a>
         </div>
       </div>
-      <button className="absolute top-5 right-5 md:hidden" onClick={toggleMenu}>
-        MENU
+      <button
+        className="absolute flex space-x-2 items-center top-5 right-3 dark:text-white md:hidden"
+        onClick={toggleMenu}
+      >
+        {menuOpen && (
+          <svg
+            width="16"
+            height="14"
+            viewBox="0 0 16 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect x="6.28491" width="9" height="2" rx="1" fill="#1A1919" />
+            <rect
+              x="0.284912"
+              y="12"
+              width="15"
+              height="2"
+              rx="1"
+              fill="#1A1919"
+            />
+            <rect
+              x="0.284912"
+              y="6"
+              width="15"
+              height="2"
+              rx="1"
+              fill="#1A1919"
+            />
+          </svg>
+        )}
+        <span>MENU</span>
+        {!menuOpen && (
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 14 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.40994 6.99915L12.7099 2.70915C12.8982 2.52084 13.004 2.26545 13.004 1.99915C13.004 1.73285 12.8982 1.47745 12.7099 1.28915C12.5216 1.10084 12.2662 0.995056 11.9999 0.995056C11.7336 0.995056 11.4782 1.10084 11.2899 1.28915L6.99994 5.58915L2.70994 1.28915C2.52164 1.10084 2.26624 0.995056 1.99994 0.995056C1.73364 0.995056 1.47824 1.10084 1.28994 1.28915C1.10164 1.47745 0.995847 1.73285 0.995847 1.99915C0.995847 2.26545 1.10164 2.52084 1.28994 2.70915L5.58994 6.99915L1.28994 11.2891C1.19621 11.3821 1.12182 11.4927 1.07105 11.6146C1.02028 11.7364 0.994141 11.8671 0.994141 11.9991C0.994141 12.1312 1.02028 12.2619 1.07105 12.3837C1.12182 12.5056 1.19621 12.6162 1.28994 12.7091C1.3829 12.8029 1.4935 12.8773 1.61536 12.928C1.73722 12.9788 1.86793 13.0049 1.99994 13.0049C2.13195 13.0049 2.26266 12.9788 2.38452 12.928C2.50638 12.8773 2.61698 12.8029 2.70994 12.7091L6.99994 8.40915L11.2899 12.7091C11.3829 12.8029 11.4935 12.8773 11.6154 12.928C11.7372 12.9788 11.8679 13.0049 11.9999 13.0049C12.132 13.0049 12.2627 12.9788 12.3845 12.928C12.5064 12.8773 12.617 12.8029 12.7099 12.7091C12.8037 12.6162 12.8781 12.5056 12.9288 12.3837C12.9796 12.2619 13.0057 12.1312 13.0057 11.9991C13.0057 11.8671 12.9796 11.7364 12.9288 11.6146C12.8781 11.4927 12.8037 11.3821 12.7099 11.2891L8.40994 6.99915Z"
+              fill="#212226"
+            />
+          </svg>
+        )}
       </button>
       <div className="btn absolute top-5 right-28 md:right-5">
         <div className="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
