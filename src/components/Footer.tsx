@@ -194,16 +194,7 @@ export const Footer = () => {
       <div className="max-w-4xl mx-auto px-4">
         <footer className="grid gap-y-10 md:gap-x-20 md:grid-cols-4 items-start">
           {/* <Link href="/"> */}
-          <a className="flex items-center space-x-2">
-            {/* <img
-              src={
-                isDarkMode
-                  ? "/assets/xp-network-dark.svg"
-                  : "/assets/xp-network-light.svg"
-              }
-              width="120"
-              alt="logo"
-            />{" "} */}
+          <a className="flex -translate-y-2 items-center space-x-1">
             {isDarkMode ? (
               <svg
                 width="152"
