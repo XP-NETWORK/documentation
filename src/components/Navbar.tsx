@@ -168,18 +168,18 @@ export const Navbar = () => {
         )}
       </button>
       <div className="btn absolute top-5 right-28 md:right-5">
-        <div className="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+        <div className="relative rounded-full  inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
           <input
             type="checkbox"
             name="toggle"
             id="toggle"
             checked={isDarkMode}
             onClick={toggle}
-            className="toggle-checkbox absolute block w-5 h-5 rounded-full border bg-white appearance-none cursor-pointer"
+            className="toggle-checkbox absolute block w-5 h-5 rounded-full bg-slate-300 dark:bg-slate-500  appearance-none cursor-pointer"
           />
           <label
             htmlFor="toggle"
-            className="toggle-label block overflow-hidden h-5 rounded-full bg-gray-300 cursor-pointer"
+            className="toggle-label block overflow-hidden h-5 rounded-full border border-slate-300 dark:border-slate-700 bg-slate-100 dark:bg-slate-700  cursor-pointer"
           ></label>
         </div>
       </div>
