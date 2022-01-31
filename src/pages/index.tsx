@@ -5,13 +5,12 @@ import { Repos } from "../components/Repos";
 import { BottomCards } from "../components/BottomCards";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
-import { SearchBar } from "../components/SearchBar";
+import { Search } from "../components/Search";
 import Head from "@docusaurus/Head";
 
 const Home = () => {
   useEffect(() => {
     document.body.classList.add("bg-[#F7F8FA]", "dark:bg-[#22242F]");
-    // document.querySelector(".markdown").classList.add("prose");
   });
   return (
     <div>
@@ -40,7 +39,8 @@ const Home = () => {
         <h1 className="text-4xl font-bold text-center my-16">
           Welcome to XP.NETWORK Docs
         </h1>
-        {/* <SearchBar /> */}
+        <Search />
+
         <Cards />
 
         <h1 className="text-center mt-20 font-bold text-4xl">
