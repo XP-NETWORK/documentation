@@ -45,7 +45,7 @@ const card = [
         </defs>
       </svg>
     ),
-    link: "https://xp.network/whitepaper/",
+    link: "https://docs.xp.network/docs/Whitepaper2.0/introduction/",
   },
   {
     description:

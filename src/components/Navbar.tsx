@@ -83,13 +83,13 @@ export const Navbar = () => {
         >
           <a
             className="md:inline text-sm dark:hover:text-white hover:no-underline hover:opacity-50"
-            href="https://xp.network/whitepaper/"
+            href="https://docs.xp.network/docs/Whitepaper2.0/introduction/"
           >
             Whitepaper
           </a>
           <a
             className="md:inline text-sm dark:hover:text-white hover:no-underline hover:opacity-50"
-            href="https://xp.network/api/"
+            href="https://docs.xp.network/docs/API/usage"
           >
             API
           </a>

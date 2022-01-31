@@ -31,11 +31,15 @@ const footerLinks = [
     links: [
       {
         name: "Whitepaper",
-        href: "https://xp.network/whitepaper/",
+        href: "https://docs.xp.network/docs/Whitepaper2.0/introduction/",
         target: "_self",
       },
-      { name: "Wiki", href: "https://xp.network/", target: "_self" },
-      { name: "API", href: "/docs/API/usage", target: "_self" },
+      { name: "Wiki", href: "https://wiki.xp.network/", target: "_self" },
+      {
+        name: "API",
+        href: "https://docs.xp.network/docs/API/usage",
+        target: "_self",
+      },
       {
         name: "GitHub",
         target: "_black",
