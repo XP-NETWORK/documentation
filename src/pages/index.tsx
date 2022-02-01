@@ -10,6 +10,8 @@ import Head from "@docusaurus/Head";
 
 const Home = () => {
   useEffect(() => {
+    localStorage.removeItem("theme");
+    document.querySelector("html").removeAttribute("data-theme");
     document.body.classList.add("bg-[#F7F8FA]", "dark:bg-[#22242F]");
   });
   return (
