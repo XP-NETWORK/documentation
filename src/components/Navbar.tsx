@@ -1,29 +1,35 @@
 // import Link from "next/link";
 // import Image from "next/image";
-import { useEffect, useState } from "react";
-import useDarkMode from "../hooks/useDarkMode";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import useToggle from "../hooks/useToggle";
 import React from "react";
 
 export const Navbar = () => {
-  const { isDarkMode, toggle } = useDarkMode();
   const [latestCommit, SetLatestCommit] = useState<number>();
-  const [menuOpen, toggleMenu] = useToggle(true);
+  const [isMenuOpen, toggleMenu] = useToggle(false);
+  const [isDarkMode, toggleDarkMode] = useToggle(false);
 
   useEffect(() => {
-    const html = document.querySelector("html");
-    html?.classList.toggle("dark", isDarkMode);
-
     fetch("https://xpvitaldata.herokuapp.com/last-commit")
       .then((res) => res.json())
       .then((latestCommit) => {
         SetLatestCommit(Date.parse(latestCommit));
       });
-  }, [isDarkMode, menuOpen]);
+  }, []);
 
-  useEffect(() => {
+  const firstUpdate = useRef(true);
+
+  useLayoutEffect(() => {
+    if (firstUpdate.current) {
+      firstUpdate.current = false;
+      return;
+    }
+    document.querySelector("html").classList.toggle("dark");
+  }, [isDarkMode]);
+
+  useLayoutEffect(() => {
     document.querySelector("#menu").classList.toggle("hidden");
-  }, [menuOpen]);
+  }, [isMenuOpen]);
 
   return (
     <nav className="w-full dark:text-white relative">
@@ -124,7 +130,7 @@ export const Navbar = () => {
         className="absolute flex space-x-2 items-center top-5 right-3 dark:text-white md:hidden"
         onClick={toggleMenu}
       >
-        {menuOpen && (
+        {!isMenuOpen && (
           <svg
             width="16"
             height="14"
@@ -152,7 +158,7 @@ export const Navbar = () => {
           </svg>
         )}
         <span>MENU</span>
-        {!menuOpen && (
+        {isMenuOpen && (
           <svg
             width="14"
             height="14"
@@ -174,7 +180,7 @@ export const Navbar = () => {
             name="toggle"
             id="toggle"
             checked={isDarkMode}
-            onClick={toggle}
+            onChange={toggleDarkMode}
             className="toggle-checkbox absolute block w-5 h-5 rounded-full bg-slate-300 dark:bg-slate-500  appearance-none cursor-pointer"
           />
           <label
