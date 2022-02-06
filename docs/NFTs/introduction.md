@@ -11,17 +11,17 @@ import TabItem from '@theme/TabItem';
 XP.network is primarily focused on the NFT Multi-Chain bridge. Let's clear what FTs and NFTs in particular are, how we deal with them and why we have chosen non-fungible over fungible tokens. We will discuss:
 
 :::info
-## [01. Definition](./definition.md)
+## [01. Definition](./definition)
 :::
 :::info
-## [02. Blockchain Tokens](./blockchainTokens.md)
+## [02. Blockchain Tokens](./blockchainTokens)
 :::
 :::info
-## [03. Fungible Token Utilities](./fungibleTokenBridges.md)
+## [03. Fungible Token Utilities](./fungibleTokenBridges)
 :::
 :::info
-## [04. NFT Utilities](./nftUtilities.md)
+## [04. NFT Utilities](./nftUtilities)
 :::
 :::info
-## [05. Who Buys NFTs](./whoBuysNfts.md)
+## [05. Who Buys NFTs](./whoBuysNfts)
 :::
