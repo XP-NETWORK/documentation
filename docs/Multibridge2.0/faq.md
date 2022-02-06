@@ -3,17 +3,21 @@ sidebar_label: '7. FAQ'
 sidebar_position: 8
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # FAQ
 
 ## Why do we need the NFT Multi-Chain Bridge?
 
+:::info
 The industry is abundant in fungible token bridges that are more straightforward to build. There are too few NFT bridging solutions to mention, and those that exist connect only EVM chains, or at most one Non-EVM to one or a couple of EVM ones.
 
 The year 2021 has been marked by the explosion of interest in Non-Fungible tokens. Their sales grew from thousands of USD to hundreds of millions of USD per month. XP.network bridge fills the gap, connecting the insular ecosystems into a global network of interoperable markets.
-
+:::
 
 ## Who are the users of the bridge?
-
+:::info
 The bridge has been built to satisfy the needs of different groups of users. Therefore, it consists of several components.
 
 The Bridge **User Interface** is available at https://bridge.xp.network. It is designed for non-coding users such as NFT owners, traders, investors, collectors, and artistic content creators.
@@ -27,10 +31,10 @@ The bridge **JavaScript library** available at https://www.npmjs.com/package/xp.
 3. **NFT Projects** preferring global over local presence expose the freshly minted collections with groundbreaking logic or breathtaking design to tens or, eventually, hundreds of communities at once enjoying previously unprecedented demand and sales volumes.
 
 The bridge **REST API** service supports developers in Python, Java, C#, C++, or any other programming languages to use the functionality of the bridge by calling POST requests with the function call parameters stored in the body of the requests. In return, the service returns valid for the chain of interest but unsigned transactions the users can sign and submit from the application of the third parties.
-
+:::
 
 ## How many chains does the NFT Multi-Bridge connect?
-
+:::info
 The bridge already connects 12 EVM:
 
 1. Ethereum
@@ -52,13 +56,12 @@ with 4 Non-EVM ones:
 2. Algorand
 3. Tezos
 4. Tron
-
+:::
 ## What NFT standards does the bridge support?
 
-<br/>
+:::info
 
 At the moment of writing the bridge supports:
-<br/>
 
 1. ERC-721/BEP-721/TRC-721 in the EVM compatible blockchains
 2. ESDT for Elrond
@@ -69,8 +72,11 @@ At the moment of writing the bridge supports:
 ERC-1155 smart contract support is developed and audited.
 We're currently working on implementing it in all the other components of the bridge. So, stay tuned.
 <br/>
+:::
 
 ## What is the difference between EVM and Non-EVM chains?
+
+:::info
 
 EVM stands for Ethereum Virtual Machine - the major invention that differentiated Ethereum from Bitcoin. The virtual machine allows adding and running the third-party code on a live blockchain without stopping it. Ethereum VM accepts code in Solidity - the first smart contract language.
 
@@ -79,32 +85,31 @@ The chains that adopted EVM support the Solidity SC language, Metamask wallet, w
 However, a misconception is that integrating an EVM chain is a walk in a park. There are numerous factors why capricious chain nodes may crush, fail to feed events, or provide irrelevant on-chain data. Such bridge tools as NFT-Indexer, fee estimator and currency converter require meticulous fine-tuning, monotonous tests, and adjustments for every single chain. The bridge validators must be "acquainted" with the new smart contracts they have to protect and interact with.
 
 Non-EVM blockchains are custom made starting from the smart contract language, which can be Rust, C++, TEAL, Michelson, !Ink, Plutus, etc., ending with unusual token standards and chain rules. Very few developers know those languages at the level necessary for writing secure and cost-efficient smart contracts complying with the intended business logic requirements and interacting with the off-chain oracles and validators the bridge relies on. Therefore, Non-EVM chain integration is time-consuming hard work with no or very few well-trodden routes. It explains why there are so few Non-EVM NFT bridges, why emerging of every such bridge is a big event for the industry, and why Xp.network is the only NFT bridge for Elrond, Tezos, and Algorand.
-
+:::
 
 
 ## Are the royalties preserved on the target chain?
 
-<br/>
+:::info
 On the chain of origin the NFT is locked in the bridge SC and is a part of the smart contract where it was minted, so any attached logic applies to it.
 
 On the target chain to support any logic, including royalties the wrapped NFT should be minted with the smart contract that has the required logic.
 
 This will be possible with latest smart contracts we have recently developed. It will be the first bridge that allows transferring logic togeather with the NFTS.
-<br/>
+:::
 
-##| Why is smart contract whitelisting required
+## Why is smart contract whitelisting required
 
-<br/>
+:::info
 
 Many blockchain industry related cyber attacks involve maliciously crafted smart contracts. To reduce the impact area of the bridge infrastructure to interaction with trusted smart contracts whitelisting is essential.
-<br/>
+:::
 
-##| How to whitelist a smart contract for the bridge to accept it?
+## How to whitelist a smart contract for the bridge to accept it?
 
-<br/>
+:::info
 
 In order for a smart contract to be whitelisted there are several steps:
-<br/>
 
 1. The smart contract must be verified on the chain and its source code readable
 2. An e-mail with a request should be sent to dima@xp.network and kint@xp.network:
@@ -116,9 +121,10 @@ In order for a smart contract to be whitelisted there are several steps:
 
 3. XP.network team members will look through the source code of the NFT smart contract
 4. The smart contract will be whitelisted or the initiator will be notified that the smart contract has the code that can harm the bridge therefore, it cannot be whitelisted.
-
+:::
 ## When did the NFT Bridge launch?
 
+:::info
 ### Testnet
 **July 2021.** The first testnet bridge between Elrond and HECO was developed.<br/>
 **August 2021.** Transformation into a Multi-Chain bridge.<br/>
@@ -130,18 +136,20 @@ In order for a smart contract to be whitelisted there are several steps:
 **December 2021.** Algorand and Fuse were integrated.<br/>
 **January 2021.** Velas and Tezos were joined.<br/>
 **February 2021.** IoTeX, Harmony, Aurora and Quarz are integrated.<br/>
-
+:::
 ## At what stage of development is XP.network Now?
 
+:::info
 We're currently hardening and making the bridge relay validator network scalable while the target chain transaction fees many times cheaper.
 
 We've developed and audited the bridge support for ERC-1155 smart contracts, custom collection names on the target chains and for the first time in the history of the industry - transferring NFTs with the logic of the original smart contracts.
 
 Such big and important ecosystems as Solana, EOS, NEAR, Cardano, and Cosmos, among the rest, are planned for integration in 2022.
-
+:::
 ## When will the bridge validators become decentralized?
 
+:::info
 At the moment, the pace of development is ultra-fast. Had the validators already been decentralized, the entities controlling them would have to update and restart them every two or three days to catch up with the latest code updates. Failing to do so would put at risk the new chains since very few validators, if any, would be aware that it is time to validate the new chains or that a new feature or a bug fix is available. Since the validators could be anonymous, the team would have no guaranteed ways of informing the validators about the necessity to update, making the chain integration process even more difficult and unpredictably long.
 
 However, once the pace of changes falls, we will outsource the bridge validation to third parties incentivizing the community members and well-known industry influencers to further secure and harden the bridge by decentralizing it.
- 
+:::
