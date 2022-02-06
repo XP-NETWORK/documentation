@@ -74,7 +74,7 @@ Extending the initial ideas of the authors of the article, the local Ai experien
 
 [^1]: Meni Rosenfeld. Overview of Colored Coins. December 4, 2012. https://en.bitcoin.it/wiki/Colored_Coins, https://github.com/Colored-Coins/Colored-Coins-Protocol-Specification <br/>
 [^2]: Mayukh Mukhopadhyay ID & Kaushik Ghosh. [Market Microstructure of Non Fungible Tokens](https://arxiv.org/pdf/2112.03172.pdf) p.3<br/>
-[^3]: [NFT ownership among investors in the United States in March 2021, by age and gender](statista.com/statistics/1265821/us-nft-user-demographics/)<br/>
+[^3]: [NFT ownership among investors in the United States in March 2021, by age and gender](https://statista.com/statistics/1265821/us-nft-user-demographics/)<br/>
 [^4]: https://en.wikipedia.org/wiki/List_of_best-selling_PC_games <br/>
 [^5]: Dmitri Williams. Virtual Cultivation: Online Worlds, Offline Perceptions. [Journal of Communication ISSN 0021-9916](https://www.researchgate.net/publication/249471380_Virtual_Cultivation_Online_Worlds_Offline_Perceptions)<br/>
 [^6]: Haoye Chai, Supeng Leng*, Fan Wu, and Jianhua He. [Secure and Efficient Blockchain based Knowledge
