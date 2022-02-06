@@ -3,7 +3,25 @@ sidebar_label: 'Contents'
 sidebar_position: 1
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Contents
 
 XP.network is primarily focused on the NFT Multi-Chain bridge. Let's clear what FTs and NFTs in particular are, how we deal with them and why we have chosen non-fungible over fungible tokens. We will discuss:
 
+:::info
+## [01. Definition](./definition.md)
+:::
+:::info
+## [02. Blockchain Tokens](./blockchainTokens.md)
+:::
+:::info
+## [03. Fungible Token Utilities](./fungibleTokenBridges.md)
+:::
+:::info
+## [04. NFT Utilities](./nftUtilities.md)
+:::
+:::info
+## [05. Who Buys NFTs](./whoBuysNfts.md)
+:::
