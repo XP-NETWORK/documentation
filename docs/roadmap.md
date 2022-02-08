@@ -5,6 +5,7 @@ sidebar_position: 10
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import styles from '../src/css/roadmap.css'
 
 # Rollout Roadmap
 
@@ -56,7 +57,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ## We're Here
 :::caution Work In Progress
 ✅ &nbsp; ERC-1155 Standard support<br/>
-✅ &nbsp; Bridge Widget<br/>
+✅ &nbsp; [Bridge Widget](https://widget.xp.network/?widget=true&wsettings=true#)<br/>
 ✅ &nbsp; Validators Hardening & scaling<br/>
 ✅ &nbsp; Transaction Fee reduction<br/>
 ⬜ &nbsp; Mainnet integration to:<br/>

@@ -1,0 +1,18 @@
+
+.admonition, .alert{
+    color:black;
+}
+
+.admonition-tip{
+    background-color: #F7F8FE;
+    color:black;
+}
+
+.admonition-caution{
+    background-color: #F7F8FE;
+}
+
+.admonition-info{
+    background-color: #F7F8FE;
+}
+
