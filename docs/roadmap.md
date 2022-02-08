@@ -3,6 +3,7 @@ sidebar_label: "Roadmap"
 sidebar_position: 10
 ---
 
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -96,3 +97,4 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ⬜ &nbsp; NFTs Search (search by any parameter)<br/>
 ⬜ &nbsp; NFT Marketcap (Collection & individual NFT statistics & analytics)<br/>
 :::
+
