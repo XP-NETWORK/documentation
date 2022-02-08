@@ -74,7 +74,8 @@ const config = {
       navbar: {
         logo: {
           alt: "XP.NETWORK Docs",
-          src: "assets/xp-network-dark.svg",
+          // src: "assets/xp-network-dark.svg",
+          src: "assets/img/xp_sign_60px.svg",
         },
         items: [
           {
