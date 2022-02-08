@@ -594,3 +594,10 @@ html[data-theme="light"] .footer__copyright {
     background: transparent;
   }
 }
+
+.red {
+  color: red;
+}
+.red[aria-selected='true'] {
+  border-bottom-color: red;
+}

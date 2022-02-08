@@ -39,11 +39,9 @@ The bridge **REST API** service supports developers in Python, Java, C#, C++, or
 </details>
 
 ## How many chains does the NFT Multi-Bridge connect?
-
 <details>
   <summary>Answer</summary>
   <div>
-
 The bridge already connects 12 EVM:
 
 1. Ethereum
