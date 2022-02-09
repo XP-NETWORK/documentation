@@ -4,11 +4,13 @@ import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import useToggle from "../hooks/useToggle";
 import React from "react";
 import logoDark from "../logos/white.svg";
+import useDarkMode from "../hooks/useDarkMode";
 
 export const Navbar = () => {
   const [latestCommit, SetLatestCommit] = useState<number>();
   const [isMenuOpen, toggleMenu] = useToggle(false);
-  const [isDarkMode, toggleDarkMode] = useToggle(false);
+  // const [isDarkMode, toggleDarkMode] = useToggle(false);
+  const { isDarkMode, toggle: toggleDarkMode } = useDarkMode();
 
   useEffect(() => {
     fetch("https://xpvitaldata.herokuapp.com/last-commit")
@@ -26,6 +28,7 @@ export const Navbar = () => {
       return;
     }
     document.querySelector("html").classList.toggle("dark");
+    console.log(isDarkMode);
   }, [isDarkMode]);
 
   useLayoutEffect(() => {

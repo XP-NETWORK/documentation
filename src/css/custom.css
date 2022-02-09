@@ -428,7 +428,7 @@ html[data-theme="light"] .navbar__logo:after {
   content: url("../../static/img/XP_logo_black.svg");
   display: block;
   position: relative;
-  /* bottom: -4px; */
+  bottom: 0px;
   width: 197px;
 }
 

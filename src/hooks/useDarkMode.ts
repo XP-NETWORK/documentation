@@ -1,4 +1,5 @@
 // See: https://usehooks-ts.com/react-hook/use-local-storage
+import { useState } from "react";
 import useLocalStorage from "./useLocalStorage";
 // See: https://usehooks-ts.com/react-hook/use-media-query
 import useMediaQuery from "./useMediaQuery";
@@ -15,17 +16,7 @@ interface UseDarkModeOutput {
 }
 
 function useDarkMode(defaultValue?: boolean): UseDarkModeOutput {
-  const isDarkOS = useMediaQuery(COLOR_SCHEME_QUERY);
-  const [isDarkMode, setDarkMode] = useLocalStorage<boolean>(
-    "darkMode",
-    defaultValue ?? isDarkOS ?? false
-  );
-
-  // Update darkMode if os prefers changes
-  useUpdateEffect(() => {
-    setDarkMode(isDarkOS);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isDarkOS]);
+  const [isDarkMode, setDarkMode] = useState(false);
 
   return {
     isDarkMode,
