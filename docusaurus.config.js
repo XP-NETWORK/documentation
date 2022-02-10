@@ -75,7 +75,7 @@ const config = {
         logo: {
           alt: "XP.NETWORK Docs",
           // src: "assets/xp-network-dark.svg",
-          src: "/assets/xp-network-dark-new.svg",
+          src: "/logos/white.svg",
         },
         items: [
           {
