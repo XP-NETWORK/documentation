@@ -100,19 +100,6 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
-            items: [
-              {
-                label: "Wiki",
-                to: "/docs/home",
-              },
-              {
-                label: "Whitepaper v 2.0",
-                to: "/docs/Whitepaper2.0/introduction",
-              },
-            ],
-          },
-          {
             title: "Community",
             items: [
               {
@@ -138,15 +125,52 @@ const config = {
             ],
           },
           {
-            title: "More",
+            title: "Ecosystem",
             items: [
               {
                 label: "Website",
-                href: "https://xp.network",
+                href: "https://staging.xp.network/",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/xp-network",
+                label: "Bridge",
+                href: "https://bridge.xp.network/",
+              },
+              {
+                label: "XPNET-JS API",
+                href: "https://staging.xp.network/api/",
+              },
+              {
+                label: "Brand assets",
+                href: "https://drive.google.com/drive/folders/1i8evWmyH_8APiDDO89depEw_8JnDSACK",
+              },
+            ],
+          },
+          {
+            title: "GitHub",
+            items: [
+              {
+                label: "Audits",
+                href: "https://github.com/XP-NETWORK/audits",
+              },
+              {
+                label: "JavaScript API",
+                href: "https://github.com/XP-NETWORK/xpjs",
+              },
+              {
+                label: "Bridge Factories",
+                href: "https://github.com/XP-NETWORK/XP.network-HECO-Migration",
+              },
+              {
+                label: "Documents",
+                href: "https://github.com/XP-NETWORK/documentation",
+              },
+              {
+                label: "Language Agnostic REST API",
+                href: "https://github.com/XP-NETWORK/xp-rest",
+              },
+              {
+                label: "Bridge UI",
+                href: "https://github.com/XP-NETWORK/bridge-interface",
               },
             ],
           },
