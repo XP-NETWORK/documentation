@@ -129,7 +129,7 @@ const config = {
             items: [
               {
                 label: "Website",
-                href: "https://staging.xp.network/",
+                href: "https://xp.network/",
               },
               {
                 label: "Bridge",
@@ -137,7 +137,7 @@ const config = {
               },
               {
                 label: "XPNET-JS API",
-                href: "https://staging.xp.network/api/",
+                href: "https://xp.network/api/",
               },
               {
                 label: "Brand assets",
