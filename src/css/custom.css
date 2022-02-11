@@ -619,5 +619,5 @@ html[data-theme="light"] .footer__copyright {
 }
 
 html[data-theme="dark"] .admonition-info {
-  background-color: var(--ifm-alert-background-color) !important;
+  background-color: #eef9fd !important;
 }
