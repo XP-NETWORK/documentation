@@ -15,7 +15,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "favicon.ico",
+  favicon: "favicon.png",
   organizationName: "XP.NETWORK", // Usually your GitHub org/user name.
   projectName: "docs.xp.network", // Usually your repo name.
 
