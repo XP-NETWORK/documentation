@@ -81,7 +81,6 @@ Our groundbreaking technology has several advantages:
 - Our Aggregator provides access to multiple EVM & Non-EVM chain-based NFTs on one intuitive, user-friendly platform.
 - We collect and share chain, collection, and individual NFT statistics.
 
-
 :::info
 
 ## [01. WHAT IS XP.NETWORK API?](./API/usage.md)
@@ -97,47 +96,3 @@ Our groundbreaking technology has several advantages:
 ## [03. XP.NETWORK Witepaper v 2.0](./Whitepaper2.0/introduction.md)
 
 :::
-
-## Keep up to date!
-
-<Tabs
-defaultValue="Telegram"
-values={[
-{ label: 'Telegram', value: 'Telegram', },
-{ label: 'Twitter', value: 'Twitter', },
-{ label: 'LinkedIn', value: 'LinkedIn', },
-{ label: 'Medium', value: 'Medium', },
-{ label: 'Website', value: 'Website', },
-{ label: 'GitHub', value: 'GitHub', },
-{ label: 'Reddit', value: 'Reddit', },
-]
-}>
-<TabItem value="Telegram">
-<a href="https://t.me/xp_network">t.me/xp_network</a>
-</TabItem>
-
-<TabItem value="Twitter">
-<a class="twitter-timeline" href="https://twitter.com/XPNetwork_?ref_src=twsrc%5Etfw">twitter.com</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</TabItem>
-
-<TabItem value="LinkedIn">
-<a href="https://www.linkedin.com/company/xp-network/">www.linkedin.com</a>
-</TabItem>
-
-<TabItem value="Medium">
-<a href="https://blog.xp.network/">blog.XP.NETWORK</a>
-</TabItem>
-
-<TabItem value="Website">
-<a href="https://xp.network/">Tearing down walls between blockchains</a>
-</TabItem>
-
-<TabItem value="GitHub">
-<a href="https://github.com/xp-network">github.com</a>
-</TabItem>
-
-<TabItem value="Reddit">
-<a href="https://www.reddit.com/user/XP_network/">www.reddit.com/user/XP_network/</a>
-</TabItem>
-
-</Tabs>
