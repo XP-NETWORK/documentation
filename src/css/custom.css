@@ -621,3 +621,7 @@ html[data-theme="light"] .footer__copyright {
 html[data-theme="dark"] .admonition-info {
   background-color: #eef9fd !important;
 }
+
+.footer__item {
+  white-space: nowrap;
+}
