@@ -36,6 +36,7 @@ const Home = () => {
           content="Out-of-the-box multichain support for minted NFTs: connect to XP.NETWORK bridge to move NFTs and funds seamlessly across 10+ blockchains."
         />
         <meta name="twitter:image" content="/cover-image.png" />
+        <meta name="twitter:image:src" content="/cover-image.png" />
       </Head>
       <div className="max-w-4xl mx-auto pb-16 dark:text-white px-4">
         <Navbar />
