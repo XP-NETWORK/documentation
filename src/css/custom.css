@@ -401,14 +401,14 @@ ul.footer__items li.footer__item a.footer__link-item:hover {
 }
 
 .navbar__toggle svg {
-  display: none;
+  /* display: none; */
 }
 
-.navbar__toggle:after {
+/* .navbar__toggle:after {
   content: url("../../static/img/new/menu-bar-black.svg");
   display: block;
   filter: brightness(100) contrast(10);
-}
+} */
 
 .navbar__inner .navbar__items a.navbar__item.navbar__link svg {
   display: none;
@@ -542,8 +542,8 @@ html[data-theme="light"] .footer__copyright {
 
 @media (max-width: 996px) {
   .navbar__toggle {
-    order: 2;
-    margin-left: auto;
+    order: 0;
+    /* margin-left: 0; */
   }
 
   .boxContainer .col.col--4 {
