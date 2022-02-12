@@ -414,13 +414,9 @@ ul.footer__items li.footer__item a.footer__link-item:hover {
   display: none;
 }
 
-/* .navbar__logo {
-  width: 200px;
-} */
-
 /* Light Version */
 
-html[data-theme="light"] .navbar__logo img {
+.navbar__logo img {
   display: none !important;
   /* height: 60px; */
   /* width: 197px; */
@@ -441,20 +437,21 @@ html[data-theme="light"] .navbar__logo img {
 
 html[data-theme="light"] .navbar__logo:after {
   content: url("../../static/xp-logo-black.svg");
+  width: 200px;
   /* height: 10px; */
   display: block;
   position: relative;
-  bottom: 14px;
+  bottom: 15px;
   /* width: 197px; */
 }
 
-/* html[data-theme="dark"] .navbar__logo:after {
-  content: url("../../static/logos/white.svg");
+html[data-theme="dark"] .navbar__logo:after {
+  content: url("../../static/xp-logo-white.svg");
   display: block;
   position: relative;
-  bottom: 14px;
-  width: 197px;
-} */
+  bottom: 15px;
+  /* width: 197px; */
+}
 
 html[data-theme="light"] nav.navbar.navbar--fixed-top {
   background: #f9fbff !important;
