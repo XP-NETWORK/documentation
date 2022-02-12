@@ -95,7 +95,7 @@ export const Navbar = () => {
         </div>
       </div>
       <button
-        className="absolute flex space-x-2 items-center top-6 md:top-4 right-3 dark:text-white md:hidden"
+        className="absolute flex space-x-2 items-center top-6 md:top-4 right-1 dark:text-white md:hidden"
         onClick={toggleMenu}
       >
         {!isMenuOpen && (
@@ -141,7 +141,7 @@ export const Navbar = () => {
           </svg>
         )}
       </button>
-      <div className="btn absolute top-6 md:top-5 right-28 md:right-5">
+      <div className="btn absolute top-6 md:top-5 right-20 md:right-5">
         <div className="relative rounded-full  inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
           <input
             type="checkbox"
