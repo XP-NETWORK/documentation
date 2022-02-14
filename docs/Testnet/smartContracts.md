@@ -62,7 +62,7 @@ Creator address: one1p47lggq5qe9pv00a5szz20af76yrhyv8r6e346
 |XPNft|0x0AA29baB4F811A9f3dcf6a0F9cAEa9bE18ECED78 <br/> one1p23fh260sydf70w0dg8eet4fhcvwemtcmknt67|
 |Minter|0xCbA56d441da86dEfe31d3AdDeEc2bA04f7e27d9e <br/> one1ewjk63qa4pk7lcca8tw7as46qnm7ylv7exqnh3|
 
-## Sokol (xDai)
+## Sokol (xDai) (old!)
 | SC Name / Type | Address|
 |:-:|:-:|
 |UserNftMinter|0x3fe9EfFa80625B8167B2F0d8cF5697F61D77e4a2|
@@ -71,7 +71,7 @@ Creator address: one1p47lggq5qe9pv00a5szz20af76yrhyv8r6e346
 |XPNft|0x1F71E80E1E785dbDB34c69909C11b71bAd8D9802|
 |Minter|0x10E3EE8526Cc7610393E2f6e25dEee0bD38d057e|
 
-## IoTeX
+## IoTeX (old!)
 | SC Name / Type | Address|
 |:-:|:-:|
 |UserNftMinter|0x9cdda01E00A5A425143F952ee894ff99B5F7999F|
@@ -79,3 +79,14 @@ Creator address: one1p47lggq5qe9pv00a5szz20af76yrhyv8r6e346
 |XPNft1155|0x8CEe805FE5FA49e81266fcbC27F37D85062c1707|
 |XPNft|0xCd06a7De34237e554A1987734DD8D51B9526F6e5|
 |Minter|0x1F71E80E1E785dbDB34c69909C11b71bAd8D9802|
+
+## Elrond
+
+Devnet: https://devnet-explorer.elrond.com/
+
+Issued nft esdt: XPNFT-4ff583<br/>
+Issued swap esdt: WEGLD-4c8232<br/>
+
+| SC Name / Type | Address|
+|:-:|:-:|
+|Bridge Contract|erd1qqqqqqqqqqqqqpgqxcw4kgaywdafthzwuvda3sx2xwh325uuksms5aqjj9|
