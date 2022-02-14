@@ -401,35 +401,56 @@ ul.footer__items li.footer__item a.footer__link-item:hover {
 }
 
 .navbar__toggle svg {
-  display: none;
+  /* display: none; */
 }
 
-.navbar__toggle:after {
+/* .navbar__toggle:after {
   content: url("../../static/img/new/menu-bar-black.svg");
   display: block;
   filter: brightness(100) contrast(10);
-}
+} */
 
 .navbar__inner .navbar__items a.navbar__item.navbar__link svg {
   display: none;
 }
 
-.navbar__logo {
-  width: 200px;
-}
-
 /* Light Version */
 
-html[data-theme="light"] .navbar__logo img {
+.navbar__logo img {
   display: none !important;
+  /* height: 60px; */
+  /* width: 197px; */
 }
 
+/* html[data-theme="dark"] .navbar__logo img {
+  display: none !important;
+  height: 60px;
+  width: 197px;
+} */
+
+/* .navbar__logo {
+  transform: scale(2) translateX(1.3);
+  width: 200px;
+  height: auto;
+  transform: translateY(-10px);
+} */
+
 html[data-theme="light"] .navbar__logo:after {
-  content: url("../../static/img/XP_logo_black.svg");
+  content: url("../../static/xp-logo-black.svg");
+  width: 200px;
+  /* height: 10px; */
   display: block;
   position: relative;
-  /* bottom: -4px; */
-  width: 197px;
+  bottom: 15px;
+  /* width: 197px; */
+}
+
+html[data-theme="dark"] .navbar__logo:after {
+  content: url("../../static/xp-logo-white.svg");
+  display: block;
+  position: relative;
+  bottom: 15px;
+  /* width: 197px; */
 }
 
 html[data-theme="light"] nav.navbar.navbar--fixed-top {
@@ -518,8 +539,8 @@ html[data-theme="light"] .footer__copyright {
 
 @media (max-width: 996px) {
   .navbar__toggle {
-    order: 2;
-    margin-left: auto;
+    order: 0;
+    /* margin-left: 0; */
   }
 
   .boxContainer .col.col--4 {
@@ -593,4 +614,12 @@ html[data-theme="light"] .footer__copyright {
     padding: 0;
     background: transparent;
   }
+}
+
+html[data-theme="dark"] .admonition-info {
+  background-color: #0c4d64 !important;
+}
+
+.footer__item {
+  white-space: nowrap;
 }
