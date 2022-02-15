@@ -5,7 +5,7 @@ export const Card = ({ title, description, image, link, color }: any) => {
   return (
     <a
       href={link}
-      className="flex relative flex-col items-start p-6 pt-5 rounded-2xl w-full border dark:border-slate-700 hover:bg-blue-500 dark:hover:bg-blue-500 hover:no-underline hover:text-white dark:bg-[#323545] bg-white text-black dark:text-white transition ease-in-out hover:-translate-y-3"
+      className="flex relative flex-col items-start p-6 pt-5 rounded-2xl w-full border dark:border-slate-700 hover:bg-blue-500 dark:hover:bg-blue-500 hover:no-underline hover:text-white dark:bg-[#323545] bg-white text-black dark:text-white transition-transform ease-in-out hover:-translate-y-3"
     >
       {image}
 
