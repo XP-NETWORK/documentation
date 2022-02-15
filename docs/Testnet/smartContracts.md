@@ -33,7 +33,7 @@ By contrast with the contracts on the Mainnets, the testnet smart contracts do n
 |XPNft|0x5051679FEDf0D7F01Dc23e72674d0ED58de9be6a|
 |Minter|0x1A9C0d370b6e93dFdbEA1145011Bc551bB1a2B60|
 
-## Fantom (old!)
+## Fantom (old! = requires whitelisitng)
 | SC Name / Type | Address|
 |:-:|:-:|
 |UserNftMinter|0x34933A5958378e7141AA2305Cdb5cDf514896035|
@@ -62,7 +62,7 @@ Creator address: one1p47lggq5qe9pv00a5szz20af76yrhyv8r6e346
 |XPNft|0x0AA29baB4F811A9f3dcf6a0F9cAEa9bE18ECED78 <br/> one1p23fh260sydf70w0dg8eet4fhcvwemtcmknt67|
 |Minter|0xCbA56d441da86dEfe31d3AdDeEc2bA04f7e27d9e <br/> one1ewjk63qa4pk7lcca8tw7as46qnm7ylv7exqnh3|
 
-## Sokol (xDai) (old!)
+## Sokol (xDai) (old! = requires whitelisitng)
 | SC Name / Type | Address|
 |:-:|:-:|
 |UserNftMinter|0x3fe9EfFa80625B8167B2F0d8cF5697F61D77e4a2|
@@ -84,9 +84,10 @@ Creator address: one1p47lggq5qe9pv00a5szz20af76yrhyv8r6e346
 
 Devnet: https://devnet-explorer.elrond.com/
 
-Issued nft esdt: XPNFT-4ff583<br/>
-Issued swap esdt: WEGLD-4c8232<br/>
+Nft esdt: XPNFT-7c1c42<br/>
+Swap esdt: WEGLD-67bca5<br/>
 
 | SC Name / Type | Address|
 |:-:|:-:|
-|Bridge Contract|erd1qqqqqqqqqqqqqpgqxcw4kgaywdafthzwuvda3sx2xwh325uuksms5aqjj9|
+|Bridge Contract|erd1qqqqqqqqqqqqqpgqwqg67dnz5rf6p04qwvxa3xq9g5mrndgvksmse0m03p|
+|EGLD Swap SC|erd1qqqqqqqqqqqqqpgqz8n30485x56u9t2qu9c0f6999m77ajdaksmsstpxdq|
