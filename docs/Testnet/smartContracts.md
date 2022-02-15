@@ -84,10 +84,10 @@ Creator address: one1p47lggq5qe9pv00a5szz20af76yrhyv8r6e346
 
 Devnet: https://devnet-explorer.elrond.com/
 
-Nft esdt: XPNFT-7c1c42<br/>
-Swap esdt: WEGLD-67bca5<br/>
+Nft esdt: XPNFT-aca910<br/>
+Swap esdt: WEGLD-f8dc4c<br/>
 
 | SC Name / Type | Address|
 |:-:|:-:|
-|Bridge Contract|erd1qqqqqqqqqqqqqpgqwqg67dnz5rf6p04qwvxa3xq9g5mrndgvksmse0m03p|
-|EGLD Swap SC|erd1qqqqqqqqqqqqqpgqz8n30485x56u9t2qu9c0f6999m77ajdaksmsstpxdq|
+|Bridge Contract|erd1qqqqqqqqqqqqqpgqzses02wme3gsx320dpja2p2kk3rckgcfksmsj8grdk|
+|EGLD Swap SC|erd1qqqqqqqqqqqqqpgqwu3ulmuxppa2e537ajst468wplkxxsqyksms9az8at|
