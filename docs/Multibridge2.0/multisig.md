@@ -18,10 +18,10 @@ By contrast with symmetric cryptography, where the same key is employed for encr
 [Claus-Peter Schnorr](https://en.wikipedia.org/wiki/Claus_P._Schnorr) (born 1943-08-4), a German mathematician & cryptographer, suggested in 1989, filed in 1990, and finally patented in 1991 [^1] a digital signature algorithm using elliptic curve cryptography but enjoying several advantages over ECDSA in terms of computational efficiency and thus speed, privacy, and storage requirements. The patent expired in 2008 and was soon noticed and utilized by the evolving blockchain industry.
 
 ## What makes Schnorr efficient?
-The most significant advantage of Schnorr is key aggregation. By contrast with the regular multisig $(m-of-n)$ address where $Msig_{n} = (PK_0..PK_{m-1},M, Sig_0...Sig_{m-1})$:
+The most significant advantage of Schnorr is key aggregation. By contrast with the regular multisig $(m-of-n)$ address where<br/> $Msig_{n} = (pk_0..pk_{m-1},M, Sig_0...Sig_{m-1})$:
 - $Msig_{n}$ - multisignature of size $n$
-- $PK_0$ - The first public key
-- $PK_{m-1}$ - The last public key out of $m$ required for success
+- $pk_0$ - The first public key
+- $pk_{m-1}$ - The last public key out of $m$ required for success
 - $M$ - the signed message
 - $Sig_0$ - The first signature
 - $Sig_{m-1}$ - The last signature  out of $m$ required for success
@@ -31,11 +31,11 @@ the Schnorr scheme allows to aggregate the spacious $PKs$ and $Sigs$ to single o
 
 ## Mathematical Representation of Schnorr Signature
 
-The Schnorr Digital Signature scheme can be represented as a 3 component tuple of algorithms, where $DS = (Kg, Sign, Vfy)$<br/>
+The Schnorr Digital Signature (DS) scheme can be represented as a 3 component tuple of algorithms, where $DS = (Kg, Sign, Vfy)$<br/>
 
 ***$Kg$*** or key generation can be represented as $Kg = sk => pk$, where public key $pk$ is generated from the secret key $sk$<br/>
-***$Sign$***$(sk,m)$ generates a signature $\sigma$ on message $m\epsilon\{0,1\}^*$<br/>
-***$Vfy$*** $(pk, m, \sigma)$ outputs 1 in case the signature $\sigma$ is valid for the message $m$ and 0 otherwise.
+***$Sign$***$(sk,M)$ generates a signature $\sigma$ on message $M\epsilon\{0,1\}^*$<br/>
+***$Vfy$*** $(pk, M, \sigma)$ outputs 1 in case the signature $\sigma$ is valid for the message $m$ and 0 otherwise.
 
 
 ## Algorithm Parameters
