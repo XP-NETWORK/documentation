@@ -26,7 +26,7 @@ The most significant advantage of Schnorr is key aggregation. By contrast with t
 - $Sig_0$ - The first signature
 - $Sig_{m-1}$ - The last signature  out of $m$ required for success
 
-the Schnorr scheme allows to aggregate the heavy arrays of $pk_m$ and $Sig_m$ to single objects, thus saving on storage and computation. Hence, Schnorr multi-signature has an $2n$ times more efficient form: $Msig_{n} = (pk_\Delta,M, Sig_\Delta)$.
+the Schnorr scheme allows to aggregate the heavy arrays of $pk_m$ and $Sig_m$ to single objects, thus saving on storage and computation. Hence, Schnorr multi-signature has an $m$ times more efficient form: $Msig_{n} = (pk_\Delta,M, Sig_\Delta)$. Verification complexity becomes O(1) rather than O(m).
 
 
 ## Mathematical Representation of Schnorr Signature
