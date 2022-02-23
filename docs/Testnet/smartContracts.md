@@ -62,14 +62,14 @@ Creator address: one1p47lggq5qe9pv00a5szz20af76yrhyv8r6e346
 |XPNft|0x0AA29baB4F811A9f3dcf6a0F9cAEa9bE18ECED78 <br/> one1p23fh260sydf70w0dg8eet4fhcvwemtcmknt67|
 |Minter|0xCbA56d441da86dEfe31d3AdDeEc2bA04f7e27d9e <br/> one1ewjk63qa4pk7lcca8tw7as46qnm7ylv7exqnh3|
 
-## Sokol (xDai) (old! = requires whitelisitng)
+## Sokol (xDai)
 | SC Name / Type | Address|
 |:-:|:-:|
-|UserNftMinter|0x3fe9EfFa80625B8167B2F0d8cF5697F61D77e4a2|
-|Erc1155Minter|0x2B24de7BFf5d2ab01b1C53682Ee5987c9BCf1BAc|
-|XPNft1155|0xCd06a7De34237e554A1987734DD8D51B9526F6e5|
-|XPNft|0x1F71E80E1E785dbDB34c69909C11b71bAd8D9802|
-|Minter|0x10E3EE8526Cc7610393E2f6e25dEee0bD38d057e|
+|UserNftMinter|0x7cB14C4aB12741B5ab185C6eAFb5Eb7b5282A032|
+|Erc1155Minter|0x0AA29baB4F811A9f3dcf6a0F9cAEa9bE18ECED78|
+|XPNft1155|0xCbA56d441da86dEfe31d3AdDeEc2bA04f7e27d9e|
+|XPNft|0x0e02b55e1D0ec9023A04f1278F39685B53739010|
+|Minter|0x90d38996B210D45bDF2FD54d091C6061dff0dA9F|
 
 ## IoTeX
 | SC Name / Type | Address|
