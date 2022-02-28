@@ -88,11 +88,11 @@ Our groundbreaking technology has several advantages:
 :::
 :::info
 
-## [02. XP.NETWORK BRIDGE](./Multibridge/overview-and-structure.md)
+## [02. XP.NETWORK BRIDGE v2.0](./Multibridge2.0/introduction.md)
 
 :::
 :::info
 
-## [03. XP.NETWORK Witepaper v 2.0](./Whitepaper2.0/introduction.md)
+## [03. XP.NETWORK Whitepaper v2.0](./Whitepaper2.0/introduction.md)
 
 :::
