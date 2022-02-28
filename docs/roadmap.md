@@ -50,7 +50,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ✅ &nbsp; Whitepaper v2.0<br/>
 ✅&nbsp;  XPNET Staking<br/>
 ✅ &nbsp; NFT Multichain Bridge going live<br/>
-✅ &nbsp; Mainnet integration to Ethereum, BSC, Elrond, Avalanche, HECO, Tron, Polygon, Fantom, Celo, Harmony, Ontology<br/>
+✅ &nbsp; Mainnet integration to Ethereum, BSC, Elrond, Avalanche, Tron, Polygon, Fantom<br/>
 ✅ &nbsp; Introducing XPNET-JS API for dApp connections<br/>
 ✅ &nbsp; Wallet integrations - Metamask & Elrond wallet, TronLink<br/>
 :::
