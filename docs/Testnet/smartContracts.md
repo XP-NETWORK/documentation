@@ -5,7 +5,8 @@ sidebar_position: 1
 
 # Smart Contract Addresses
 
-By contrast with the contracts on the Mainnets, the testnet smart contracts do not require whitelisting.
+By contrast with the contracts on the Mainnets, the testnet smart contracts do not require whitelisting.<br/>
+Use `UserNftMinter` for minting ERC-721 NFTs. It is a standard OpenZeppelin ERC-721 contract.
 ## BSC:
 | SC Name / Type | Address|
 |:-:|:-:|
@@ -88,6 +89,24 @@ Creator address: one1p47lggq5qe9pv00a5szz20af76yrhyv8r6e346
 |XPNft1155|0x42027aF22E36e839e138dc387F1b7428a85553Cc|
 |XPNft|0x0F00f81162ABC95Ee6741a802A1218C67C42e714|
 |Minter|0xaB9eD7b9734471249255B4d969B32995015116d9|
+
+## Tron
+| SC Name / Type | Address|
+|:-:|:-:|
+|UserNftMinter|4199721637ef58af9b6b91d92939312e2dc0aa2aa3|
+|Erc1155Minter|-|
+|XPNft1155|418e2f8651676728d923158b5cddbb79c62d85a00c|
+|XPNft|414a51be8f24a62529541b0ea831a2e02a4930841b|
+|Minter|41ebb63d3ee6e1a1f7b3ed15b3bd1b67863384d39a|
+
+## REI Network
+| SC Name / Type | Address|
+|:-:|:-:|
+|UserNftMinter|0x34933A5958378e7141AA2305Cdb5cDf514896035|
+|Erc1155Minter|0x9cdda01E00A5A425143F952ee894ff99B5F7999F|
+|XPNft1155|0xeBCDdF17898bFFE81BCb3182833ba44f4dB25525|
+|XPNft|0x8CEe805FE5FA49e81266fcbC27F37D85062c1707|
+|Minter|0x3fe9EfFa80625B8167B2F0d8cF5697F61D77e4a2|
 
 ## Elrond
 
