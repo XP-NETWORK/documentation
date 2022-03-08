@@ -34,14 +34,14 @@ Use `UserNftMinter` for minting ERC-721 NFTs. It is a standard OpenZeppelin ERC-
 |XPNft|0x5051679FEDf0D7F01Dc23e72674d0ED58de9be6a|
 |Minter|0x1A9C0d370b6e93dFdbEA1145011Bc551bB1a2B60|
 
-## Fantom (old! = requires whitelisitng)
+## Fantom
 | SC Name / Type | Address|
 |:-:|:-:|
-|UserNftMinter|0x34933A5958378e7141AA2305Cdb5cDf514896035|
-|Erc1155Minter|0x9cdda01E00A5A425143F952ee894ff99B5F7999F|
-|XPNft1155|0xeBCDdF17898bFFE81BCb3182833ba44f4dB25525|
-|XPNft|0x8CEe805FE5FA49e81266fcbC27F37D85062c1707|
-|Minter|0x3fe9EfFa80625B8167B2F0d8cF5697F61D77e4a2|
+|UserNftMinter|0x90d38996B210D45bDF2FD54d091C6061dff0dA9F|
+|Erc1155Minter|0xE90105827d04522e52AdfA6BF695730E5706C0C2|
+|XPNft1155|0x46Df0d0Dd629d61BDFA567dE61912FDeD883A60d|
+|XPNft|0x33DC209D33AddF60cf90Dd4B10f9a198A1A93f63|
+|Minter|0x04a5f9158829Cae5a0a549954AdEaBD47BbB3d2d|
 
 ## Avalanche
 | SC Name / Type | Address|
@@ -52,7 +52,7 @@ Use `UserNftMinter` for minting ERC-721 NFTs. It is a standard OpenZeppelin ERC-
 |XPNft|0x42027aF22E36e839e138dc387F1b7428a85553Cc|
 |Minter|0x0F00f81162ABC95Ee6741a802A1218C67C42e714|
 
-## Harmony # 
+## Harmony
 Creator address: one1p47lggq5qe9pv00a5szz20af76yrhyv8r6e346
 
 | SC Name / Type | Address|
