@@ -50,19 +50,23 @@ The bridge already connects 12 EVM:
 4. Avalanche
 5. Fantom
 6. Velas
-7. xDai
+7. Gnosis Chain (former xDai)
 8. Fuse
 9. Harmony
 10. IoTeX
 11. Aurora (Layer 2 of NEAR)
 12. Quarz (Unique Network's Kusama Parachain)
+13. Godwoken (wip)
+14. GateChain (wip)
+15. BTT (wip)
 
-with 4 Non-EVM ones:
+with 4+ Non-EVM ones:
 
 1. Elrond
 2. Algorand
 3. Tezos
 4. Tron
+5. Secret Network (Cosmos ecosystem) (wip)
 
 
   </div>
@@ -76,10 +80,16 @@ with 4 Non-EVM ones:
 
 At the moment of writing the bridge supports:
 
-1. ERC-721/BEP-721/TRC-721 in the EVM compatible blockchains
-2. ESDT for Elrond
-3. ASA-003 for Algorand
-4. FA2 for Tezos
+1. [ERC-721](https://eips.ethereum.org/EIPS/eip-721)/[ERC-1155](https://eips.ethereum.org/EIPS/eip-1155) fro Ethereum, Ploygon, Aurora, Fuse, Velas
+2. [BEP-721](https://academy.binance.com/en/glossary/bep-721)/BEP-1155 for BSC
+3. [TRC-721](https://developers.tron.network/docs/token-issuance)/TRC-1155 for Tron & BTT
+4. [XRC-721/XRC-1155](https://iotex.io/blog/how-to-mine-tokens-nfts/#non-fungible-tokens-xrc721) for IoTeX
+5. [ESDT](https://docs.elrond.com/developers/esdt-tokens/) for Elrond
+6. [ASA-003](https://developer.algorand.org/docs/get-details/asa/) for Algorand
+7. [FA2](https://gitlab.com/tezos/tzip/-/blob/master/proposals/tzip-12/tzip-12.md) for Tezos
+8. [SPL](https://spl.solana.com/token#non-fungible-tokens) for Solana
+9. [ADR 43](https://docs.cosmos.network/master/architecture/adr-043-nft-module.html#adr-43-nft-module) for Cosmos Ecosystem
+10. [NEP-178](https://nomicon.io/Standards/NonFungibleToken/ApprovalManagement#nep-178) for NEAR Protocol
 
 <br/>
 ERC-1155 smart contract support is developed and audited.
