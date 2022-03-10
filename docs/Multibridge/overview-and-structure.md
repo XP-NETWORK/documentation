@@ -5,6 +5,8 @@ sidebar_position: 1
 
 # Overview & Structure
 
+The old bridge version 1.0 is available at https://bridge.v1.xp.network/<br/>
+
 ![Bridge](../../static/img/52.Bridge.png)
 
 We have developed the first and only cross-chain NFT Bridge which enables the exchange of NFTs between the following chains, with more to follow:

@@ -22,3 +22,12 @@ XP.network bridge is the first of the kind NFT multi-chain bridge connecting 12+
 | 10  |![Velas](../../static/assets/chain/velas.svg) | Velas| Yes
 | 11  |![xDai](../../static/assets/chain/Xdai.svg) | xDai| Yes
 | 12  |![Fuse](../../static/assets/chain/Fuse.svg) | Fuse| Yes
+
+## Bridge versions
+
+|Version | Link| Network / Stage|
+|:-:|:-:|:-:|
+| 1.0 | https://bridge.v1.xp.network/| Mainnets - integrated|
+| 2.0 | https://bridge.xp.network/|Mainnets - integrated|
+| 2.0 | https://staging-bridge.xp.network/|Mainnets - integration in progress|
+| 2.0 | https://testnet.bridge.xp.network/|Testnets - experimental mode|
