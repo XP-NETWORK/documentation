@@ -92,8 +92,6 @@ At the moment of writing the bridge supports:
 10. [NEP-178](https://nomicon.io/Standards/NonFungibleToken/ApprovalManagement#nep-178) for NEAR Protocol
 
 <br/>
-ERC-1155 smart contract support is developed and audited.
-We're currently working on implementing it in all the other components of the bridge. So, stay tuned.
   </div>
 </details>
 
