@@ -78,6 +78,12 @@ console.log("signer", signer);
   const velas     = await factory.inner<19>(Chain.VELAS);
   const gnosis    = await factory.inner<14>(Chain.XDAI);
   const harmony   = await factory.inner<12>(Chain.HARMONY);
+  // Non-EVM chains:
+  const tron      = await factory.inner<9>(Chain.TRON);
+  const elrond    = await factory.inner<2>(Chain.ELROND);
+  const avalanche = await factory.inner<15>(Chain.ALGORAND);
+  const tezos     = await factory.inner<18>(Chain.TEZOS);
+
   // To view an inner object:
   console.log("bsc:", bsc);
 })();
