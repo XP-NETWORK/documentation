@@ -30,13 +30,11 @@ import {
     ElrondHelper,         ElrondParams,
     TronHelper,           TronParams,
     Web3Helper,           Web3Params,
-    AppConfigs
-  } from "xp.network/dist/";
+    AppConfigs,
+    NftMintArgs,          Chain
+  } from "xp.network";
   import {config} from 'dotenv';
   config();
-
-  // Chanin name to chain nonce mapper:
-  import { Chain} from "xp.network/dist/consts";
   
   // Instantiate the chain factory for the TESTNET
   const testnetConfig = ChainFactoryConfigs.TestNet();
