@@ -44,14 +44,14 @@ const Home = () => {
       </Head>
       <div className="max-w-4xl mx-auto pb-16 dark:text-white px-4">
         <Navbar />
-        <h1 className="text-4xl font-bold text-center my-16">
+        <h1 className="text-[34px] font-bold text-center my-16">
           Welcome to XP.NETWORK Docs
         </h1>
         <Search />
 
         <Cards />
 
-        <h1 className="text-center mt-20 font-bold text-4xl">
+        <h1 className="text-center mt-20 font-bold text-[34px]">
           Developer Links
         </h1>
         <p className="text-center text-gray-500 mt-8 max-w-lg mx-auto">
@@ -59,7 +59,7 @@ const Home = () => {
         </p>
         <Repos />
 
-        <h1 className="text-center mt-20 font-bold text-4xl">
+        <h1 className="text-center mt-20 font-bold text-[34px]">
           Join XP communities
         </h1>
         <p className="text-center text-gray-500 mt-8 max-w-lg mx-auto">
