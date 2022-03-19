@@ -11,7 +11,7 @@ The inactive buttons with greyish font color and blurred wallet logos indicate t
 
 When a wallet is selected from the list, the user account is injected in the bridge allowing the user to view NFTs and sign transactions on the chain of departure.
 
-XP.network NFT Bridge Supported wallets:
+XP.NETWORK NFT Bridge Supported wallets:
 
 |                           Logo                           |                                                        Wallet Name                                                         |                                                            Supported Chains                                                             |
 | :------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: |

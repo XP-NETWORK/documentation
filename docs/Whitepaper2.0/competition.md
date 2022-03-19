@@ -20,7 +20,7 @@ SeaScape	| BSC, Moonbeam, Rinkeby testnet |	Yes
 
 ## Advantages
 
-Compared to all the bridging solutions described above, XP.network has a number of important advantages:
+Compared to all the bridging solutions described above, XP.NETWORK has a number of important advantages:
 
 1) The first bridge designed exclusively for NFTs, tackling every aspect of asset transition and compatibility across multiple protocols;<br/>
 2) A much wider range of supported blockchains: any chain can be connected to the bridge;<br/>

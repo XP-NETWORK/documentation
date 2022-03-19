@@ -61,6 +61,6 @@ The new "wrapped" object "*remembers*" the following crucial information about t
 
 ![wrapped inner object](../../static/assets/15.png)
 
-In order to unwrap the NFT it must be sent to the native blockchain using the XP.network bridge. This is the only way since the original is locked in the bridge smart contract which will only release the asset to an arbitrary address following the instructions of the bridge relay validators (oracles.)
+In order to unwrap the NFT it must be sent to the native blockchain using the XP.NETWORK bridge. This is the only way since the original is locked in the bridge smart contract which will only release the asset to an arbitrary address following the instructions of the bridge relay validators (oracles.)
 
 ![Sending back](../../static/assets/12.png)

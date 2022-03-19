@@ -141,7 +141,7 @@ readonly     action_id:     BigNumber;    // an action ID
 readonly     chain_nonce:   number;       // a unique target chain ID
 readonly     to:            string;       // target account
 readonly     id:            Uint8Array;   // NFT identifier (see below)
-// For XP.network - it is a hash
+// For XP.NETWORK - it is a hash
 // For Elrond it is an ID + nonce
 // For web3 compatible chains it is:
 //     1. for ERC-721  tokens: contract address
@@ -184,7 +184,7 @@ readonly     action_id:     BigNumber;    // an action ID
 readonly     chain_nonce:   number;       // a unique target chain ID
 readonly     to:            string;       // target account
 readonly     id:            Uint8Array;   // NFT identifier (see below)
-// For XP.network - it is a hash
+// For XP.NETWORK - it is a hash
 // For Elrond it is an ID + nonce
 // For web3 compatible chains it is:
 //     1. for ERC-721  tokens: contract address

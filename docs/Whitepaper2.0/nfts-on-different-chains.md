@@ -23,4 +23,4 @@ Credit: nonfungible.com
 
 The next logical step in this evolutionary process is to connect the isolated NFT ecosystems that are growing on different chains. A fitting analogy would be the creation of a single global market out of disjointed regional or national markets of the past. The free flow of goods benefits all market players, as buyers can find better deals and sellers can make more money.
 
-This is what XP.network is doing with its set of interconnected blockchain bridges that will eventually link dozens of networks. In a sense, we are building an infrastructure for a single global NFT market.
+This is what XP.NETWORK is doing with its set of interconnected blockchain bridges that will eventually link dozens of networks. In a sense, we are building an infrastructure for a single global NFT market.

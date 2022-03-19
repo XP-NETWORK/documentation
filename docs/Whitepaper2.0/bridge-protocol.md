@@ -3,14 +3,14 @@ sidebar_label: 'Bridge Protocol'
 sidebar_position: 6
 ---
 
-# XP.network Bridge Protocol: a technical overview
+# XP.NETWORK Bridge Protocol: a technical overview
 
 Back in 1943, Warren McCulloch and Walter Pitts published a fundamental paper on state machines – abstract devices that are always in one (and only one) out of a set number of stable states, depending on their previous state and on the inputs they receive. The paper describes several types of such finite-state machines:
 
 Acceptors can either accept an input or not
 Recognizers can recognize an input or not
 Transducers can generate output from a given input
-The concept of finite-state machines can be applied to the XP.network bridge validators:
+The concept of finite-state machines can be applied to the XP.NETWORK bridge validators:
 
 A validator has a finite set of states S = {s1 … ss} - [idle, handling an event, paused, signing a transaction, reverting a transaction]
 

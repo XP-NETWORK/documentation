@@ -19,4 +19,4 @@ Here a user can define:
 
 The module builds the resulting application’s frontend, backend and database. Automated QA tools will check the resulting application’s functionality.
 
-The resulting application will be connected to the XP.network Substrate pallet and the chosen blockchains. It will be fast, search engine optimized and secure.
+The resulting application will be connected to the XP.NETWORK Substrate pallet and the chosen blockchains. It will be fast, search engine optimized and secure.

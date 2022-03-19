@@ -31,7 +31,7 @@ The Multibridge is as a state mutation protocol for the connected distributed le
 
 ### A. Substrate Pallet
 
-Written in Rust for the XP.network or any other Substrate parathread, performs the following actions:
+Written in Rust for the XP.NETWORK or any other Substrate parathread, performs the following actions:
 
 1. Represents the bridge in XP.network
 2. Emits events for the validators

@@ -5,12 +5,12 @@ sidebar_position: 5
 
 # Viewing NFTs
 
-XP.network has developed a tool called "***NFT Indexer***". It allows viewing NFTs by two parameters:
+XP.NETWORK has developed a tool called "***NFT Indexer***". It allows viewing NFTs by two parameters:
 1. The blockchain of interest
 2. The Public Key of the NFT owner
 
 **How it works**:
-1. XP.network has looped through the blocks of the integrated blockchins since their genesis.
+1. XP.NETWORK has looped through the blocks of the integrated blockchins since their genesis.
 2. We read the transactions of the blocks.
 3. If a transaction was NFT minting, transferring or burning related, we saved the new owner of the NFT in our database togeather with the information about that NFT.
 

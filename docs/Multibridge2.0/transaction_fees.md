@@ -5,11 +5,11 @@ sidebar_position: 4
 
 # Transaction Fees
 
-XP.network bridge allows the users to cover the gas fees on both chains (departure and destination) in the native tokens of the chain of origin. It is not only convenient, but, sometimes, it is the only possible way since some ledgers do not support the tokens of some others.
+XP.NETWORK bridge allows the users to cover the gas fees on both chains (departure and destination) in the native tokens of the chain of origin. It is not only convenient, but, sometimes, it is the only possible way since some ledgers do not support the tokens of some others.
 
 :computer: ***_Fee Calculator_*** is a tool estimating fees on the target chain. Some chains have built in functionality that the tool is reusing. In other chains the tool runs the transaction in a sandboxed environment without sending it to the network. In both cases the result is the amount in the tokens of the chain of destination.
 
-The next step is converting the gas fee required on the target chain to the currency of the  network of NFT departure. This is where the XP.network ***Exchange Rate Oracles (EROs)*** come into play. EROs are responsible for collecting & providing the exchange rate via the USD equivalent for the supported currencies.
+The next step is converting the gas fee required on the target chain to the currency of the  network of NFT departure. This is where the XP.NETWORK ***Exchange Rate Oracles (EROs)*** come into play. EROs are responsible for collecting & providing the exchange rate via the USD equivalent for the supported currencies.
 
 ***_Oracles_*** are distributed off-chain nodes feeding information to the smart contracts. A ***set*** of oracles can be represented as <code>O<sub>delta</sub> = {o<sub>1</sub>, ..., o<sub>n</sub>}</code>.
 
@@ -21,7 +21,7 @@ The next step is converting the gas fee required on the target chain to the curr
 
 :dollar: ***_Supported Cryptocurrencies_***
 
-XP.network Exchange Rate Oracles support all the native coins of the bridged networks:
+XP.NETWORK Exchange Rate Oracles support all the native coins of the bridged networks:
 
 | Coin | Blockchain |
 |:-:|:-:|

@@ -6,7 +6,7 @@ sidebar_position: 1
 # Multi-Chain NFT Bridge v 2.0
 
 The document consists of a number of steps a user can take to send NFTs from one chain to another.
-XP.network bridge is the first of the kind NFT multi-chain bridge connecting 12+ blockchains where 4 are non EVM chains.
+XP.NETWORK bridge is the first of the kind NFT multi-chain bridge connecting 12+ blockchains where 4 are non EVM chains.
 
 |#|Logo| Blockchain | EVM |
 |:-:|:-:|:-:|:-:|

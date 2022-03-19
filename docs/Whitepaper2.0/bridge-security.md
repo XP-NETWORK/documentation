@@ -6,11 +6,11 @@ sidebar_position: 7
 # Bridge Security
 
 ## NIST framework
-While developing the security protocols for the XP.network bridge, we have used NISTIR 8286A (2nd draft) - the Interagency Report 8286A, entitled ‘Identifying and Estimating Cybersecurity Risk for Enterprise Risk Management (ERM)’, by the US National Institute of Standards and Technology.
+While developing the security protocols for the XP.NETWORK bridge, we have used NISTIR 8286A (2nd draft) - the Interagency Report 8286A, entitled ‘Identifying and Estimating Cybersecurity Risk for Enterprise Risk Management (ERM)’, by the US National Institute of Standards and Technology.
 
 Apart from the report, we’ve aligned the cyber security risk management (CSRM) features of the NFT bridge with the NIST framework v1.1. The core of the framework are the five functions: Identify, Protect, Detect, Respond, and Recover. For each of these functions, there is a set of outcome categories – things that an organization has to do to keep its systems and users safe.
 
-The following table summarizes how the NIST framework applies to the XP.network bridge infrastructure:
+The following table summarizes how the NIST framework applies to the XP.NETWORK bridge infrastructure:
 
 https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8286A-draft2.pdf
 https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.04162018.pdf
@@ -35,14 +35,14 @@ Even the most popular smart contracts can contain vulnerabilities and get exploi
 https://github.com/larvalabs/cryptopunks/issues/1#issuecomment-309288762
 loyalty campaign, every user who had a CryptoPunk could mint one random Meebit (a new type of digital character) for free. There was a small chance that the resulting Meebit would turn out to have rare features and thus would be very expensive. A user under the name 0xNietzsche found a way to exploit the contract and minted Meebits repeatedly with the same CryptoPunk until he obtained a rare Meebit, which he immediately sold for ETH 200, having spent only ETH 5 on transaction fees.
 
-To avoid such mishaps, all XP.network smart contracts undergo meticulous testing before deployment, including penetration testing and code audit by the industry’s acknowledged security companies. Apart from verifying that there are no bugs and vulnerabilities, the audit confirms the integrity of the contract’s binary code and in the way data associated with it moves between accounts.
+To avoid such mishaps, all XP.NETWORK smart contracts undergo meticulous testing before deployment, including penetration testing and code audit by the industry’s acknowledged security companies. Apart from verifying that there are no bugs and vulnerabilities, the audit confirms the integrity of the contract’s binary code and in the way data associated with it moves between accounts.
 
 ## Validator penetration testing
 Off-chain relay validators are more complex than smart contracts, because they are composed of multiple parts residing on different physical or virtual machines. The first layer of security we apply to validators are the classic cyber security protocols that protect validators from physical access and human error.
 
 Another preventive measure is validator penetration testing. It simulates attacks by black-hat (malicious) hackers, who range from professionals equipped with sophisticated hardware and software to young coding prodigies who may accidentally discover a contract vulnerability and exploit it, resulting in asset theft or reputational damage.
 
-While XP.network will contract skilled white-hat hackers to simulate professional attacks, we will also introduce a community **bug bounty program** for users who can reproduce attacks by amateurs. These talented enthusiasts within the community will be rewarded if they discover unexpected and potentially dangerous contract behavior.
+While XP.NETWORK will contract skilled white-hat hackers to simulate professional attacks, we will also introduce a community **bug bounty program** for users who can reproduce attacks by amateurs. These talented enthusiasts within the community will be rewarded if they discover unexpected and potentially dangerous contract behavior.
 
 ## Elliptic-curve cryptography and digital signatures
 Asymmetric cryptography is the cornerstone of modern cyber security. Initially only governments had access to such tools, but in 1970 a pioneering paper entitled ‘New Directions in Cryptography’ (by Martin Hellman, Whitfield Diffie, and Ralph Merkle) opened up the possibilities of public-key cryptography to the wider world. Blockchain technology owes its existence to this fundamental breakthrough.
@@ -60,7 +60,7 @@ XP.network’s relay validators use blockchain key pairs to participate in the m
 ## BFT tolerance and multisignature
 A distributed system should be able to function even when some of its members (nodes) become unavailable or start behaving maliciously – in other words, it should be fault-tolerant. The term ‘Byzantine Fault Tolerance’ comes from a 1982 paper entitled “The Byzantine Generals Problem’. It describes a group of generals who have to arrive at a consensus decision by sending messengers to each other. However, some of the generals and messengers can be traitors and pass on false messages to sabotage the enterprise. The solution is to send more messengers than necessary, so that the whole army can still function if some of the agents become unreliable.
 
-Replicating the messenger analogy, in XP.network a group of physically separated validators comprise the validator pool to avoid a single point of failure. In order for a transaction to be acknowledged as valid, a BFT threshold of ⅔ + 1 signatures must be collected. Signature collection takes place in the smart contract on the target blockchain bridge, which is immutable and protected by the blockchain’s validators. At least 67% of the validators must sign a proposed transaction for it to succeed.
+Replicating the messenger analogy, in XP.NETWORK a group of physically separated validators comprise the validator pool to avoid a single point of failure. In order for a transaction to be acknowledged as valid, a BFT threshold of ⅔ + 1 signatures must be collected. Signature collection takes place in the smart contract on the target blockchain bridge, which is immutable and protected by the blockchain’s validators. At least 67% of the validators must sign a proposed transaction for it to succeed.
 
 Thanks to the BFT consensus, up to ⅓ of the validators can act maliciously or be down without any damage to the bridge functionality, since they will be ignored by the smart contracts. System consensus will still be reached even if 33% of the validators are down or attempt to act maliciously. It makes the system resistant to the notorious 51% or even 66% attacks.
 
@@ -81,19 +81,19 @@ Validator endpoints are set up to be resistant to all relevant OWASP vulnerabili
 
 Endpoint operating systems should have an uptime of at least 99% and the latest security patches with no default configurations.
 No weak authentication mechanisms are allowed. 2FA must be implemented on all employee accounts that have access to the validators.
-Incidents are logged and reported to the XP.network team and the entity controlling the corresponding validator.
+Incidents are logged and reported to the XP.NETWORK team and the entity controlling the corresponding validator.
 
 Endpoint vulnerability scans are executed on a daily basis.
 
 ## Perimeter security
 The physical security of a facility is often overlooked, and yet it’s a common attack vector. For example, even if a computer that contains crucial digital assets is kept unplugged from the internet, a nefarious agent can penetrate the room and infect the device with a virus stored on a USB drive. Alternatively, attackers can bribe an employee to steal or infect files, and so forth.
 
-To prevent such physical penetration attacks, XP.network will create a so-called [zero-trust DMZ](https://www.oreilly.com/library/view/zero-trust-networks/9781491962183/ch01.html) (exclusion zone). Apart from fingerprint entry control, employees will be able to access only those data, equipment, and software that are required to do their job. The ‘exclusion zone’ will prevent employees from unintentionally or deliberately infecting the systems with spyware or exposing sensitive data. The zero-trust strategy makes phishing or social engineering attacks against random company employees less effective, if useful at all.
+To prevent such physical penetration attacks, XP.NETWORK will create a so-called [zero-trust DMZ](https://www.oreilly.com/library/view/zero-trust-networks/9781491962183/ch01.html) (exclusion zone). Apart from fingerprint entry control, employees will be able to access only those data, equipment, and software that are required to do their job. The ‘exclusion zone’ will prevent employees from unintentionally or deliberately infecting the systems with spyware or exposing sensitive data. The zero-trust strategy makes phishing or social engineering attacks against random company employees less effective, if useful at all.
 
 ## Data Security and the human factor
-XP.network will never request, store, or access any of the sensitive user data: mnemonics (seed phrase) and private keys. These will always be stored on user devices. The private key is needed for bridged blockchain wallets to sign user-initiated transactions, while mnemonics (usually a set of 12-14 words) is used to restore an account or attach it to a new wallet. Bridge transactions are signed directly from wallets, such as Metamask, ElrondWallet, etc and never by the bridge.
+XP.NETWORK will never request, store, or access any of the sensitive user data: mnemonics (seed phrase) and private keys. These will always be stored on user devices. The private key is needed for bridged blockchain wallets to sign user-initiated transactions, while mnemonics (usually a set of 12-14 words) is used to restore an account or attach it to a new wallet. Bridge transactions are signed directly from wallets, such as Metamask, ElrondWallet, etc and never by the bridge.
 
-As noted above, it is the user’s responsibility to manage the private key (PK) in a secure manner – and this also applies to XP.network employees and everyone involved with the bridge infrastructure. In 95% of cyber breaches, a human error is involved, such as exposing a private key as a result of a phishing or a social engineering attack. Therefore, proper key management, including key back-ups and protection with other defence tools, is critical for controlling the human factor risks.
+As noted above, it is the user’s responsibility to manage the private key (PK) in a secure manner – and this also applies to XP.NETWORK employees and everyone involved with the bridge infrastructure. In 95% of cyber breaches, a human error is involved, such as exposing a private key as a result of a phishing or a social engineering attack. Therefore, proper key management, including key back-ups and protection with other defence tools, is critical for controlling the human factor risks.
 
 People involved in bridge interactions can be broadly divided in several categories, for each of which we’ve implemented different security protocols depending on the level of access and therefore potential impact on the system.
 

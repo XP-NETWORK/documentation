@@ -14,7 +14,7 @@ Blockchain coint or fungible tokens can be used for multiple purposes. For examp
 6. Lending and borrowing
 7. Lotteries
 
-XP.network uses the fungible tokens for all the abovementioned purposes but does not build FT multi-chain bridges since this nieche is already occupied by a number of solutions:
+XP.NETWORK uses the fungible tokens for all the abovementioned purposes but does not build FT multi-chain bridges since this nieche is already occupied by a number of solutions:
 
 | Bridge Name | Connected Chains / Tokens |
 |:-:|:-:|

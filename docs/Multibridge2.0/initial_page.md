@@ -11,6 +11,6 @@ On the initial page, a user can:
 
 **NB**: 
     a. The user has to ***own*** the NFTs to be able to send them.
-    b. The smart contract of the NFT must be whitelisted by XP.network for the bridge to accept it. This protects the users' assets and the bridge infrastructure from malicious smart contracts.
+    b. The smart contract of the NFT must be whitelisted by XP.NETWORK for the bridge to accept it. This protects the users' assets and the bridge infrastructure from malicious smart contracts.
 
 ![Initial Page](../../static/assets/1.png)

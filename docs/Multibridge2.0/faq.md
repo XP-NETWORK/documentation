@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
   <div>
   The industry is abundant in fungible token bridges that are more straightforward to build. There are too few NFT bridging solutions to mention, and those that exist connect only EVM chains, or at most one Non-EVM to one or a couple of EVM ones.
 
-  The year 2021 has been marked by the explosion of interest in Non-Fungible tokens. Their sales grew from thousands of USD to hundreds of millions of USD per month. XP.network bridge fills the gap, connecting the insular ecosystems into a global network of interoperable markets.
+  The year 2021 has been marked by the explosion of interest in Non-Fungible tokens. Their sales grew from thousands of USD to hundreds of millions of USD per month. XP.NETWORK bridge fills the gap, connecting the insular ecosystems into a global network of interoperable markets.
   </div>
 </details>
 
@@ -151,7 +151,7 @@ In order for a smart contract to be whitelisted there are several steps:
       2. Smart contract address
       3. Approximate number of NFTs planned for sending
 
-3. XP.network team members will look through the source code of the NFT smart contract
+3. XP.NETWORK team members will look through the source code of the NFT smart contract
 4. The smart contract will be whitelisted or the initiator will be notified that the smart contract has the code that can harm the bridge therefore, it cannot be whitelisted.
 
 
@@ -178,7 +178,7 @@ In order for a smart contract to be whitelisted there are several steps:
   </div>
 </details>
 
-## At what stage of development is XP.network Now?
+## At what stage of development is XP.NETWORK Now?
 
 <details>
   <summary>Answer</summary>

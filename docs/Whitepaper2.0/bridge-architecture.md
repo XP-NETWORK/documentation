@@ -5,15 +5,15 @@ sidebar_position: 3
 
 # Bridge architecture
 
-The cross-chain bridge is the key element of the XP.network ecosystem. It has two key elements: smart contracts and relay validators. Their synergy allows users to send NFTs minted on one chain to any other of the connected chains. For example, an NFT minted on Solana can be sent to Ethereum to be listed on OpenSea, or to a BSC-based marketplace like OpenBiSea, or to Snowflake on Avalanche, and so forth.
+The cross-chain bridge is the key element of the XP.NETWORK ecosystem. It has two key elements: smart contracts and relay validators. Their synergy allows users to send NFTs minted on one chain to any other of the connected chains. For example, an NFT minted on Solana can be sent to Ethereum to be listed on OpenSea, or to a BSC-based marketplace like OpenBiSea, or to Snowflake on Avalanche, and so forth.
 
-The idea is to give users full freedom to dispose of their NFTs and to benefit from the opportunities on different chains. For now these opportunities are mainly limited to selling and storage, but in the near future new applications for NFTs may arise – for example, using them as collateral for loans. Some of these applications may even emerge within the XP.network ecosystem thanks to the upcoming dApp editor.
+The idea is to give users full freedom to dispose of their NFTs and to benefit from the opportunities on different chains. For now these opportunities are mainly limited to selling and storage, but in the near future new applications for NFTs may arise – for example, using them as collateral for loans. Some of these applications may even emerge within the XP.NETWORK ecosystem thanks to the upcoming dApp editor.
 
 As of the time of writing, bridges to the following networks have been completed: Avalanche, BSC, Celo, Elrond, Ethereum, Fantom, Harmony, HECO, Ontology, Polygon, Tron
 
-Work is ongoing or will soon start on bridging XP.network to the following chains: Algorand, Cardano, Solana
+Work is ongoing or will soon start on bridging XP.NETWORK to the following chains: Algorand, Cardano, Solana
 
-Any two chains that are connected to the XP.network bridge are thus also indirectly bridged to each other. So, for example, users can send NFTs from Binance Smart Chain to Avalanche, or from Elrond to Polygon. The internal mechanics of such a transfer is more complex than when transferring an NFT minted on the bridge itself, but for the end user the flow is just as smooth and simple.
+Any two chains that are connected to the XP.NETWORK bridge are thus also indirectly bridged to each other. So, for example, users can send NFTs from Binance Smart Chain to Avalanche, or from Elrond to Polygon. The internal mechanics of such a transfer is more complex than when transferring an NFT minted on the bridge itself, but for the end user the flow is just as smooth and simple.
 
 ## Smart contracts
 
@@ -30,11 +30,11 @@ Broadcast bridge-related events to the relay validators;
 Collect Byzantine Fault-tolerant multisinatures.
 
 ## Bridging flow from the end user’s viewpoint
-Below is a short description of what the XP.network experience looks like for a regular user who wishes to send an NFT to another blockchain.
+Below is a short description of what the XP.NETWORK experience looks like for a regular user who wishes to send an NFT to another blockchain.
 
 1. The user – we will call him Bob – first connects the wallet where his NFTs are stored to XP.network. The process is the same as for linking a wallet to a DeFi dapp.
 2. The user account associated with Bob’s wallet is injected into the bridge. The bridge has a whitelisted database of NFT smart contracts, which it scans to find any NFTs that exist on Bob’s account. In more basic terms, the bridge looks for NFTs in the wallet.
-3. All found NFTs are displayed in the XP.network UI (user interface). Bob can then locate the NFT he wishes to send.
+3. All found NFTs are displayed in the XP.NETWORK UI (user interface). Bob can then locate the NFT he wishes to send.
 4. Bob selects the origin chain (where his NFT currently resides – for example, BSC) from a drop-down list, and the target chain where the NFT should be sent – for example, Avalanche.
 5. Bob also needs to provide the recipient address on the target chain – for instance, his own Avalanche-compatible wallet address.
 6. By clicking on ‘Transfer’, Bob creates a request for transferring the NFT to the chosen account on Avalanche.
@@ -63,6 +63,6 @@ The popular Ren protocol, with [over $770M in value locked](https://defipulse.co
 
 Wrapping NFTs isn’t a completely new concept, either, though so far it has been limited to wrapping non-fungibles into regular ERC-20 tokens that represent the floor value of an NFT collection (the minimum price at which regular NFTs from a collection sell at a given moment). Thus, there is WCK, or Wrapped Kitties (for CryptoKitties) and PUNKS for CryptoPunks.
 
-As for wrapping NFTs into new NFTs on a different blockchain, so far there are very few projects offering this functionality (see ‘Competition’). None of them support as many chains as XP.network, and in many cases XP.network is the absolute first to offer an NFT bridge for a certain pair of blockchains.
+As for wrapping NFTs into new NFTs on a different blockchain, so far there are very few projects offering this functionality (see ‘Competition’). None of them support as many chains as XP.network, and in many cases XP.NETWORK is the absolute first to offer an NFT bridge for a certain pair of blockchains.
 
-When designing the NFT custody system, the XP.network made a choice in favor of a centralized custody system. This way the NFTs will enjoy the same superior level of protection as the rest of the XP.network infrastructure (see ‘Bridge security’). While we did consider various decentralized custody options, none of them can ensure the same level of security. Further, all the stakeholders of XP.network are completely public, starting from the CEO, and bear responsibility for the preservation of the NFTs held in custody. This level of confidence is not possible when working with anonymous custodians.
+When designing the NFT custody system, the XP.NETWORK made a choice in favor of a centralized custody system. This way the NFTs will enjoy the same superior level of protection as the rest of the XP.NETWORK infrastructure (see ‘Bridge security’). While we did consider various decentralized custody options, none of them can ensure the same level of security. Further, all the stakeholders of XP.NETWORK are completely public, starting from the CEO, and bear responsibility for the preservation of the NFTs held in custody. This level of confidence is not possible when working with anonymous custodians.
