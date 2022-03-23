@@ -5,8 +5,15 @@ sidebar_position: 1
 
 # Multi-Chain NFT Bridge v 2.0
 
-The document consists of a number of steps a user can take to send NFTs from one chain to another.
-XP.NETWORK bridge is the first of the kind NFT multi-chain bridge connecting 12+ blockchains where 4 are non EVM chains.
+XP Network's NFT Bridge v2.0 is unique in many ways, leaving alone that it connects more blockchains than any other NFT bridge. The shortlist of the bridge advantages boils down but is not limited to:
+
+1. Cheap transactions even when transferring NFTs to or from Ethereum.
+2. Validators scalable to any number without impacting the transaction price.
+3. Optional royalties and other smart contract logic and NFT collection name transfer to the target chain.
+4. Support of 10+ NFT standards.
+5. The bridge explorer for tracking cross-chain NFT transactions that were previously only available to blockchains.
+6. An intuitive JavaScript library allowing for integration of the bridge into any cross-chain game, marketplace, metaverse, or DEFI project in a matter of hours.
+7. A widget that can be set up and added to a user UI in minutes with zero coding.
 
 |#|Logo| Blockchain | EVM |
 |:-:|:-:|:-:|:-:|
@@ -20,8 +27,11 @@ XP.NETWORK bridge is the first of the kind NFT multi-chain bridge connecting 12+
 | 8 |![Elrond](../../static/assets/chain/Elrond.svg) |Elrond| No
 | 9 |![Tezos](../../static/assets/chain/Tezos.svg) |Tezos| No
 | 10  |![Velas](../../static/assets/chain/velas.svg) | Velas| Yes
-| 11  |![xDai](../../static/assets/chain/Xdai.svg) | xDai| Yes
+| 11  |<img src="../../static/assets/chain/Gnosis.png" height="30"> | Gnosis Chain| Yes
 | 12  |![Fuse](../../static/assets/chain/Fuse.svg) | Fuse| Yes
+| 13  |![IoTeX](../../static/assets/chain/iotx.svg) | IoTeX| Yes
+| 14  |![Aurora](../../static/assets/chain/aurora.svg) | Aurora| Yes
+
 
 ## Bridge versions
 
