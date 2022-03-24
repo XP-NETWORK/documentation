@@ -15,7 +15,7 @@ There are several important advantages to such chain-agnostic minting:
    
 **3) It’s great for marketing.** NFT projects that integrate XP.NETWORK will have a competitive advantage and a wider outreach. Right now some users can be reluctant to mint on Avalanche, for example, because they worry that the NFT community on this chain is still small and there will not be enough buyers in the future. XP.NETWORK solves this image problem common to smaller ecosystems, helping NFT projects to attract users faster.
    
-**4) It supports EMV and non-EVM networks.** XP.network’s minting service is the first to be available both on those blockchains that use Ethereum Virtual Machine (Ethereum, Binance Smart Chain, Polygon) and those that don’t, such as Elrond, Cardano, Solana, Algorand, etc.
+**4) It supports EVM and non-EVM networks.** XP.network’s minting service is the first to be available both on those blockchains that use Ethereum Virtual Machine (Ethereum, Binance Smart Chain, Polygon) and those that don’t, such as Elrond, Cardano, Solana, Algorand, etc.
    
 **5) It’s integrated with the bridge.** Any NFT minted using XP.NETWORK is automatically added to the bridge whitelist and can be sent to any connected chain.
    
