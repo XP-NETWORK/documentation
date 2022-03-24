@@ -94,9 +94,9 @@ Creator address: one1p47lggq5qe9pv00a5szz20af76yrhyv8r6e346
 | SC Name / Type | Address|
 |:-:|:-:|
 |UserNftMinter|TMVDt5PP53eQro5hLafibv2xWzSSDSMyjy|
-|xpnft1155|TBeSKv5RSFLAi7SCD7hR64xuvP6N26oEqR|
-|xpnft|TDhb2kyurMwoc1eMndKzqNebji1ap1DJC4|
-|minter|TY46GA3GGdMtu9GMaaSPPSQtqq9CZAv5sK|
+|XPNft1155|TBeSKv5RSFLAi7SCD7hR64xuvP6N26oEqR|
+|XPNft|TDhb2kyurMwoc1eMndKzqNebji1ap1DJC4|
+|Minter|TY46GA3GGdMtu9GMaaSPPSQtqq9CZAv5sK|
 
 ## Elrond
 
@@ -109,6 +109,15 @@ Swap esdt: WEGLD-f8dc4c<br/>
 |:-:|:-:|
 |Bridge Contract|erd1qqqqqqqqqqqqqpgqzses02wme3gsx320dpja2p2kk3rckgcfksmsj8grdk|
 |EGLD Swap SC|erd1qqqqqqqqqqqqqpgqwu3ulmuxppa2e537ajst468wplkxxsqyksms9az8at|
+
+## Godwoken
+| SC Name / Type | Address|
+|:-:|:-:|
+|UserNftMinter|0x34933A5958378e7141AA2305Cdb5cDf514896035|
+|Erc1155Minter|0x9cdda01E00A5A425143F952ee894ff99B5F7999F|
+|XPNft1155|0xeBCDdF17898bFFE81BCb3182833ba44f4dB25525|
+|XPNft|0x8CEe805FE5FA49e81266fcbC27F37D85062c1707|
+|Minter|0x3fe9EfFa80625B8167B2F0d8cF5697F61D77e4a2|
 
 # Experimantal:
 ## BTT
