@@ -27,7 +27,7 @@ XP Network's NFT Bridge v2.0 is unique in many ways, leaving alone that it conne
 | 8 |![Elrond](../../static/assets/chain/Elrond.svg) |Elrond| No
 | 9 |![Tezos](../../static/assets/chain/Tezos.svg) |Tezos| No
 | 10  |![Velas](../../static/assets/chain/velas.svg) | Velas| Yes
-| 11  |<img src="../../static/assets/chain/Gnosis.png" height="30"/> | Gnosis Chain| Yes
+| 11  |<img src="../../static/assets/chain/Gnosis.png" width="30px"></img> | Gnosis Chain| Yes
 | 12  |![Fuse](../../static/assets/chain/Fuse.svg) | Fuse| Yes
 | 13  |![IoTeX](../../static/assets/chain/iotx.svg) | IoTeX| Yes
 | 14  |![Aurora](../../static/assets/chain/aurora.svg) | Aurora| Yes
