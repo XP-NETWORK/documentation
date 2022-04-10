@@ -85,7 +85,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ✅ &nbsp; Received Grants From: <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Velas<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Harmony<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;IoteX,<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;IoteX<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Secret Network<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;VeChain<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;GateChain<br/>
@@ -103,22 +103,21 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ⬜ &nbsp; Mainnet integration to:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; Harmony<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; Aurora<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp; GateChain<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; VeChain<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; GateChain<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Secret Network<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Solana<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; BTT <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; The Open Network <br/>
 
 ⬜ &nbsp; Wallet integrations:<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Solana<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Phantom & other Solana wallets<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Sync2 (VeChain)<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Mathwallet (Secret Network)<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;TrustWallet<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Harmony Extention Wallet<br/>
 
 ⬜ &nbsp; Chain Agnostic NFT Marketplace Lister (Beta)<br/>
-⬜ &nbsp; NFT Launchpad<br/>
 :::
 ## Q3 2022
 :::info TODO
@@ -156,6 +155,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;ERC-998  Support<br/>
 
 ⬜ &nbsp; NFTs Search (search by any parameter)<br/>
+⬜ &nbsp; NFT Launchpad<br/>
 ⬜ &nbsp; NFT Marketcap (Collection & individual NFT statistics & analytics)<br/>
 :::
 
