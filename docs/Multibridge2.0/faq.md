@@ -1,5 +1,5 @@
 ---
-sidebar_label: '7. FAQ'
+sidebar_label: '9. FAQ'
 sidebar_position: 9
 ---
 

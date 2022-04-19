@@ -47,7 +47,7 @@ Add a `.env` file and populate it with the Private Key of the signer
 
 ```bash
 touch .env
-echo "SK=<replace with your Provate Key>" >> .env
+echo "SK=<replace with your Private Key>" >> .env
 ```
 Add the signer object:
 ```ts

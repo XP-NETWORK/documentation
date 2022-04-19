@@ -136,26 +136,26 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ## Q4 2022
 :::info TODO
 ⬜ &nbsp; Mainnet integration to:<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos Ecosystem<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;EOS Ecosystem<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Polkadot Ecosystem<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;EOS<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Polkadot<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Flow<br/>
 
 ⬜ &nbsp; Wallet Integrations:<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos Wallets<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;[Cosmos Wallets](https://v1.cosmos.network/ecosystem/wallets)<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;EOS Wallets<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Daedalus<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Polkadot Extention, SubWallet<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano Wallets<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano Wallets (Daedalus, Yoroi, AdaLite)<br/>
 
 ⬜ &nbsp; Migration to v3.0 of the bridge<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;SFT Support<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;ERC-721A Support<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;ERC-998  Support<br/>
 
-⬜ &nbsp; NFTs Search (search by any parameter)<br/>
-⬜ &nbsp; NFT Launchpad<br/>
-⬜ &nbsp; NFT Marketcap (Collection & individual NFT statistics & analytics)<br/>
+<!-- ⬜ &nbsp; NFTs Search (search by any parameter)<br/> -->
+<!-- ⬜ &nbsp; NFT Launchpad<br/> -->
+<!-- ⬜ &nbsp; NFT Marketcap (Collection & individual NFT statistics & analytics)<br/> -->
 :::
 
