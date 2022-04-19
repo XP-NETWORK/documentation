@@ -107,18 +107,20 @@ Follow our journey from inception to launch. Please note that the team reserves 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; VeChain<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Godwoken (Nervos Layer-2)<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Secret Network<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Solana<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; BTT <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Solana<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; The Open Network <br/>
 
 ⬜ &nbsp; Wallet integrations:<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Phantom & other Solana wallets<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Sync2 (VeChain)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Mathwallet (Secret Network)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;TrustWallet<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;TrustWallet<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Harmony Extention Wallet<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;VeChain wallets (Sync2)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Solana wallets (Phantom)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Secret Network (Mathwallet)<br/>
 
 ⬜ &nbsp; Chain Agnostic NFT Marketplace Lister (Beta)<br/>
+⬜ &nbsp; Bridge Explorer<br/>
+⬜ &nbsp; XPJS Tokenization<br/>
 :::
 ## Q3 2022
 :::info TODO
@@ -139,7 +141,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ⬜ &nbsp; Mainnet integration to:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;EOS<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Polkadot<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Polkadot Parachain<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Flow<br/>
 
