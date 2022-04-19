@@ -114,9 +114,9 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ⬜ &nbsp; Wallet integrations:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;TrustWallet<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Harmony Extention Wallet<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;VeChain wallets (Sync2)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Solana wallets (Phantom)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Secret Network (Mathwallet)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;VeChain wallet - Sync2<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Solana wallet - Phantom<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Secret Network - Mathwallet<br/>
 
 ⬜ &nbsp; Chain Agnostic NFT Marketplace Lister (Beta)<br/>
 ⬜ &nbsp; Bridge Explorer<br/>
@@ -147,7 +147,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ⬜ &nbsp; Wallet Integrations:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos Wallets(Cosmostation, Kepir Wallet)<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Polkadot Extention<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano Wallets (Daedalus)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano Wallets - Daedalus<br/>
 
 ⬜ &nbsp; Migration to v3.0 of the bridge<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;SFT Support<br/>
