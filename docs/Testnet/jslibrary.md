@@ -114,6 +114,58 @@ console.log("signer", signer);
     signer,                     // The web3 signer object.
     "ADDRESS OF THE RECEIVER"   // The address who you are transferring the NFT to.
   );
-  console.log(web3Result);
+  console.log(result);
 })();
+```
+
+## Arbitrary stages: Minting
+
+```ts
+/**
+* A function for minting multiple NFTs
+* @param departureChain - the chain of departure
+* @param uris - an array of metadata links
+* @param contract - the address of the NFT smart contract to mint NFTs with (ex. UserNftMinter)
+* @param factory - a commonized interface for interacting with different protocols
+*/
+const mint = async (departureChain: Web3Helper, uris: String[], contract: string, factory: ChainFactory) => {
+
+    const signer = new Wallet(process.env.SK!, departureChain.getProvider());
+
+    for await (const uri of uris) {
+
+        const nftResult = await factory.mint(
+            departureChain,
+            signer,
+            {
+                contract,
+                uris: [uri]
+            } as NftMintArgs
+        );
+        console.log(`Done ${uri}`, nftResult);
+    }
+}
+
+// Calling the minting function (Example)
+(async () => {
+
+  console.log("Minting NFTs for Polygon...");
+  const URIs = [
+            "Link1",
+            "Link2",
+            "LinkN"
+        ];
+  await mint(
+    polygon,        // the chain of departure
+    URIs,           // an array of metadata links
+    "<NFT smart contract address here>", 
+    factory         // a commonized interface created earlier
+  );
+
+  process.exit(0);
+})().catch(error => {
+    console.error(error)
+    process.exit(1);
+});
+
 ```

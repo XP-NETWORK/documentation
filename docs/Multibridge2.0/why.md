@@ -26,6 +26,7 @@ NFT-centered games can go cross-chain. That adds new, previously unavailable int
 NFT guests can visit Metaverse locations on various chains and gain experience or earn tokens for completing complicated quests. Colledges and universities can open metaverse courses and lectures for NFT students from different chains and accept foreign ledger currencies as tuition.
 
 ## Why XP.NETWORK
-1. The biggest NFT bridge connecting 10+ EVM with 4+ Non-EVM chains is a one-window solution for the biggest NFT ecosystems in the industry. 2. Our superior multilayer security system protects the bridged assets following the best cybersecurity practices.
+1. The biggest NFT bridge connecting 10+ EVM with 4+ Non-EVM chains is a one-window solution for the biggest NFT ecosystems in the industry. 
+2. Our superior multilayer security system protects the bridged assets following the best cybersecurity practices.
 3. NFT projects can earn part of the bridge transaction fees.
 4. The bridge is supplied with the cross-chain transactions explorer, which is critical for tracking NFT history and greatly impacts the asset's value.

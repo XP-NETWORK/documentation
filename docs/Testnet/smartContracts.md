@@ -149,7 +149,7 @@ Swap esdt: WEGLD-f8dc4c<br/>
 |XPNft|0x39737B28d02d170Cb7a6141BA55F039104b3Fce9|
 |Minter|0x4096e08C5d6270c8cd873daDbEAB575670aad8Bc|
 |Explorer:|https://explore-testnet.vechain.org/|
-# Experimantal:
+# Experimental:
 ## BTT
 | SC Name / Type | Address|
 |:-:|:-:|
