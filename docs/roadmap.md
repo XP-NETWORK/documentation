@@ -118,9 +118,9 @@ Follow our journey from inception to launch. Please note that the team reserves 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Solana wallet - Phantom<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Secret Network - Mathwallet<br/>
 
-⬜ &nbsp; Chain Agnostic NFT Marketplace Lister (Beta)<br/>
 ⬜ &nbsp; Bridge Explorer<br/>
-⬜ &nbsp; XPJS Tokenization<br/>
+<!-- ⬜ &nbsp; Chain Agnostic NFT Marketplace Lister (Beta)<br/> -->
+<!-- ⬜ &nbsp; XPJS Tokenization<br/> -->
 :::
 ## Q3 2022
 :::info TODO
@@ -140,7 +140,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 :::info TODO
 ⬜ &nbsp; Mainnet integration to:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Polkadot Parachain<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Polkadot<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Flow<br/>
 
