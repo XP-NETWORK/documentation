@@ -9,26 +9,33 @@ Import the dependencies like so:<br/>
 
 ```javascript
 import {
-  ChainFactoryConfigs,  ChainFactory,
-  ElrondHelper,         ElrondParams,
-  TronHelper,           TronParams,
-  Web3Helper,           Web3Params,
-  typedAlgoSigner
-} from "xp.network/dist";
-
-// Chan name to chain nonce mapper & the cofiguration constants:
-import { Chain, Config } from "xp.network/dist/consts";
+    ChainFactoryConfigs,
+    ChainFactory,
+    Chain,
+    AppConfigs,
+    ChainParams
+} from "xp.network";
 ```
 Connecting to the mainntets of all the integrated chains:
 ```javascript
 // MAINNET Factory object creation
-const mainnetConfig = ChainFactoryConfigs.MainNet();
-const factory = ChainFactory(Config, mainnetConfig);
+const mainnetConfig = await ChainFactoryConfigs.MainNet()
+const mainnetFactory: ChainFactory = ChainFactory(
+    AppConfigs.MainNet(),
+    mainnetConfig
+);
 ```
 
 Connecting to the testnets of all the integrated chains:
 ```javascript
 // TESTNET Factory object creation
-const testnetConfig = ChainFactoryConfigs.TestNet();
-const factory = ChainFactory(Config, testnetConfig);
+const testnetConfig = await ChainFactoryConfigs.TestNet();
+const testnetFactory: ChainFactory = ChainFactory(
+    AppConfigs.TestNet(),
+    testnetConfig
+);
+
+// Switching between the mainnets & the testnets:
+const factory: ChainFactory = mainnetFactory;
+const CONFIG: Partial<ChainParams> = mainnetConfig;
 ```

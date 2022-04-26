@@ -17,20 +17,28 @@ etc.
 ```javascript
 (async () => {
   // EVM-compatible chains:
-  // Inner Object ==================== Chain Helper === Chain Params === Chain Nonce ==
-  const ethereum  = await factory.inner<Web3Helper,     Web3Params>    (Chain.ETHEREUM);
-  const bsc       = await factory.inner<Web3Helper,     Web3Params>    (Chain.BSC);
-  const polygon   = await factory.inner<Web3Helper,     Web3Params>    (Chain.POLYGON);
-  const avax      = await factory.inner<Web3Helper,     Web3Params>    (Chain.AVALANCHE);
-  const fantom    = await factory.inner<Web3Helper,     Web3Params>    (Chain.FANTOM);
-  const velas     = await factory.inner<Web3Helper,     Web3Params>    (Chain.VELAS);
-  const gnosis    = await factory.inner<Web3Helper,     Web3Params>    (Chain.XDAI);
+  (async () => {
+  // Inner Object ================================ Chain Nonce
+    const bsc       = await factory.inner(Chain.BSC);       // 4
+    const ethereum  = await factory.inner(Chain.ETHEREUM);  // 5
+    const avax      = await factory.inner(Chain.AVALANCHE); // 6
+    const polygon   = await factory.inner(Chain.POLYGON);   // 7
+    const fantom    = await factory.inner(Chain.FANTOM);    // 8
+    const harmony   = await factory.inner(Chain.HARMONY);   // 12
+    const gnosis    = await factory.inner(Chain.XDAI);      // 14
+    const fuse      = await factory.inner(Chain.FUSE);      // 16
+    const velas     = await factory.inner(Chain.VELAS);     // 19
+    const aurora    = await factory.inner(Chain.AURORA);    // 21
+    const godwoken  = await factory.inner(Chain.GODWOKEN);  // 22
+    const gatechain = await factory.inner(Chain.GATECHAIN); // 23
+    const vechain   = await factory.inner(Chain.VECHAIN);   // 25
 
-  // Non-EVM chains:
-  // Inner Object ==================== Chain Helper === Chain Params === Chain Nonce ==
-  const algorand  = await factory.inner<AlgorandHelper, AlgorandParams>(Chain.ALGORAND);
-  const elrond    = await factory.inner<ElrondHelper,   ElrondParams>  (Chain.ELROND);
-  const tezos     = await factory.inner<TezosHelper,    TezosParams>   (Chain.TEZOS);
-  const tron      = await factory.inner<TronHelper,     TronParams>    (Chain.TRON);
+    // Non-EVM chains:
+    // Inner Object ================================ Chain Nonce
+    const elrond    = await factory.inner(Chain.ELROND);    // 2
+    const tron      = await factory.inner(Chain.TRON);      // 9
+    const algorand  = await factory.inner(Chain.ALGORAND);  // 15
+    const tezos     = await factory.inner(Chain.TEZOS);     // 18
+})();
 })();
 ```

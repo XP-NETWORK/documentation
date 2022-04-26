@@ -12,20 +12,15 @@ Call the mint function on the factory with suitable arguments.
   ```javascript
   (async () => {
     // Web3Provider generally refers to a walletProvider like Metamask.
-    const receipt = await factory.mint(
-      avax,   // The chain where to mint
-      signer, // The browser injected signer
-      {
-          // Could be an IPFS URL or Any URL that points to a Metadata
-          uris: [metadata.url],
-          // Description of your NFT. Can be an object.
-          attrs: description,
-          // A name that defines your NFT.
-          name: name,
-          // The contract with which you want to mint the NFT.
-          contract: "Can be fetched from the mainnetConfig or testnetConfig",
-      }
-    );
+    const nftResult = await factory.mint(
+            ethereum,
+            signer,
+            {
+                contract,
+                uris: [uri]
+            } as NftMintArgs
+        );
+    console.log(`Minted ${uri}`, nftResult);
   })();
   ```
 
