@@ -17,7 +17,6 @@ etc.
 ```javascript
 (async () => {
   // EVM-compatible chains:
-  (async () => {
   // Inner Object ================================ Chain Nonce
     const bsc       = await factory.inner(Chain.BSC);       // 4
     const ethereum  = await factory.inner(Chain.ETHEREUM);  // 5
@@ -39,6 +38,5 @@ etc.
     const tron      = await factory.inner(Chain.TRON);      // 9
     const algorand  = await factory.inner(Chain.ALGORAND);  // 15
     const tezos     = await factory.inner(Chain.TEZOS);     // 18
-})();
 })();
 ```

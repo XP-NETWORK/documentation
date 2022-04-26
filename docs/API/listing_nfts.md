@@ -139,7 +139,7 @@ console.log("Tezos Selected NFT:     ", tezosChosenOne);
 }
 ```
 
-## 5.3 Example of the console logged wrapped NFT from BSC on Velas
+## 5.3 Example of the console logged wrapped NFT from xDai
 
 ```json
 {
