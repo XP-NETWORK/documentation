@@ -26,5 +26,5 @@ npm i --save xp.network @elrondnetwork/erdjs ethers @taquito/taquito @temple-wal
 To import the latest version of xp.network library:
 
 ```bash
-yarn add "git+https://github.com/xp-network/xpjs#master-dist" @elrondnetwork/erdjs ethers @taquito/taquito @temple-wallet/dapp
+yarn add "git+https://github.com/xp-network/xpjs#bleeding-edge" @elrondnetwork/erdjs ethers @taquito/taquito @temple-wallet/dapp
 ```
