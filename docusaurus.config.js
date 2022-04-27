@@ -175,7 +175,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} XP.NETWORK Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} XP.NETWORK`,
       },
       prism: {
         theme: lightCodeTheme,
