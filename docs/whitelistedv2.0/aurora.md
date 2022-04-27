@@ -3,7 +3,7 @@ sidebar_label: "Aurora"
 sidebar_position: 2
 ---
 
-# Aurora
+# Contracts Whitelisted on Aurora
 
 |#|Contract|Collection Name|
 |:-:|:-:|:-:|
