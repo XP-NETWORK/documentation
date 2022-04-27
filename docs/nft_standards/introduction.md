@@ -14,21 +14,21 @@ However, we're not living in a perfect world, and many blockchains have chosen t
 While building the bridge, we had to discover the differences and similarities between the standards and are happy to share this knowledge with the teams that might want to go cross-chain in the nearest future using our bridge.
 
 :::info The first EVM NFT standard
-## [01. ERC-721](ERC721.md)
+## [01. ERC-721](/docs/nft_standards/ERC721.md)
 :::
 
 :::info The new version of the old standard
-## [02. ERC-721A](ERC721A.md)
+## [02. ERC-721A](/docs/nft_standards/ERC721A.md)
 :::
 
 :::info The EVM standard supporting FTs, NFTs, and SFTs
-## [03. ERC-1155](ERC1155.md)
+## [03. ERC-1155](/docs/nft_standards/ERC1155.md)
 :::
 
 :::info The ERC-1155 with low gas fees
-## [04. ERC-1155D](erc1155d.md)
+## [04. ERC-1155D](/docs/nft_standards/erc1155d.md)
 :::
 
 :::info The NFT standard for Tezos
-## [05. FA2](FA2.md)
+## [05. FA2](/docs/nft_standards/FA2.md)
 :::
