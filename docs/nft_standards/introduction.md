@@ -13,7 +13,7 @@ However, we're not living in a perfect world, and many blockchains have chosen t
 
 While building the bridge, we had to discover the differences and similarities between the standards and are happy to share this knowledge with the teams that might want to go cross-chain in the nearest future using our bridge.
 
-<!-- :::info The first EVM NFT standard
+:::info The first EVM NFT standard
 ## [01. ERC-721](./ERC721.md)
 :::
 
@@ -31,4 +31,4 @@ While building the bridge, we had to discover the differences and similarities b
 
 :::info The NFT standard for Tezos
 ## [05. FA2](./FA2.md)
-::: -->
+:::
