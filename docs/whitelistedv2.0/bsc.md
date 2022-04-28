@@ -8,6 +8,7 @@ sidebar_position: 3
 |Collection/Name|Address / Link|
 |:-:|:-:|
 |AuroraPunks|[0x33d7dd9ac8ebfd227afff053388bd65c2841c343](https://bscscan.com/address/0x33d7dd9ac8ebfd227afff053388bd65c2841c343)|
+|Chaincade Founders Edition|[0xeb6E885D2f1e6AD364565F5ddd674E8521F4d757](https://bscscan.com/address/0xeb6E885D2f1e6AD364565F5ddd674E8521F4d757)|
 |LootPunks|[0x61f4a37676700f6e9bcbaeb05ff6c2f701c1c702](https://bscscan.com/address/0x61f4a37676700f6e9bcbaeb05ff6c2f701c1c702)|
 |Pmon Collection|[0x85f0e02cb992aa1f9f47112f815f519ef1a59e2d](https://bscscan.com/address/0x85f0e02cb992aa1f9f47112f815f519ef1a59e2d)|
 |SNAFU|[0x43d21381655a4a888d0ce2f97022634c84b0b517](https://bscscan.com/address/0x43d21381655a4a888d0ce2f97022634c84b0b517)|
