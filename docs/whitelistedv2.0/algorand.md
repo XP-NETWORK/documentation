@@ -1,6 +1,6 @@
 ---
 sidebar_label: "Algorand"
-sidebar_position: 9
+sidebar_position: 11
 ---
 
 # Contracts Whitelisted on Algorand
