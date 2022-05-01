@@ -15,23 +15,27 @@ XP Network's NFT Bridge v2.0 is unique in many ways, leaving alone that it conne
 6. An intuitive JavaScript library allowing for integration of the bridge into any cross-chain game, marketplace, metaverse, or DEFI project in a matter of hours.
 7. A widget that can be set up and added to a user UI in minutes with zero coding.
 
-|#|Logo| Blockchain | EVM |
-|:-:|:-:|:-:|:-:|
-| 1 |![Ethereum](../../static/assets/chain/Etherium.svg) |Ethereum| Yes
-| 2  |![BSC](../../static/assets/chain/Binance.svg) |BSC| Yes
-| 3 |![Avalanche](../../static/assets/chain/Avalanche.svg) |Avalanche| Yes
-| 4 |![Polygon](../../static/assets/chain/Polygon.svg) |Polygon| Yes
-| 5 |![Algorand](../../static/assets/chain/Algarand.svg) |Algorand| No
-| 6 |![Fantom](../../static/assets/chain/Fantom.svg) |Fantom| Yes
-| 7 |![Tron](../../static/assets/chain/Tron.svg) |Tron | Semi-EVM
-| 8 |![Elrond](../../static/assets/chain/Elrond.svg) |Elrond| No
-| 9 |![Tezos](../../static/assets/chain/Tezos.svg) |Tezos| No
-| 10  |![Velas](../../static/assets/chain/velas.svg) | Velas| Yes
-| 11  |<img alt="Gnosis" src="../../static/assets/chain/Gnosis.png" width="30px"></img> | Gnosis Chain| Yes
-| 12  |![Fuse](../../static/assets/chain/Fuse.svg) | Fuse| Yes
-| 13  |![IoTeX](../../static/assets/chain/iotx.svg) | IoTeX| Yes
-| 14  |![Aurora](../../static/assets/chain/aurora.svg) | Aurora| Yes
+|#|Logo| Blockchain | EVM | Chain Nonce|
+|:-:|:-:|:-:|:-:|:-:|
+| 1 |![Elrond](../../static/assets/chain/Elrond.svg) |Elrond| No|2|
+| 2  |![BSC](../../static/assets/chain/Binance.svg) |BSC| Yes|4|
+| 3 |![Ethereum](../../static/assets/chain/Etherium.svg) |Ethereum| Yes|5|
+| 4 |![Avalanche](../../static/assets/chain/Avalanche.svg) |Avalanche| Yes|6|
+| 5 |![Polygon](../../static/assets/chain/Polygon.svg) |Polygon| Yes|7|
+| 6 |![Fantom](../../static/assets/chain/Fantom.svg) |Fantom| Yes|8|
+| 7 |![Tron](../../static/assets/chain/Tron.svg) |Tron | Semi-EVM|9|
+| 8 |![Harmony](../../static/assets/chain/harmony.svg) |Harmony| Yes|12|
+| 9| ![Gnosis](../../static/assets/chain/Gnosis.svg) | Gnosis Chain| Yes|14|
+| 10 |![Algorand](../../static/assets/chain/Algarand.svg) |Algorand| No|15|
+| 11  |![Fuse](../../static/assets/chain/Fuse.svg) | Fuse| Yes|16|
+| 12 |![Tezos](../../static/assets/chain/Tezos.svg) |Tezos| No|18|
+| 13  |![Velas](../../static/assets/chain/velas.svg) | Velas| Yes|19|
+| 14  |![IoTeX](../../static/assets/chain/iotx.svg) | IoTeX| Yes|20|
+| 15  |![Aurora](../../static/assets/chain/aurora.svg) | Aurora| Yes|21|
+| 16  |![GateChain](../../static/assets/chain/GateChain.svg) | GateChain| Yes|23|
+| 17  |![Godwoken](../../static/assets/chain/godwoken.svg) | Godwoken| Yes|25|
 
+<!--  -->
 
 ## Bridge versions
 
