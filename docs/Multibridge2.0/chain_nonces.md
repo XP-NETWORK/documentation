@@ -13,16 +13,16 @@ At the time of writing, the list of chain nonces are:
 |:-:|:-:|
 |Reserved|1|
 |ELROND|2|
-|HECO|3|
+|<s>HECO</s>*|3|
 |BSC|4|
 |ETHEREUM|5|
 |AVALANCHE|6|
 |POLYGON|7|
 |FANTOM|8|
 |TRON|9|
-|CELO|11|
+|<s>CELO</s>*|11|
 |HARMONY|12|
-|ONTOLOGY|13|
+|<s>ONTOLOGY</s>*|13|
 |XDAI|14|
 |ALGORAND|15|
 |FUSE|16|
@@ -31,8 +31,14 @@ At the time of writing, the list of chain nonces are:
 |VELAS|19|
 |IOTEX|20|
 |AURORA|21|
+|GateChain|23|
+|Reserved|24|
+|Godwoken|25
+
+\* <s>Discarded idea</s>
 
 Coming soon:<br/>
 - Solana
 - Secret Network
 - Internet Computer
+- NEAR
