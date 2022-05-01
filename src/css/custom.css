@@ -630,3 +630,9 @@ html[data-theme="dark"] .admonition-info {
 .tocCollapsible_node_modules-\@docusaurus-theme-classic-lib-next-theme-TOCCollapsible-styles-module {
   display: none;
 }
+
+@media screen and (min-width: 996px) {
+  .footer__links {
+    justify-content: center;
+  }
+}
