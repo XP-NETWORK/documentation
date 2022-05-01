@@ -18,3 +18,7 @@ sidebar_position: 3
 |Wrapped SNAFU|[0x3a1d5a87c5f0c2f5c5e079b0f234d8797ee0e9b4](https://bscscan.com/address/0x3a1d5a87c5f0c2f5c5e079b0f234d8797ee0e9b4)|
 |Wrapped NFT|[0x0cc5f00e673b0bcd1f780602cec6553aec1a57f0](https://bscscan.com/address/0x0cc5f00e673b0bcd1f780602cec6553aec1a57f0)|
 |XPNetworkNFTStaker|[0xbc9091be033b276b7c2244495699491167c20037](https://bscscan.com/address/0xbc9091be033b276b7c2244495699491167c20037)|
+|Technomaniacs (TECH)|[0x7f3495cf2d05db6e9e52cdf989bced71e786725c](https://bscscan.com/address/0x7f3495cf2d05db6e9e52cdf989bced71e786725c)|
+|Awokensages (AWO)|[0x691bd0f2f5a145fcf297cf4be79095b66f002cbc](https://bscscan.com/address/0x691bd0f2f5a145fcf297cf4be79095b66f002cbc)|
+|Chaincade Founders Edition|[0xeb6E885D2f1e6AD364565F5ddd674E8521F4d757](https://bscscan.com/address/0xeb6E885D2f1e6AD364565F5ddd674E8521F4d757)|
+|StreetPunks (PunksNFT)|[0xB6b545Ac637aec4EC6599258F7CDe70261676333](https://bscscan.com/address/0xB6b545Ac637aec4EC6599258F7CDe70261676333)|
