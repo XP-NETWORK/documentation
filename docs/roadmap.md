@@ -118,7 +118,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Harmony Extention Wallet<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;VeChain wallet - Sync2<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Solana wallet - Phantom<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Secret Network - Mathwallet<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Secret Network<br/>
 
 ⬜ &nbsp; Bridge Explorer<br/>
 <!-- ⬜ &nbsp; Chain Agnostic NFT Marketplace Lister (Beta)<br/> -->
@@ -147,7 +147,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Flow<br/>
 
 ⬜ &nbsp; Wallet Integrations:<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos (Cosmostation, Kepir Wallet)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos (Cosmostation, Keplr Wallet)<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Polkadot Extention<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano - Daedalus<br/>
 

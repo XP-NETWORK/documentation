@@ -80,7 +80,7 @@ with 4+ Non-EVM ones:
 
 At the moment of writing the bridge supports:
 
-1. [ERC-721](https://eips.ethereum.org/EIPS/eip-721)/[ERC-1155](https://eips.ethereum.org/EIPS/eip-1155) fro Ethereum, Ploygon, Aurora, Fuse, Velas
+1. [ERC-721](https://eips.ethereum.org/EIPS/eip-721)/[ERC-1155](https://eips.ethereum.org/EIPS/eip-1155) for Ethereum, Polygon, Aurora, Fuse, Velas
 2. [BEP-721](https://academy.binance.com/en/glossary/bep-721)/BEP-1155 for BSC
 3. [TRC-721](https://developers.tron.network/docs/token-issuance)/TRC-1155 for Tron & BTT
 4. [XRC-721/XRC-1155](https://iotex.io/blog/how-to-mine-tokens-nfts/#non-fungible-tokens-xrc721) for IoTeX
