@@ -26,19 +26,22 @@ At the time of writing, the list of chain nonces are:
 |XDAI|14|
 |ALGORAND|15|
 |FUSE|16|
-|UNIQUE|17|
+|<s>UNIQUE</s>*|17|
 |TEZOS|18|
 |VELAS|19|
 |IOTEX|20|
 |AURORA|21|
+|Godwoken|22|
 |GateChain|23|
 |Reserved|24|
-|Godwoken|25
+|VeChain|25|
 
-\* <s>Discarded idea</s>
+
+\* <s>Discarded/postponed the idea</s>
 
 Coming soon:<br/>
 - Solana
 - Secret Network
-- Internet Computer
-- NEAR
+- Internet Computer (DFINITY)
+- NEAR (Layer-1)
+- The Open Network (TON)
