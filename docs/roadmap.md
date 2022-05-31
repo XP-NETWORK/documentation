@@ -105,10 +105,10 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ⬜ &nbsp; Mainnet integration to:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; Aurora<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; Fantom<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Harmony<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; GateChain<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; Harmony<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; GateChain<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; Godwoken (Nervos Layer-2 TNv1.1)<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; VeChain<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Godwoken (Nervos Layer-2)<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Secret Network<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Solana<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; The Open Network <br/>
