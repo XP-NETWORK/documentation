@@ -3,8 +3,8 @@ sidebar_label: "Home"
 sidebar_position: 1
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
 
 # XP.NETWORK in a nutshell
 

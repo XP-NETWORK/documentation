@@ -34,7 +34,6 @@ const footerLinks = [
         href: "https://docs.xp.network/docs/Whitepaper2.0/introduction/",
         target: "_self",
       },
-      { name: "Wiki", href: "https://wiki.xp.network/", target: "_self" },
       {
         name: "API",
         href: "https://docs.xp.network/docs/API/usage",
