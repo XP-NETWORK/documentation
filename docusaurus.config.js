@@ -37,7 +37,6 @@ const config = {
       }),
     ],
   ],
-
   stylesheets: [
     {
       href: "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css",
@@ -187,6 +186,16 @@ const config = {
           disableSwitch: false,
           backgroundColor: "#1D2030",
         },
+        metadata:[
+          {property:"og:image", content:"/cover-image.png"},
+          {property:"og:image:secure", content:"/cover-image.png"},
+          {property:"og:description",
+          content:"Out-of-the-box multichain support formultiple NFT standards: connect to XP.NETWORK bridge to move NFTs and funds seamlessly across 10+ blockchains."},
+          {property:"og:image:width", content:"1600"},
+          {property:"og:image:height", content:"900"},
+          {property:"twitter:image", content:"/cover-image.png"},
+          {property:"twitter:image:src", content:"/cover-image.png"},
+        ]
       },
     }),
 };

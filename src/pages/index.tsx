@@ -37,7 +37,7 @@ const Home = () => {
         <meta name="twitter:title" content="Welcome to XP.NETWORK Docs" />
         <meta
           name="twitter:description"
-          content="Out-of-the-box multichain support for minted NFTs: connect to XP.NETWORK bridge to move NFTs and funds seamlessly across 10+ blockchains."
+          content="Out-of-the-box multichain support for numerous NFT standards: connect to XP.NETWORK bridge to move NFTs and funds seamlessly across 15+ blockchains."
         />
         <meta name="twitter:image" content="/cover-image.png" />
         <meta name="twitter:image:src" content="/cover-image.png" />
