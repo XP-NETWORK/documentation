@@ -1,6 +1,8 @@
 ---
 sidebar_label: "IoTeX"
 sidebar_position: 8
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Contracts Whitelisted on IoTeX

@@ -1,6 +1,8 @@
 ---
 sidebar_label: 'Relay Validators'
 sidebar_position: 4
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Relay Validators

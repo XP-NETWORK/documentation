@@ -1,6 +1,8 @@
 ---
 sidebar_label: '0. Introduction'
 sidebar_position: 1
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Multi-Chain NFT Bridge v 2.0

@@ -1,6 +1,8 @@
 ---
 sidebar_label: "Roadmap"
 sidebar_position: 14
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 import Tabs from '@theme/Tabs';

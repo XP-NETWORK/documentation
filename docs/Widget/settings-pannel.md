@@ -1,6 +1,8 @@
 ---
 sidebar_label: '1. The Settings Panel'
 sidebar_position: 2
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Adjusting the Settings Panel

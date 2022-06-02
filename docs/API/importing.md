@@ -1,6 +1,8 @@
 ---
 sidebar_label: "2. Importing the dependencies"
 sidebar_position: 3
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # 2. Importing the dependencies

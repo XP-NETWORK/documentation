@@ -1,6 +1,8 @@
 ---
 sidebar_label: "Transaction Fee Estimation"
 sidebar_position: 10
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Transaction Fee Estimation (on the target chain)

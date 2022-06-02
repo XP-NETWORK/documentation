@@ -1,6 +1,8 @@
 ---
 sidebar_label: '3. Transaction Fees'
 sidebar_position: 4
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Transaction Fees

@@ -1,6 +1,8 @@
 ---
 sidebar_label: '7. NFT Cards'
 sidebar_position: 8
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Changing NFT Cards

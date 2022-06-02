@@ -1,6 +1,8 @@
 ---
 sidebar_label: '8. Borders'
 sidebar_position: 9
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Border Setting

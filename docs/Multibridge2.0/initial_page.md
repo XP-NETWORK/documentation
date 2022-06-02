@@ -1,6 +1,8 @@
 ---
 sidebar_label: '1. The Initial Page'
 sidebar_position: 2
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # The Initial Page

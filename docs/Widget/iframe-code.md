@@ -1,6 +1,8 @@
 ---
 sidebar_label: '11. IFrame Code'
 sidebar_position: 12
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Getting the code

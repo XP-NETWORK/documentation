@@ -1,6 +1,8 @@
 ---
 sidebar_label: '9. Icons'
 sidebar_position: 10
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Icons Color

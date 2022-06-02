@@ -1,6 +1,8 @@
 ---
 sidebar_label: "Ethereum"
 sidebar_position: 4
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Contracts Whitelisted on Ethereum

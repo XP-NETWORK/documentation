@@ -1,6 +1,8 @@
 ---
 sidebar_label: '5. Signing the bridging transactions'
 sidebar_position: 6
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Signing the bridging transaction

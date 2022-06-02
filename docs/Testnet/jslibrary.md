@@ -1,6 +1,8 @@
 ---
 sidebar_label: 'Using JavaScript Library'
 sidebar_position: 2
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Using JavaScript Library in the Testnet

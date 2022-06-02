@@ -1,6 +1,8 @@
 ---
 sidebar_label: '6. Buttons'
 sidebar_position: 7
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Button settings

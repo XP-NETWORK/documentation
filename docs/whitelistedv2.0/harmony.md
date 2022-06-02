@@ -1,6 +1,8 @@
 ---
 sidebar_label: "Harmony"
 sidebar_position: 13
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Contracts Whitelisted on Harmony

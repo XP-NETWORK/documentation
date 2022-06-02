@@ -1,6 +1,8 @@
 ---
 sidebar_label: 'NFTs on different chains: facts, figures, and forecasts'
 sidebar_position: 2
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # NFTs on different chains: facts, figures, and forecasts

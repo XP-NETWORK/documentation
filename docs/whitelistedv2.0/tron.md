@@ -1,6 +1,8 @@
 ---
 sidebar_label: "Tron"
 sidebar_position: 15
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Contracts Whitelisted on Tron

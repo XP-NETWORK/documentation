@@ -1,6 +1,8 @@
 ---
 sidebar_label: "Velas"
 sidebar_position: 7
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Contracts Whitelisted on Velas

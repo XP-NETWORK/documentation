@@ -1,6 +1,8 @@
 ---
 sidebar_label: 'XPNET Tokenomics'
 sidebar_position: 5
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # XPNET Tokenomics

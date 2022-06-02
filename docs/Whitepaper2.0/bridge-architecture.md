@@ -1,6 +1,8 @@
 ---
 sidebar_label: 'Bridge architecture'
 sidebar_position: 3
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Bridge architecture

@@ -1,6 +1,8 @@
 ---
 sidebar_label: '8. Off-Chain Multisignature'
 sidebar_position: 8
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Off-Chain Multisignature

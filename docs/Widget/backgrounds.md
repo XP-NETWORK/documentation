@@ -1,6 +1,8 @@
 ---
 sidebar_label: '4. Backgrounds'
 sidebar_position: 5
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Setting Backgrounds

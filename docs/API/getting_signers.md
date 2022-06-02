@@ -1,6 +1,8 @@
 ---
 sidebar_label: "3. Getting the signer objects"
 sidebar_position: 4
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # 3. Getting the signer objects

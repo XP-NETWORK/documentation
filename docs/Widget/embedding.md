@@ -1,6 +1,8 @@
 ---
 sidebar_label: '12. Embedding the IFrame'
 sidebar_position: 13
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Embedding the IFrame

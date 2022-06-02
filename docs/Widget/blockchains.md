@@ -1,6 +1,8 @@
 ---
 sidebar_label: '2. Blockchains'
 sidebar_position: 3
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Adding & removing the Blockchains

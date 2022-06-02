@@ -1,6 +1,8 @@
 ---
 sidebar_label: '11. Whitelisted NFTs API'
 sidebar_position: 11
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Whitelisted NFTs API & Its Usage

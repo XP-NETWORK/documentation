@@ -1,6 +1,8 @@
 ---
 sidebar_label: '10. Who needs the Bridge'
 sidebar_position: 10
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Who needs the NFT Bridge?

@@ -1,6 +1,8 @@
 ---
 sidebar_label: 'Who Buys NFTs'
 sidebar_position: 6
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Who Buys NFTs

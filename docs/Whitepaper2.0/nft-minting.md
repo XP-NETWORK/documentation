@@ -1,6 +1,8 @@
 ---
 sidebar_label: 'Chain-agnostic NFT minting on XP.network'
 sidebar_position: 3
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Chain-agnostic NFT minting on XP.network

@@ -1,6 +1,8 @@
 ---
 sidebar_label: "Avalanche"
 sidebar_position: 5
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Contracts Whitelisted on Avalanche

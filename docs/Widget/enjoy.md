@@ -1,6 +1,8 @@
 ---
 sidebar_label: '13. Using the Widget'
 sidebar_position: 14
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Enjoy the Widget

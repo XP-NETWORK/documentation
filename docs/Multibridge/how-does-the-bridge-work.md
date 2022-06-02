@@ -1,6 +1,8 @@
 ---
 sidebar_label: 'How does the bridge work?'
 sidebar_position: 5
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # How does the bridge work?

@@ -1,6 +1,8 @@
 ---
 sidebar_label: "Disclaimer Of Liabilities"
 sidebar_position: 7
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # <center>Disclaimer Of Liabilities</center>

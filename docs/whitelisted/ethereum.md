@@ -1,6 +1,8 @@
 ---
 sidebar_label: "Ethereum"
 sidebar_position: 1
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # SCs whitelisted on Ethereum

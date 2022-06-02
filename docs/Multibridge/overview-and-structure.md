@@ -1,6 +1,8 @@
 ---
 sidebar_label: "Overview & Structure"
 sidebar_position: 1
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Overview & Structure

@@ -1,6 +1,8 @@
 ---
 sidebar_label: '6. Viewing the Results of Bridging'
 sidebar_position: 7
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Viewing the Results of Bridging

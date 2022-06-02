@@ -1,6 +1,8 @@
 ---
 sidebar_label: 'Blockchain Tokens'
 sidebar_position: 3
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Blockchain Tokens

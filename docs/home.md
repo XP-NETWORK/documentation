@@ -1,6 +1,9 @@
 ---
 sidebar_label: "Home"
 sidebar_position: 1
+title: XP.NETWORK in a nutshell
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 import Tabs from "@theme/Tabs";

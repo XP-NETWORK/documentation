@@ -1,6 +1,8 @@
 ---
 sidebar_label: "Binance Smart Chain"
 sidebar_position: 2
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # SCs whitelisted on BSC

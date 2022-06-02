@@ -1,6 +1,8 @@
 ---
 sidebar_label: '5. Fonts'
 sidebar_position: 6
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Adjusting the Fonts

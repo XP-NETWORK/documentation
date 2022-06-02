@@ -1,6 +1,8 @@
 ---
 sidebar_label: 'Smart contract addresses'
 sidebar_position: 1
+image: /cover-image.png
+description: The Most Powerful Multi-Chain NFT bridge
 ---
 
 # Smart Contract Addresses
