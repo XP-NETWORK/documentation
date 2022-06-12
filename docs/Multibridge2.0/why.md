@@ -46,9 +46,9 @@ Each such oasis is a whole new market for the rest of the connected chains whose
 ## ❓ Why NFTs 🪬
 There's no question that trading cryptocurrencies is a lucrative business. However, tokens are only a means of payment for goods and services. While *Transaction fees* are the **native services** 🚖 of the blockchains that can be paid with FTs, they still need something other than tokenomics in itself to develop and thrive. 
 
-Every economy needs goods to be traded to bring action and life into an ecosystem. *NFTs* are universal wrappers of ownership or access control rights to physical or virtual assets and therefore, are the most **natural goods** 🛍️ that can be bought and sold for fungible tokens and so for further development. 
+Every economy needs goods to be traded to bring action and life into an ecosystem. *NFTs* are universal wrappers of ownership or access control rights to physical or virtual assets and therefore, are the most **natural goods** 🛍️ that can be bought and sold for fungible tokens and ensuring further development. 
 
-Anything can be minted as an NFT in the crypto world: art 🎨, music 🎻, tickets 🎫, diplomas 📜, certificates 🏵️, licences 📑, permits 📃, ownership contracts of any kind 💼 , controll over IoT devices 📹 or AI 🧠 entities and traded as derivaties.
+Anything can be minted as an NFT in the crypto world: art 🎨, music 🎻, tickets 🎫, diplomas 📜, certificates 🏵️, licenses 📑, permits 📃, ownership contracts of any kind 💼 , control over IoT devices 📹 or AI 🧠 entities, and traded as derivatives.
 
 # Reasons for Bridging
 
