@@ -35,7 +35,7 @@ At the time of writing, the list of chain nonces are:
 |AURORA|21|
 |Godwoken|22|
 |GateChain|23|
-|Reserved|24|
+|Secret Network|24|
 |VeChain|25|
 
 
