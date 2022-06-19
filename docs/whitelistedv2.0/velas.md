@@ -19,3 +19,4 @@ description: The Most Powerful Multi-Chain NFT bridge
 |VelasClowns|0xbd529DD30C0D08DA42E737991E3B79E63f9CcCB8|
 |DeadBits|0x7542E42A557C2684Adf0CAD5D511eA81a8188Bfb|
 |VelasPicassoApes|0x6924f5B55cd76d32a6ED96d3Ecd9dd1C7E54a7ca|
+|Velas Nagato (Nagato)|0x817c63be246dcfb5f218091baa581949b6796bdb|
