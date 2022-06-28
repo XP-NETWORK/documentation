@@ -147,19 +147,19 @@ At the moment of writing the bridge supports 4:
 
 ||Name|SC Language|NFT Standards|Wallets|JS Libraries|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|<img src="../../logos/1200px-Elrond_Network_logo.svg.png" width="120%"/>|Elrond|Rust|ESDT|Maiar, Maiar Extension|@elrondnetwork/erdjs|
-|<img src="../../logos/tron-trx-logo.png" width="90%"/>|Tron|Solidity|TRC721, TRC1155|TronLink|Tronweb, tronstation|
-|<img src="../../logos/blue-logo-branding-design-set-58-1151645508462em4xq3mo3y.webp" width="100%" styles="border-radius:40%"/>|Tezos|SmartPy, Michelson|FA2|Beacon, Templar|@taquito/|
-|<img src="../../logos/Algorand.png" width="100%"/>|Algorand|PyTeal, TEAL|ASA-003|Algosigner|algosdk|
+|<img src="/logos/1200px-Elrond_Network_logo.svg.png" width="120%"/>|Elrond|Rust|ESDT|Maiar, Maiar Extension|@elrondnetwork/erdjs|
+|<img src="/logos/tron-trx-logo.png" width="90%"/>|Tron|Solidity|TRC721, TRC1155|TronLink|Tronweb, tronstation|
+|<img src="/logos/blue-logo-branding-design-set-58-1151645508462em4xq3mo3y.webp" width="100%" styles="border-radius:40%"/>|Tezos|SmartPy, Michelson|FA2|Beacon, Templar|@taquito/|
+|<img src="/logos/Algorand.png" width="100%"/>|Algorand|PyTeal, TEAL|ASA-003|Algosigner|algosdk|
 
 ...and is in the process of integration of 4 more Non-EVM chains.
 
 ||Name|SC Language|NFT Standards|Wallets|JS Libraries|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|<img src="../../logos/Secret.png" width="100%"/>|Secret Network|Rust|Snip 721|Cosmostation, Kepl|secretjs|
-|<img src="../../logos/Solana_logo.png" width="100%"/>|Solana|Rust|Metaplex|TronLink|Tronweb, tronstation|
-|<img src="../../statis/logos/../../logos/internet-computer-icp-logo.png" width="100%" styles="border-radius:40%"/>|Internet Computer|Rust|ICP-721, EXT|Beacon, Templar|@taquito/|
-|<img src="../../logos/The_Open_Network_logo.png" width="100%"/>|TON|TypeScript|TIP-62, TIP-64|Ton Wallet|tonweb|
+|<img src="/logos/Secret.png" width="100%"/>|Secret Network|Rust|Snip 721|Cosmostation, Kepl|secretjs|
+|<img src="/logos/Solana_logo.png" width="100%"/>|Solana|Rust|Metaplex|TronLink|Tronweb, tronstation|
+|<img src="../../statis/logos//logos/internet-computer-icp-logo.png" width="100%" styles="border-radius:40%"/>|Internet Computer|Rust|ICP-721, EXT|Beacon, Templar|@taquito/|
+|<img src="/logos/The_Open_Network_logo.png" width="100%"/>|TON|TypeScript|TIP-62, TIP-64|Ton Wallet|tonweb|
 
 ## Impact of the Integration
 
