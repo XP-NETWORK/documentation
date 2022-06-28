@@ -158,7 +158,7 @@ At the moment of writing the bridge supports 4:
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |<img src="/logos/Secret.png" width="100%"/>|Secret Network|Rust|Snip 721|Cosmostation, Kepl|secretjs|
 |<img src="/logos/Solana_logo.png" width="100%"/>|Solana|Rust|Metaplex|TronLink|Tronweb, tronstation|
-|<img src="../../statis/logos//logos/internet-computer-icp-logo.png" width="100%" styles="border-radius:40%"/>|Internet Computer|Rust|ICP-721, EXT|Beacon, Templar|@taquito/|
+|<img src="/logos/internet-computer-icp-logo.png" width="100%" styles="border-radius:40%"/>|Internet Computer|Rust|ICP-721, EXT|Beacon, Templar|@taquito/|
 |<img src="/logos/The_Open_Network_logo.png" width="100%"/>|TON|TypeScript|TIP-62, TIP-64|Ton Wallet|tonweb|
 
 ## Impact of the Integration
