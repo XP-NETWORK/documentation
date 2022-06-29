@@ -122,7 +122,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 <!-- ⬜ &nbsp; XPJS Tokenization<br/> -->
 :::
 ## Q3 2022 - We're here
-:::caution Work In Progress
+:::caution Work In Progress<br/>
 ⬜ &nbsp; Mainnet integration to:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Near (Layer-1)<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Nervos (Layer-1)<br/>
