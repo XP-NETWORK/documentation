@@ -85,24 +85,24 @@ Follow our journey from inception to launch. Please note that the team reserves 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;WalletConnect<br/>
 
 ✅ &nbsp; Received Grants From: <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Velas (EVM)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Harmony (EVM)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;IoteX (EVM)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Secret Network (Non-EVM)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;VeChain (Semi-EVM)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;GateChain (EVM)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Aurora (NEAR Layer-2)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Godwoken (Nervos Layer-2)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;1. Velas (EVM)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;2. Harmony (EVM)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;3. IoteX (EVM)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;4. Secret Network (Non-EVM)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;5. VeChain (Semi-EVM)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;6. GateChain (EVM)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;7. Aurora (NEAR Layer-2)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;8. Godwoken (Nervos Layer-2)<br/>
 
 :::
-## We're Here
-:::caution Work In Progress
+## Q2 2022
+:::tip DONE
 
 ✅ &nbsp; Received Grants From: <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Internet Computer (Non-EVM)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;The Open Network  (Non-EVM)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;NEAR (Non-EVM)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Hedera (EVM)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;9. Internet Computer (Non-EVM)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;10. The Open Network  (Non-EVM)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;11. SKALE (Semi-EVM)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;12. Hedera (EVM)<br/>
 
 ✅  &nbsp; Mainnet integration to:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; Aurora<br/>
@@ -117,12 +117,12 @@ Follow our journey from inception to launch. Please note that the team reserves 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;VeChain wallet - Sync2<br/>
 
 <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Harmony Extention Wallet<br/> -->
-✅ &nbsp; Bridge Explorer<br/>
+
 <!-- ⬜ &nbsp; Chain Agnostic NFT Marketplace Lister (Beta)<br/> -->
 <!-- ⬜ &nbsp; XPJS Tokenization<br/> -->
 :::
-## Q3 2022
-:::info TODO
+## Q3 2022 - We're here
+:::caution Work In Progress
 ⬜ &nbsp; Mainnet integration to:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Near (Layer-1)<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Nervos (Layer-1)<br/>
@@ -134,6 +134,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Solana wallet - Phantom<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Secret Network<br/>
 ⬜ &nbsp; NFT projects and Marketplaces onboarding<br/>
+⬜ &nbsp; Bridge Explorer<br/>
 ⬜ &nbsp; Forged NFT detection on all the bridged chains<br/>
 ⬜ &nbsp; NFT rights retention tool<br/>
 ⬜ &nbsp; Cross-Chain NFT Minting<br/>
