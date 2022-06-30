@@ -9,6 +9,8 @@ import ReactPlayer from 'react-player'
 
 # Bridge Security
 
+<ReactPlayer playing controls url='https://www.youtube.com/watch?v=SQe8zx-0bo0&t=0s' />
+
 We've heard about multiple bridge hacks; the most recent is the Harmony Horizon cryptocurrency bridge. According to Fortune magazine, it is the third FT bridge that has fallen victim to an attack this year. 
 
 ![1](/security/1.png)
