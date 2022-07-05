@@ -37,6 +37,7 @@ description: The Most Powerful Multi-Chain NFT bridge
 |26|Mad V-Apes Phoenix|[0x73f32592df5c0da73d56f34669d4ae28ae1afd9e](https://vechainstats.com/account/0x73f32592df5c0da73d56f34669d4ae28ae1afd9e/)|
 |27|Mad V-Apes Elementals|[0xd861be8e33ebd09764bfca242ca6a8c54dcf844a](https://vechainstats.com/account/0xd861be8e33ebd09764bfca242ca6a8c54dcf844a/)|
 |28|Mad V-Apes Fusion|[0xb12d1d640f56173ef3a47e5e1a1fde96ba96ce14](https://vechainstats.com/account/0xb12d1d640f56173ef3a47e5e1a1fde96ba96ce14/)|
+|29|Vales|[0xa2c82ad2841C23A49fc2Ba1A23927D1FE835c7f9](https://vechainstats.com/account/0xa2c82ad2841c23a49fc2ba1a23927d1fe835c7f9/)|
 
 > If your smart contract was not whitelisted, please message to:<br/>
 > Email: contact@xp.network<br/>
