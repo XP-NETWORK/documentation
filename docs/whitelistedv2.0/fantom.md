@@ -111,3 +111,16 @@ description: The Most Powerful Multi-Chain NFT bridge
 |Hedgeys|0x2AA5d15Eb36E5960d056e8FeA6E7BB3e2a06A351|
 |GraffGrems-E2|0xaf01bddd8199c0a1248bb24a7f14045e5ef3e0a8|
 |Moo Scream WETH MAI Vault|0xc1c7ef18abc94013f6c58c6cdf9e829a48075b4e|
+
+> If your smart contract was not whitelisted, please message to:<br/>
+> Email: contact@xp.network<br/>
+> Provide the following information:<br/>
+> + Blockchain name
+> + Smart Contract address
+> + Collection name
+> + NFTs in the collection
+> + Number of users
+> + Number of transactions
+> + Minter email
+> + Minter Name
+> + Minter Telegram account

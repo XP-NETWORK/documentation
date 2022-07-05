@@ -24,3 +24,16 @@ description: The Most Powerful Multi-Chain NFT bridge
 |13|Awokensages (AWO)|[0x691bd0f2f5a145fcf297cf4be79095b66f002cbc](https://bscscan.com/address/0x691bd0f2f5a145fcf297cf4be79095b66f002cbc)|
 |14|Chaincade Founders Edition|[0xeb6E885D2f1e6AD364565F5ddd674E8521F4d757](https://bscscan.com/address/0xeb6E885D2f1e6AD364565F5ddd674E8521F4d757)|
 |15|StreetPunks (PunksNFT)|[0xB6b545Ac637aec4EC6599258F7CDe70261676333](https://bscscan.com/address/0xB6b545Ac637aec4EC6599258F7CDe70261676333)|
+
+> If your smart contract was not whitelisted, please message to:<br/>
+> Email: contact@xp.network<br/>
+> Provide the following information:<br/>
+> + Blockchain name
+> + Smart Contract address
+> + Collection name
+> + NFTs in the collection
+> + Number of users
+> + Number of transactions
+> + Minter email
+> + Minter Name
+> + Minter Telegram account

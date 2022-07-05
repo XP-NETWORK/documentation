@@ -22,3 +22,15 @@ description: The Most Powerful Multi-Chain NFT bridge
 |SuperOne (SUP)|TR4i7CBsYFkZwJmyNmy5LjKqvx1rsuwnzv|151|
 |Tent (Tent)|TPJznHJAFpRt3MoDR17acjdcUUD82SgMHG|108|
 
+> If your smart contract was not whitelisted, please message to:<br/>
+> Email: contact@xp.network<br/>
+> Provide the following information:<br/>
+> + Blockchain name
+> + Smart Contract address
+> + Collection name
+> + NFTs in the collection
+> + Number of users
+> + Number of transactions
+> + Minter email
+> + Minter Name
+> + Minter Telegram account

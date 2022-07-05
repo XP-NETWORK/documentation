@@ -111,3 +111,16 @@ description: The Most Powerful Multi-Chain NFT bridge
 |100|0xef453154766505feb9dbf0a58e6990fd6eb66969|Mr. Crypto by Racksmafia|
 |101|[0x7227e371540cf7b8e512544ba6871472031f3335](https://polygonscan.com/address/0x7227e371540cf7b8e512544ba6871472031f3335)|Neon District Season One Item|
 |102|[0xc254a8d4ef5f825fd31561bdc69551ed2b8db134](https://polygonscan.com/address/0xc254a8d4ef5f825fd31561bdc69551ed2b8db134)|Wrapped NFT|
+
+> If your smart contract was not whitelisted, please message to:<br/>
+> Email: contact@xp.network<br/>
+> Provide the following information:<br/>
+> + Blockchain name
+> + Smart Contract address
+> + Collection name
+> + NFTs in the collection
+> + Number of users
+> + Number of transactions
+> + Minter email
+> + Minter Name
+> + Minter Telegram account

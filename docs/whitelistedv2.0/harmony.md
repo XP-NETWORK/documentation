@@ -58,3 +58,16 @@ description: The Most Powerful Multi-Chain NFT bridge
 |PixelGhost|VINCI|0x267ec66ab7e965e028065358b34c1a990f870441|109|
 |HRC1155|HRC1155|0xbb7f4ad3ca3dc55450a35a9c9a6a6893bfa16569|107|
 |DaVinci Books|HRC1155|0x51f6290510be3c802471e27f0843a3a54a8226df|105|
+
+> If your smart contract was not whitelisted, please message to:<br/>
+> Email: contact@xp.network<br/>
+> Provide the following information:<br/>
+> + Blockchain name
+> + Smart Contract address
+> + Collection name
+> + NFTs in the collection
+> + Number of users
+> + Number of transactions
+> + Minter email
+> + Minter Name
+> + Minter Telegram account

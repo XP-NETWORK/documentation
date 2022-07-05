@@ -22,3 +22,16 @@ description: The Most Powerful Multi-Chain NFT bridge
 |11|veNFT Series #000 "Layer 1"|0xf991Dd5C82699e4A23fb7dD5f31F6E30925E9027|75|
 |12|Snowflakes|0x55E2e09fcAC09DE0Aa782aa4100cEb5A8ec0473A|91|
 |13|CozyCosmonauts|0x3f77c5Faa8Ba1578bC5BAF0E3D5A1ed710096569|411|
+
+> If your smart contract was not whitelisted, please message to:<br/>
+> Email: contact@xp.network<br/>
+> Provide the following information:<br/>
+> + Blockchain name
+> + Smart Contract address
+> + Collection name
+> + NFTs in the collection
+> + Number of users
+> + Number of transactions
+> + Minter email
+> + Minter Name
+> + Minter Telegram account

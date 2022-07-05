@@ -20,3 +20,16 @@ description: The Most Powerful Multi-Chain NFT bridge
 |DeadBits|0x7542E42A557C2684Adf0CAD5D511eA81a8188Bfb|
 |VelasPicassoApes|0x6924f5B55cd76d32a6ED96d3Ecd9dd1C7E54a7ca|
 |Velas Nagato (Nagato)|0x817c63be246dcfb5f218091baa581949b6796bdb|
+
+> If your smart contract was not whitelisted, please message to:<br/>
+> Email: contact@xp.network<br/>
+> Provide the following information:<br/>
+> + Blockchain name
+> + Smart Contract address
+> + Collection name
+> + NFTs in the collection
+> + Number of users
+> + Number of transactions
+> + Minter email
+> + Minter Name
+> + Minter Telegram account

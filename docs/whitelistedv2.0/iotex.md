@@ -40,3 +40,16 @@ Not Whitelisted
 |8|Metanyx - Limited Edition NFT for IoTeX(Metanyx)|0xa387f2ba07d3180500c2d0bbff2ac7ecc07d88f0|5|
 |9|LongZ Card(LongZ)|0x8d62bd443a38705bfb57d91fd130447fcbb8272b|0|
 |10|GameFantasyCat(GFC)|0xad895bab9aedc05604631acbcd293010acee2962|0|
+
+> If your smart contract was not whitelisted, please message to:<br/>
+> Email: contact@xp.network<br/>
+> Provide the following information:<br/>
+> + Blockchain name
+> + Smart Contract address
+> + Collection name
+> + NFTs in the collection
+> + Number of users
+> + Number of transactions
+> + Minter email
+> + Minter Name
+> + Minter Telegram account

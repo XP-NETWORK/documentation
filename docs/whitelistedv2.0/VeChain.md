@@ -30,4 +30,23 @@ description: The Most Powerful Multi-Chain NFT bridge
 |19|[VeGnomes](https://vechainstats.com/nft/vegnomes/)|[0x15e2F18FeADE6ccB990956050bf0c2990445cACe](https://vechainstats.com/account/0x15e2f18feade6ccb990956050bf0c2990445cace/)|
 |20|[Forest Nation Keepers](https://vechainstats.com/nft/forest-nation/#nft-items)|[0x4E9eB6f6e04464eEe33Ae04Bf430E20529482e60](https://vechainstats.com/account/0x4e9eb6f6e04464eee33ae04bf430e20529482e60/)|
 |21|[VeRocket Genesis](https://vechainstats.com/nft/verocket-genesis/#nft-info)|[0x6354b35c510CaE41Cd45B568087BF767756B3589](https://vechainstats.com/account/0x6354b35c510cae41cd45b568087bf767756b3589/)|
+|22|Metaversials Alteregos|[0xfd5e344798ceb51afd910fafae9768e4d093a725](https://vechainstats.com/account/0xfd5e344798ceb51afd910fafae9768e4d093a725/)|
+|23|Metaversials|[0x313d1fff2664a2df5a12e99c8c57e50efa715d73](https://vechainstats.com/account/0x313d1fff2664a2df5a12e99c8c57e50efa715d73/)|
+|24|Exoworlds Old|[0x47a2768ee043f1bd7cbc6f24c8f0854167d300e8](https://vechainstats.com/account/0x47a2768ee043f1bd7cbc6f24c8f0854167d300e8/)|
+|25|World of V Community|[0x5e6265680087520dc022d75f4c45f9ccd712ba97](https://vechainstats.com/account/0x5e6265680087520dc022d75f4c45f9ccd712ba97/)|
+|26|Mad V-Apes Phoenix|[0x73f32592df5c0da73d56f34669d4ae28ae1afd9e](https://vechainstats.com/account/0x73f32592df5c0da73d56f34669d4ae28ae1afd9e/)|
+|27|Mad V-Apes Elementals|[0xd861be8e33ebd09764bfca242ca6a8c54dcf844a](https://vechainstats.com/account/0xd861be8e33ebd09764bfca242ca6a8c54dcf844a/)|
+|28|Mad V-Apes Fusion|[0xb12d1d640f56173ef3a47e5e1a1fde96ba96ce14](https://vechainstats.com/account/0xb12d1d640f56173ef3a47e5e1a1fde96ba96ce14/)|
 
+> If your smart contract was not whitelisted, please message to:<br/>
+> Email: contact@xp.network<br/>
+> Provide the following information:<br/>
+> + Blockchain name
+> + Smart Contract address
+> + Collection name
+> + NFTs in the collection
+> + Number of users
+> + Number of transactions
+> + Minter email
+> + Minter Name
+> + Minter Telegram account
