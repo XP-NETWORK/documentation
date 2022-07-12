@@ -116,6 +116,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;TrustWallet<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;VeChain wallet - Sync2<br/>
 
+✅  &nbsp; NFT Caching<br/>
 <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Harmony Extention Wallet<br/> -->
 
 <!-- ⬜ &nbsp; Chain Agnostic NFT Marketplace Lister (Beta)<br/> -->
