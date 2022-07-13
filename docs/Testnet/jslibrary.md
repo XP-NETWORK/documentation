@@ -28,24 +28,40 @@ yarn add "git+https://github.com/xp-network/xpjs#bleeding-edge" @elrondnetwork/e
 
 ```ts
 import {
-    ChainFactoryConfigs,  ChainFactory,
-    ElrondHelper,         ElrondParams,
-    TronHelper,           TronParams,
-    Web3Helper,           Web3Params,
-    AppConfigs,
-    NftMintArgs,          Chain
-  } from "xp.network";
-  import {config} from 'dotenv';
-  config();
-  
-  // Instantiate the chain factory for the TESTNET
-  const testnetConfig = ChainFactoryConfigs.TestNet();
-  const factory = ChainFactory(AppConfigs.TestNet(), testnetConfig);
+  ChainFactoryConfigs,
+  ChainFactory,
+  Chain,
+  AppConfigs,
+  ChainParams,
+
+import { config } from 'dotenv';
+config();} from "xp.network";
+
+(async () => {
+  // Instantiate the chain factory for the
+  // Connecting to the mainnnets of all the blockchains:
+  const mainnetConfig = await ChainFactoryConfigs.MainNet();
+  const mainnetFactory: ChainFactory = ChainFactory(
+    AppConfigs.MainNet(),
+    mainnetConfig
+  );
+
+  // Connecting to the testnets of all the blockchains:
+  const testnetConfig = await ChainFactoryConfigs.TestNet();
+  const testnetFactory: ChainFactory = ChainFactory(
+    AppConfigs.TestNet(),
+    testnetConfig
+  );
+
+  // Switching between the mainnets & the testnets:
+  const factory: ChainFactory = mainnetFactory;       // or = testnetConfig;
+  const CONFIG: Partial<ChainParams> = mainnetConfig; // or = testnetConfig;
+})();
 ```
 
-## 4. Creating a signer object
+## 4.1 Creating a signer object for EVM compatible chains
 
-Add a `.env` file and populate it with the Private Key of the signer
+Add a `.env` file and populate it with the Private Key of the signer:
 
 ```bash
 touch .env
@@ -66,28 +82,53 @@ const signer = new Wallet(
 console.log("signer", signer);
 ```
 
+## 4.2 Creating a signer object for Elrond
+
+```bash
+echo "ELROND_PEM=<replace with your Elrond PEM key, replace line breaks with \n>" >> .env
+```
+Typescript code snippets
+
+```ts
+// ELROND provider (injected from the browser extension):
+import { ExtensionProvider } from "@elrondnetwork/erdjs/out";
+const elrondSigner = ExtensionProvider.getInstance();
+
+// Elrond signer from a PEM key stored in the .env file
+import { UserSigner } from "@elrondnetwork/erdjs/out";
+const elrondSigner = UserSigner.fromPem(process.env.ELROND_PEM!);
+```
+
 ## 5. Creating inner Blockchain objects
 
 ```ts
 (async () => {
-  // EVM-compatible chains:
-  // Inner Object ============= Chain Nonce == Chain Nonce ==
-  const bsc       = await factory.inner<4>(Chain.BSC);
-  const ethereum  = await factory.inner<5>(Chain.ETHEREUM);
-  const avax      = await factory.inner<6>(Chain.AVALANCHE);
-  const polygon   = await factory.inner<7>(Chain.POLYGON);
-  const fantom    = await factory.inner<8>(Chain.FANTOM);
-  const velas     = await factory.inner<19>(Chain.VELAS);
-  const gnosis    = await factory.inner<14>(Chain.XDAI);
-  const harmony   = await factory.inner<12>(Chain.HARMONY);
-  // Non-EVM chains:
-  const tron      = await factory.inner<9>(Chain.TRON);
-  const elrond    = await factory.inner<2>(Chain.ELROND);
-  const avalanche = await factory.inner<15>(Chain.ALGORAND);
-  const tezos     = await factory.inner<18>(Chain.TEZOS);
+  // Inner Object ====================================== Chain Nonce
+  const bsc = await factory.inner(Chain.BSC);               // 4
+  const ethereum = await factory.inner(Chain.ETHEREUM);     // 5
+  const avax = await factory.inner(Chain.AVALANCHE);        // 6
+  const polygon = await factory.inner(Chain.POLYGON);       // 7
+  const fantom = await factory.inner(Chain.FANTOM);         // 8
+  const harmony = await factory.inner(Chain.HARMONY);       // 12
+  const gnosis = await factory.inner(Chain.XDAI);           // 14
+  const fuse = await factory.inner(Chain.FUSE);             // 16
+  const velas = await factory.inner(Chain.VELAS);           // 19
+  const aurora = await factory.inner(Chain.AURORA);         // 21
+  const godwoken = await factory.inner(Chain.GODWOKEN);     // 22
+  const gatechain = await factory.inner(Chain.GATECHAIN);   // 23
+  const vechain = await factory.inner(Chain.VECHAIN);       // 25
+  const hedera = await factory.inner(Chain.HEDERA);         // 29
+  const skale = await factory.inner(Chain.SKALE);           // 30
 
-  // To view an inner object:
-  console.log("bsc:", bsc);
+  // Non-EVM chains:
+  // Inner Object ====================================== Chain Nonce
+  const elrond = await factory.inner(Chain.ELROND);         // 2
+  const tron = await factory.inner(Chain.TRON);             // 9
+  const algorand = await factory.inner(Chain.ALGORAND);     // 15
+  const tezos = await factory.inner(Chain.TEZOS);           // 18
+  const solana = await factory.inner(Chain.SOLANA);         // 26
+  const ton = await factory.inner(Chain.TON);               // 27
+  const dfinity = await factory.inner(Chain.DFINITY);       // 28
 })();
 ```
 
@@ -120,7 +161,9 @@ console.log("signer", signer);
 })();
 ```
 
-## Arbitrary stages: Minting
+## 7. Arbitrary stages: Minting
+
+### 7.1 Minting on EVM chains
 
 ```ts
 /**
@@ -170,4 +213,46 @@ const mint = async (departureChain: Web3Helper, uris: String[], contract: string
     process.exit(1);
 });
 
+```
+
+### 7.2 Minting on Elrond
+
+```ts
+(async () => {
+  // Deploying ESDTs:
+  const response = await elrond.issueESDTNft(
+      elrondSigner,
+      "Collection Name",
+      "Token Ticker",
+      true, // canFreeze
+      true, // canWipe
+      true  // canTransferNftCreateRole
+  );
+
+  // Checking whether ESDTs exist for this account
+  const esdts = await elrond.mintableEsdts(
+    elrondSigner.getAddress())
+    .catch((e) => {
+      console.log("Failed to get Mintable ESDTs", e)
+      return undefined
+  })
+
+    const identifier = esdts ? esdts[0]: undefined;
+
+    if (!identifier) {
+        throw new Error("No ESDT found for this address");
+    }
+
+    // Minting an NFT to an ESDT
+    const response = await elrond.mintNft(
+      elrondSigner,
+      {
+        identifier,  // Your ESDT token
+        quantity: 1, // How many tokens you want to mint > 0
+        name: "Your token name goes here",
+        uris: ["replace with your link(s)"],
+     } as any);
+
+    console.log(response);
+})();
 ```

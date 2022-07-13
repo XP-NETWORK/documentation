@@ -37,13 +37,17 @@ At the time of writing, the list of chain nonces are:
 |GateChain|23|
 |Secret Network|24|
 |VeChain|25|
+|Solana|26|
+|TON|27|
+|DFinity|28|
+|Hedera|29|
+|SKALE|30|
 
 
 \* <s>Discarded/postponed the idea</s>
 
 Coming soon:<br/>
-- Solana
-- Secret Network
-- Internet Computer (DFINITY)
 - NEAR (Layer-1)
-- The Open Network (TON)
+- Cosmos ecosystem chains
+- Polkadot ecosystem chains
+- Cardano
