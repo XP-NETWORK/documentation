@@ -11,7 +11,7 @@ import ReactPlayer from 'react-player'
 ## Who needs the NFT Bridge?
 
 Watch a 5 minute video with a brief outline of the topic:
-<ReactPlayer playing controls url='https://www.youtube.com/watch?v=p21pCEvyDQw' />
+<ReactPlayer controls url='https://www.youtube.com/watch?v=p21pCEvyDQw' />
 
 ## ⛩️ Bridges scale growth 📈
 Without token bridges, **blockchains** are limited to their ecosystem like islands or oases. Assets cannot leave or enter the community boundaries. 

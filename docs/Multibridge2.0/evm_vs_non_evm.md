@@ -10,7 +10,7 @@ import ReactPlayer from 'react-player'
 # EVM and Non-EVM Chain Integration
 
 
-<ReactPlayer playing controls url='https://www.youtube.com/watch?v=wQx1J7FzT2o&t=0s' />
+<ReactPlayer controls url='https://www.youtube.com/watch?v=wQx1J7FzT2o&t=0s' />
 
 
 ## Solidity Smart Contract Example

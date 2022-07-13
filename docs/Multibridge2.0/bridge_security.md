@@ -7,9 +7,9 @@ description: The Most Powerful Multi-Chain NFT bridge
 
 import ReactPlayer from 'react-player'
 
-# Part 1 - Bridge Security
+# Bridge Security
 
-<ReactPlayer playing controls url='https://www.youtube.com/watch?v=SQe8zx-0bo0&t=0s' />
+<ReactPlayer controls url='https://www.youtube.com/watch?v=SQe8zx-0bo0&t=0s' />
 
 We've heard about multiple bridge hacks; the most recent is the Harmony Horizon cryptocurrency bridge. According to Fortune magazine, it is the third FT bridge that has fallen victim to an attack this year. 
 
@@ -80,6 +80,6 @@ We run functional tests to ensure the contract functions behave as expected rega
 
 Then we show the code to external parties. The first to code-review our contracts are the blockchain teams. Then we send the contracts to professional auditors. If they manage to find additional issues, we fix them and receive a finalized report that becomes publicly available. Only then are the contracts deployed on the mainnets and available for public use.
 
-# Part 2 - Why Fungible Token Bridge Attacks are irrelevant for the NFT Bridge
+# Why Fungible Token Bridge Attacks are irrelevant for the NFT Bridge
 
-<ReactPlayer playing controls url='https://youtu.be/aEVbVgnrT5c&t=0s' />
+<ReactPlayer controls url='https://youtu.be/aEVbVgnrT5c&t=0s' />
