@@ -535,6 +535,10 @@ html[data-theme="light"] .footer__copyright {
   color: #0e1220;
 }
 
+.red{
+  color:red;
+}
+
 /* Light Version */
 
 @media (max-width: 996px) {
