@@ -1,6 +1,6 @@
 ---
 sidebar_label: "Roadmap"
-sidebar_position: 14
+sidebar_position: 15
 image: /cover-image.png
 description: The Most Powerful Multi-Chain NFT bridge
 ---
