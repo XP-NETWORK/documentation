@@ -23,6 +23,10 @@ p {
   font-family: "Inter", sans-serif;
 }
 
+h1 {
+  text-align:center;
+}
+
 nav.navbar.navbar--fixed-top {
   /* display: none !important; */
 }
