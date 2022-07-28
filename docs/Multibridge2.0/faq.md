@@ -119,34 +119,34 @@ Non-EVM blockchains are custom made starting from the smart contract language, w
 <details>
   <summary>Answer</summary>
   <div>
-On the chain of origin the NFT is locked in the bridge SC and is a part of the smart contract where it was minted, so any attached logic applies to it.
+On the chain of origin, the NFT is locked in the Bridge SC and is a part of the smart contract where it was minted, so any attached logic applies to it.
 
-On the target chain to support any logic, including royalties the wrapped NFT should be minted with the smart contract that has the required logic.
+On the target chain, to support any logic, including royalties, the wrapped NFT should be minted with the smart contract that has the required logic.
 
-This will be possible with latest smart contracts we have recently developed. It will be the first bridge that allows transferring logic togeather with the NFTS.
+This will be possible with the latest smart contracts we have recently developed. It will be the first Bridge that allows transferring logic together with the NFTS.
   </div>
 </details>
 
-## Why is smart contract whitelisting required
+## Why is smart contract whitelisting required?
 
 <details>
   <summary>Answer</summary>
   <div>
 
-Many blockchain industry related cyber attacks involve maliciously crafted smart contracts. To reduce the impact area of the bridge infrastructure to interaction with trusted smart contracts whitelisting is essential.
+Many blockchain industry-related cyber attacks involve maliciously crafted smart contracts. To reduce the impact area of the bridge infrastructure to interact with trusted smart contracts whitelisting is essential.
   </div>
 </details>
 
-## How to whitelist a smart contract for the bridge to accept it?
+## How to whitelist a smart contract for the Bridge to accept it?
 
 <details>
   <summary>Answer</summary>
   <div>
 
-In order for a smart contract to be whitelisted there are several steps:
+In order for a smart contract to be whitelisted, there are several steps:
 
 1. The smart contract must be verified on the chain and its source code readable
-2. An e-mail with a request should be sent to dima@xp.network and kint@xp.network:
+2. An e-mail with a request should be sent to dima@xp.network, dimau@xp.network, and kint@xp.network:
     
     The message should contain the following information:
       1. Blockchain name(Ethereum, BSC, Avalanche, Polygon, etc.)
@@ -154,7 +154,7 @@ In order for a smart contract to be whitelisted there are several steps:
       3. Approximate number of NFTs planned for sending
 
 3. XP.NETWORK team members will look through the source code of the NFT smart contract
-4. The smart contract will be whitelisted or the initiator will be notified that the smart contract has the code that can harm the bridge therefore, it cannot be whitelisted.
+4. The smart contract will be whitelisted, or the initiator will be notified that the smart contract has the code that can harm the Bridge therefore, it cannot be whitelisted.
 
 
   </div>
