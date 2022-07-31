@@ -92,4 +92,4 @@ import hidFraming from "@ledgerhq/devices/lib/hid-framing";
 
 ## Alternatively
 
-Use the following link: https://temporary.bridge.xp.network/
+Use the following link: https://batch-transfers.bridge.xp.network/
