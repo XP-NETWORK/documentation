@@ -66,6 +66,10 @@ The most intriguing question is, why would someone bridge NFTs?
 
 There's no doubt that NFT Projects can easily prolong their collections' lives by bridging them to the other blockchains. But there's an alternative. The product's peak can be doubled or tripled by bridging parts of the collection to other environments and simultaneously launching on different chains using the base chain as proof of the collection's integrity.
 
+In a brief video video below we're discussing two NFT projects. They both gained profit and success after bridging that was not available to them in the original ecosystems they started from.
+
+<ReactPlayer controls url='https://www.youtube.com/watch?v=QUtH9_vURTA' />
+
 ## 🛖 Games 🏰
 NFT-centered games can go cross-chain. That adds new, previously unavailable interaction to the game flow. NFT armies can invade the foreign kingdoms of the other chains. NFT explorers can travel in the parallel worlds of foreign chains and either return promoted with treasure and experience or be burned on the other sides of reality. They can also add extra rarity for the bridged NFTs, slightly changing the look of the asset and increasing the characters' experience.
 
