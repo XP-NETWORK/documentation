@@ -14,7 +14,7 @@ Watch a 5 minute video with a brief outline of the topic:
 <ReactPlayer controls url='https://www.youtube.com/watch?v=p21pCEvyDQw' />
 
 ## ⛩️ Bridges scale growth 📈
-Without token bridges, **blockchains** are limited to their ecosystem like islands or oases. Assets cannot leave or enter the community boundaries. 
+Without token bridges, **blockchains** are limited to their ecosystems, like islands or oases. Assets cannot leave or enter the community boundaries. 
 
 ![Blockchains-1](../../static/img/../../src/pages/img/why/Islands.png)
 
@@ -45,7 +45,7 @@ We allow for free movement of the assets desired by the developing markets.
 Each such oasis is a whole new market for the rest of the connected chains whose fast track to prosperity relies heavily upon it being a part of an open network.
 
 ## ❓ Why NFTs 🪬
-There's no question that trading cryptocurrencies is a lucrative business. However, tokens are only a means of payment for goods and services. While *Transaction fees* are the **native services** 🚖 of the blockchains that can be paid with FTs, they still need something other than tokenomics in itself to develop and thrive. 
+There's no question, that trading cryptocurrencies is a lucrative business. However, tokens are only a means of payment for goods and services. While *Transaction fees* are the **native services** 🚖 of the blockchains that can be paid with FTs, they still need something other than tokenomics in itself to develop and thrive. 
 
 Every economy needs goods to be traded to bring action and life into an ecosystem. *NFTs* are universal wrappers of ownership or access control rights to physical or virtual assets and therefore, are the most **natural goods** 🛍️ that can be bought and sold for fungible tokens and ensuring further development. 
 
