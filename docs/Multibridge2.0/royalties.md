@@ -5,11 +5,19 @@ image: /cover-image.png
 description: The Most Powerful Multi-Chain NFT bridge
 ---
 
+import ReactPlayer from 'react-player'
+
 # Royalties
+
+To quickly dive into the topic, watch a brief video below:
+
+<ReactPlayer controls url='https://www.youtube.com/watch?v=gGDkjBYIeak' />
+
+The etymology of the word dates back to ancient times an is closely connected with the word King (`Roi` in French).
 
 ![1](/img/royalties/1.png)
 
-The etymology of the word dates back to ancient times. Initially, there was no concept of private property. Natural resources did not belong to anyone. 
+Initially, there was no concept of private property. Natural resources did not belong to anyone. 
 
 ![2](/img/royalties/2.png)
 
@@ -82,4 +90,3 @@ This is a fragment of the OpenSea UI where royalties can be set. We can click th
 XP. Network bridge does not bridge NFTs or SFT tokens. We keep the logic of the contracts, including the royalties on the destination chain. To find out how to watch the video about smart contract mapping.
 
 ![16](/img/royalties/16.png)
-
