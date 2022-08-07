@@ -124,22 +124,30 @@ Follow our journey from inception to launch. Please note that the team reserves 
 :::
 ## Q3 2022 - We're here
 :::caution Work In Progress<br/>
+✅ &nbsp; Received Grants From: <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;13. Moonbeam<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;14. Abeychain<br/>
 ⬜ &nbsp; Mainnet integration to:<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Near (Layer-1)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Nervos (Layer-1)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Internet Computer<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Secret Network<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Solana<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; The Open Network <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Solana<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Internet Computer<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Near (Layer-1)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Nervos (Layer-1)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Hedera <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; SKALE <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Moonbeam <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Abeychain <br/>
 ⬜ &nbsp; Wallet integrations:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Solana wallet - Phantom<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Secret Network<br/>
 ⬜ &nbsp; NFT projects and Marketplaces onboarding<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Hog Hommies<br/> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Hokizuki Ape<br/> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Rocket Monsters<br/> 
 ⬜ &nbsp; Bridge Explorer<br/>
-⬜ &nbsp; Forged NFT detection on all the bridged chains<br/>
-⬜ &nbsp; NFT rights retention tool<br/>
 ⬜ &nbsp; Cross-Chain NFT Minting<br/>
-⬜ &nbsp; NFT Fractionalizer<br/>
+⬜ &nbsp; $XPNET BSC - Algorand Bridge<br/>
 :::
 
 ## Q4 2022
@@ -161,6 +169,9 @@ Follow our journey from inception to launch. Please note that the team reserves 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;ERC-998  Support<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;$XPNET Support<br/>
 
+⬜ &nbsp; Forged NFT detection on all the bridged chains<br/>
+⬜ &nbsp; NFT rights retention tool<br/>
+⬜ &nbsp; NFT Fractionalizer<br/>
 <!-- ⬜ &nbsp; NFTs Search (search by any parameter)<br/> -->
 <!-- ⬜ &nbsp; NFT Launchpad<br/> -->
 <!-- ⬜ &nbsp; NFT Marketcap (Collection & individual NFT statistics & analytics)<br/> -->
