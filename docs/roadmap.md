@@ -133,20 +133,14 @@ Follow our journey from inception to launch. Please note that the team reserves 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Solana<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Hedera <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; SKALE <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Moonbeam <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Abeychain <br/>
 ⬜ &nbsp; Wallet integrations:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Solana wallet - Phantom<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Secret Network<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Hedera Wallet<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Secret Network - Keplr<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Hedera Wallets - <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Skale Wallet<br/>
-⬜ &nbsp; NFT projects and Marketplaces onboarding<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Hog Hommies<br/> 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Hokizuki Ape<br/> 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Rocket Monsters<br/> 
-⬜ &nbsp;SFT Support<br/>
+⬜ &nbsp; SFT Support for Ethereum, BSC, Polygon, Fantom, Avalanche, Harmony<br/>
 ⬜ &nbsp; Bridge Explorer<br/>
-⬜ &nbsp; Cross-Chain NFT Minting<br/>
 ⬜ &nbsp; $XPNET BSC - Algorand Bridge<br/>
 :::
 
@@ -155,7 +149,6 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ⬜ &nbsp; Mainnet integration to:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Internet Computer<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Near (Layer-1)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Nervos (Layer-1)<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Polkadot<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
@@ -174,6 +167,8 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ⬜ &nbsp; Forged NFT detection on all the bridged chains<br/>
 ⬜ &nbsp; NFT rights retention tool<br/>
 ⬜ &nbsp; NFT Fractionalizer<br/>
+⬜ &nbsp; Cross-Chain NFT Minting<br/>
+⬜ &nbsp;Full SFT Support<br/>
 <!-- ⬜ &nbsp; NFTs Search (search by any parameter)<br/> -->
 <!-- ⬜ &nbsp; NFT Launchpad<br/> -->
 <!-- ⬜ &nbsp; NFT Marketcap (Collection & individual NFT statistics & analytics)<br/> -->
