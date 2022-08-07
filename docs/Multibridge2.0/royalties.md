@@ -82,3 +82,4 @@ This is a fragment of the OpenSea UI where royalties can be set. We can click th
 XP. Network bridge does not bridge NFTs or SFT tokens. We keep the logic of the contracts, including the royalties on the destination chain. To find out how to watch the video about smart contract mapping.
 
 ![16](/img/royalties/16.png)
+
