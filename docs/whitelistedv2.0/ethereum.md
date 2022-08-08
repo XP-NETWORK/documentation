@@ -15,6 +15,7 @@ description: The Most Powerful Multi-Chain NFT bridge
 |4|OpenSea Shared Storefront (OPENSTORE)|[0x495f947276749ce646f68ac8c248420045cb7b5e](https://etherscan.io/address/0x495f947276749ce646f68ac8c248420045cb7b5e)|
 |5|Stray Cats (STRAY_CATS)|[0x25baabaf41ce56565f448c6f6e16d44399812cad](https://etherscan.io/address/0x25baabaf41ce56565f448c6f6e16d44399812cad)|
 |6|VelasPunks (VPUNKS)|[0x2496b44516c8639da00e8d12cce64862e3760190](https://etherscan.io/address/0x2496b44516c8639da00e8d12cce64862e3760190)|
+|7m"|Rarible (RARI)|[0x60F80121C31A0d46B5279700f9DF786054aa5eE5](https://etherscan.io/address/0x60F80121C31A0d46B5279700f9DF786054aa5eE5)|
 
 > If your smart contract was not whitelisted, please message to:<br/>
 > Email: contact@xp.network<br/>
