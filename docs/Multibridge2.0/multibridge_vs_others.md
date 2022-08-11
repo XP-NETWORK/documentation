@@ -47,11 +47,11 @@ Let's begin our journey with a Google search. Usually, Google places the most re
 
 </center>
 
-   The blog briefly outlines NFT Bridging in general, and besides, StacksBridge mentions the "Plasma" bridge connecting Polygon with Ethereum and the "Wormhole" bridge linking Solana with Ethereum. The StacksBridge bridge connects Ethereum with the Stacks blockchain and supports only one "Satoshibles" collection.
+   The blog briefly outlines NFT Bridging in general, and besides, StacksBridge mentions the "Plasma" bridge connecting Polygon with Ethereum and the "Wormhole" bridge linking Solana with Ethereum. The StacksBridge bridge connects Ethereum with the Stacks blockchain and supports only one "Satoshibles" collection. A user is required to connect Metamask on the Ethereum side & Hiro Wallet with a Stacks account to be able to use the bridge.
 
 <center>
 
-![7](/img/comparison/7.png)
+![5](/img/comparison/5.png)
 
 </center>
 
