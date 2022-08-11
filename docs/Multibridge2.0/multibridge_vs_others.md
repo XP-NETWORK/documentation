@@ -9,7 +9,9 @@ import ReactPlayer from 'react-player'
 
 # XP.Network vs. Other NFT bridges
 
-Let's begin our journey with a Google search. Usually, Google places the most relevant results at the top of the list, so let's go over the top 10 search results, because it is something a user unfamiliar with the existing bridging solutions would do.
+Let's begin our journey with a Google search. Usually, Google places the most relevant results at the top of the list, so let's go over the top 10 search results because it is something a user unfamiliar with the existing bridging solutions would do. 
+
+Due to the rapidly changing nature of the industry, by the time you're reading this document some of the tools or web resources may have changed or become non existent. All the text below is relevant for August 2022 and is a snapshot of the current state of things.
 
 <center>
 
@@ -49,7 +51,7 @@ The second place is occupied by a [Jumpstart blog](https://www.jumpstartmag.com/
 
 </center>
 
-   The blog briefly outlines NFT Bridging in general, and besides, StacksBridge mentions the "Plasma" bridge connecting Polygon with Ethereum and the "Wormhole" bridge linking Solana with Ethereum. The StacksBridge bridge connects Ethereum with the Stacks blockchain and supports only one "Satoshibles" collection. A user is required to connect Metamask on the Ethereum side & Hiro Wallet with a Stacks account to be able to use the bridge.
+   The blog briefly outlines NFT Bridging in general, and besides, StacksBridge mentions the "Plasma" bridge connecting Polygon with Ethereum and the "Wormhole" bridge linking Solana with Ethereum. The StacksBridge bridge connects Ethereum with the Stacks blockchain and supports only the "Satoshibles" collection. A user is required to connect Metamask on the Ethereum side & Hiro Wallet with a Stacks account simultaneously to be able to use the bridge.
 
 <center>
 
@@ -74,6 +76,12 @@ The second place is occupied by a [Jumpstart blog](https://www.jumpstartmag.com/
 </center>
 
 XP.Network already connects 20 blockchains and the number is ever growing.
+
+Only one wallet at a time is required to use the bridge, the wallet relevant for the chain of Origin.
+
+The transaction fees on the chains of origin and destination are paid in the coins of the chain of origin by the NFT sender.
+
+No claiming, withdrawing or a fee payment is required on behalf of the NFT receiver.
 
 ### XP.NETWORK Bridge Summary:
 
@@ -153,3 +161,69 @@ The [NFT Bridge Palm](https://app.palm.io/nftbridge) Connects Ethereum & Palm ne
 |#|EVM|Non-EVM|Supported Wallets|Supported Standards|
 |:-:|:-:|:-:|:-:|:-:|
 |1<br/>2<br/>|Ethereum<br/>Palm|-<br/>-|Metamask<br/><br/>|ERC-20<br/>ERC-721|
+
+## 8. LeewayHerz NFT Swap
+
+The eighth position on the search list was given to a [blog of Leeway Herz](https://www.leewayhertz.com/nft-swapping-and-bridging/), a founder and CEO of the company bearing his name. The blog author offers a concept of an NFT trade-in or simply swapping NFTs that started loosing its popularity and value for other NFTs, crypto or a combination of NFTs & crypto.
+
+The project does not offer a bridging solution, but rather promotes its software development solutions for blockchains, Metaverses, IoT devices, AI and NFT Marketplaces.
+
+<center>
+
+![12](/img/comparison/12.png)
+
+</center>
+
+## 9. AllianceBlock Bridge
+
+The ninth position is occupied by a [Media blog](https://blog.allianceblock.io/allianceblock-bridge-2-0-bridge-nfts-inspect-the-cross-messaging-protocol-and-more-5a95d6648995) featureing the second version of [AllianceBlock NFT bridge](https://alliancebridge.io/). The blog outlines FT and NFT bridging in general and informs the reader about the new features of the 2.0 version of the bridge such as reducing the time of transfer and paying for the transactions in the native tokens.
+
+<center>
+
+![13](/img/comparison/13.png)
+
+</center>
+
+The bridge found zero out 3 NFTs on BSC and zero out of 17 on Polygon. It was able to locate one out 6 on Ethereum though. Maybe NFT collections require whitelisting to become available for transferring. The only supported wallet is Metamask which is ok, because all the integrated EVM chains are Metamask friendly.
+
+<center>
+
+![14](/img/comparison/14.png)
+
+</center>
+
+### AllianceBlock Bridge Summary:
+
+|#|EVM|Non-EVM|Supported Wallets|Supported Standards|
+|:-:|:-:|:-:|:-:|:-:|
+|1<br/>2<br/>3<br/>4<br/>5<br/>6<br/>7<br/>|Ethereum<br/>BSC<br/>Avalanche<br/>Energy Web Chain<br/>Arbitrum<br/>Optimistic<br/>Moonbeam|-<br/><br/><br/><br/><br/><br/><br/>|Metamask<br/><br/><br/><br/><br/><br/><br/>|ERC-20<br/>ERC-721<br/>BEP-20<br/>BEP-721<br/><br/><br/><br/>|
+
+## 10. Wormhole NFT Bridge Documentation
+
+At the tenth position, Google brough the Wormhole bridge's docs page devoted to the [NFT Bridge](https://docs.wormhole.com/wormhole/existing-applications/nft-bridge). 
+
+The Document seems to be obsolete and containing self contradictions. The very first utterance claims that NFT bridging is implemented on three chains, while 6 chains are listed immediately below the statement.
+
+NFTs bridging is opposed to "normal tokens" bridging. The author of the document is not familiar with SFTs and claims that amount is irrelevant for an NFT bridge. 
+
+The document only mentions ERC-721 NFT standard, while ERC1155 and standard variations such as ERC-721A or ERC-1155D are ignored.
+
+<center>
+
+![15](/img/comparison/15.png)
+
+</center>
+
+## SUMMARY
+
+A comparative table sounds louder than words:
+
+|Bridge Name|EVM Support|Non-EVM support|Wallet Support|Standards support|
+|:-:|:-:|:-:|:-:|:-:|
+|XP.Network|14|6|11|14|
+|Portal (Wormhole)|11|1|9|3|
+|AllianceBlock Bridge|7|0|1|4|
+|Cross-Chain Bridge|5|0|1|2|
+|Plasma Bridge|2|0|2|2|
+|Palm Bridge|2|0|1|2|
+|StacksBridge|2|0|2|1|
