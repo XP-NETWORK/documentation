@@ -9,7 +9,11 @@ import ReactPlayer from 'react-player'
 
 # XP.Network vs. Other NFT bridges
 
-Let's begin our journey with a Google search. Usually, Google places the most relevant results at the top of the list, so let's go over the top 10 search results because it is something a user unfamiliar with the existing bridging solutions would do. 
+**TL;DR** video:
+
+<ReactPlayer controls url='https://www.youtube.com/watch?v=rOQr5mgt8K0' />
+
+Let's begin our journey with a Google search. Usually, Google places the most relevant results at the top of the list. We will go over the top 10 search results because it is something a user unfamiliar with the existing bridging solutions would do. 
 
 Due to the rapidly changing nature of the industry, by the time you're reading this document, some of the tools or web resources may have changed or become non-existent. All the text below is relevant for August 2022 and is a snapshot of the current state of facts.
 
@@ -67,7 +71,7 @@ The second place is occupied by a [Jumpstart blog](https://www.jumpstartmag.com/
 
 ## 3. XP.NETWORK Multichain NFT Bridge
 
-[XP.NETWORK Multichain NFT Bridge](https://bridge.xp.network/) occupies third place in the Google search rating. The bridge connects multiple EVM & Non-EVM chains, supports NFT & SFT transfers individually and in batches, adapts NFTs to 10+ token standards, and supports logic and collection name consistency on destination chains.
+[XP.NETWORK Multichain NFT Bridge](https://bridge.xp.network/) occupies third place in the Google search rating. The bridge connects multiple EVM & Non-EVM chains, supports **NFT** & **SFT** transfers individually and in batches, adapts NFTs to 10+ token standards, and supports logic and collection name consistency on destination chains.
 
 <center>
 
@@ -75,19 +79,19 @@ The second place is occupied by a [Jumpstart blog](https://www.jumpstartmag.com/
 
 </center>
 
-XP.Network already connects 20 blockchains, and the number is ever-growing.
+[XP.Network](https://xp.network/) already connects 20+ blockchains, and the number is ever-growing.
 
 Only one wallet at a time is required to use the bridge, the wallet relevant to the chain of origin.
 
 The transaction fees on the chains of origin and destination are paid in the coins of the chain of origin by the NFT sender.
 
-No claiming, withdrawing, or fee payment is required on behalf of the NFT receiver.
+**No claiming, withdrawing, or fee payment** is required on behalf of the NFT receiver.
 
 ### XP.NETWORK Bridge Summary:
 
 |#|EVM|Non-EVM|Supported Wallets|Supported Standards|
 |:-:|:-:|:-:|:-:|:-:|
-|1<br/>2<br/>3<br/>4<br/>5<br/>6<br/>7<br/>8<br/>9<br/>10<br/>11<br/>12<br/>13<br/>14<br/>|Aurora<br/>Avalanche<br/>BSC<br/>Ethereum<br/>Fantom<br/>Fuse<br/>Gnosis<br/>Godwoken<br/>Harmony<br/>Hedera<br/>IoTeX<br/>Polygon<br/>Tron<br/>VeChain|Algorand<br/>Elrond<br/>Internet Computer<br/>Secret Network<br/>Solana<br/>Tezos<br/><br/><br/><br/><br/><br/><br/><br/><br/>|Metamask<br/>WalletConnect<br/>TrustWallet<br/>MyAlgo<br/>AlgoSigner<br/>TronLink<br/>Maiar<br/>Beacon<br/>TempleWallet<br/>Sync2<br/>Keplr<br/><br/><br/><br/>|ERC-721<br/>ERC-1155<br/>BEP-721<br/>BEP-1155<br/>TRC-721<br/>TRC-1155<br/>XRC-721<br/>XRC-1155<br/>ESDT<br/>ASA-003<br/>FA2<br/>SPL<br/>ADR-43<br/>NEP-178<br/>|
+|1<br/>2<br/>3<br/>4<br/>5<br/>6<br/>7<br/>8<br/>9<br/>10<br/>11<br/>12<br/>13<br/>14<br/>15|Aurora<br/>Avalanche<br/>BSC<br/>Ethereum<br/>Fantom<br/>Fuse<br/>Gnosis<br/>Godwoken<br/>Harmony<br/>Hedera<br/>IoTeX<br/>Polygon<br/>Tron<br/>VeChain<br/>Velas|Algorand<br/>Elrond<br/>Internet Computer<br/>Secret Network<br/>Solana<br/>Tezos<br/>TON<br/><br/><br/><br/><br/><br/><br/><br/><br/>|Metamask<br/>WalletConnect<br/>TrustWallet<br/>MyAlgo<br/>AlgoSigner<br/>TronLink<br/>Maiar<br/>Beacon<br/>TempleWallet<br/>Sync2<br/>Keplr<br/>Hashpack<br/>Blade<br/>Tonkeeper<br/><br/>|ERC-721<br/>ERC-1155<br/>BEP-721<br/>BEP-1155<br/>TRC-721<br/>TRC-1155<br/>XRC-721<br/>XRC-1155<br/>ESDT<br/>ASA-003<br/>FA2<br/>SPL<br/>ADR-43<br/>NEP-178<br/><br/>|
 
 ## 4. Plasma Bridge
 
@@ -220,7 +224,7 @@ A comparative table sounds louder than words:
 
 |Bridge Name|EVM Support|Non-EVM support|Wallet Support|Standards support|
 |:-:|:-:|:-:|:-:|:-:|
-|XP.Network|14|6|11|14|
+|XP.Network|15|7|14|14|
 |Portal (Wormhole)|11|1|9|3|
 |AllianceBlock Bridge|7|0|1|4|
 |Cross-Chain Bridge|5|0|1|2|
