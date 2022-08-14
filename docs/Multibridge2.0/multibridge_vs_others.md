@@ -13,7 +13,13 @@ import ReactPlayer from 'react-player'
 
 <ReactPlayer controls url='https://www.youtube.com/watch?v=rOQr5mgt8K0' />
 
-Let's begin our journey with a Google search. Usually, Google places the most relevant results at the top of the list. We will go over the top 10 search results because it is something a user unfamiliar with the existing bridging solutions would do. 
+Let's begin our journey with a Google search phrase `nft bridge`. Usually, Google places the most relevant results at the top of the list. We will go over the top 10 search results because it is something a user unfamiliar with the existing bridging solutions would do. 
+
+<center>
+
+![16](/img/comparison/16.png)
+
+</center>
 
 Due to the rapidly changing nature of the industry, by the time you're reading this document, some of the tools or web resources may have changed or become non-existent. All the text below is relevant for August 2022 and is a snapshot of the current state of facts.
 
