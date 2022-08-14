@@ -53,7 +53,7 @@ The first on the list is GigLabs NFT Bridge. Unfortunately, at the time of this 
 
 ## 2. StacksBridge
 
-The second place is occupied by a [Jumpstart blog](https://www.jumpstartmag.com/what-is-nft-bridging-2022/) devoted to NFT [StacksBridge](https://stacksbridge.com/) launched in February 2022.
+The second place is occupied by a Jumpstart blog devoted to NFT `StacksBridge` launched in February 2022.
    
 <center>
 
@@ -101,7 +101,7 @@ The transaction fees on the chains of origin and destination are paid in the coi
 
 ## 4. Plasma Bridge
 
-[Plasma NFT Bridge](https://bridge.mintnft.today/) turned out to be in the fourth search position. The bridge allows ERC-721 & ERC-1155 token transfers between Polygon & Ethereum. Metamask and WalletConnect are allowed for transaction signatures. A user must provide a collection address on the chain of departure and the receiver's address on the destination chain. The contracts on the chain of departure and destination must be mapped by the project's team for a successful transaction.
+`Plasma NFT Bridge` turned out to be in the fourth search position. The bridge allows ERC-721 & ERC-1155 token transfers between Polygon & Ethereum. Metamask and WalletConnect are allowed for transaction signatures. A user must provide a collection address on the chain of departure and the receiver's address on the destination chain. The contracts on the chain of departure and destination must be mapped by the project's team for a successful transaction.
 
 
 <center>
@@ -118,7 +118,7 @@ The transaction fees on the chains of origin and destination are paid in the coi
 
 ## 5. Cross-Chain Bridge
 
-The fifth position in the search list is occupied by a [Medium blog](https://medium.com/autobahnnetwork/how-does-the-nft-bridge-work-641fd7efb025) featuring the [Cross-Chain Bridge](https://app.crosschainbridge.org/bridge/nfts).
+The fifth position in the search list is occupied by a Medium blog featuring the Cross-Chain Bridge].
 
 <center>
 
@@ -142,7 +142,7 @@ The bridge allows for Liquidity Pools-based Fungible token bridging and NFT brid
 
 ## 6. Portal (Wormhole) Bridge
 
-Google offers a link to [Portal (Wormhole) Bridge](https://www.portalbridge.com/#/nft). The bridge connects 11 EVM chains with Solana. It combines fungible and non-fungible token transfers. However, SFTs are not supported. Users can sign their transactions via nine wallets.
+Google offers a link to `Portal (Wormhole) Bridge`. The bridge connects 11 EVM chains with Solana. It combines fungible and non-fungible token transfers. However, SFTs are not supported. Users can sign their transactions via nine wallets.
 
 <center>
 
@@ -158,7 +158,7 @@ Google offers a link to [Portal (Wormhole) Bridge](https://www.portalbridge.com/
 
 ## 7. Palm NFT Bridge
 
-The [NFT Bridge Palm](https://app.palm.io/nftbridge) Connects Ethereum & Palm networks. The only supported wallet is Metamask. There are a dozen collections whitelisted on the bridge. Among them are "The Currency," "Greeting from Giza," "Great Expectations," "Pace Verso The Matrix Avatars", "HENI Editions Deed," "Lamborgini," "MadC - Color Rhymes and Portion Art Tokens".
+The `NFT Bridge Palm` Connects Ethereum & Palm networks. The only supported wallet is Metamask. There are a dozen collections whitelisted on the bridge. Among them are "The Currency," "Greeting from Giza," "Great Expectations," "Pace Verso The Matrix Avatars", "HENI Editions Deed," "Lamborgini," "MadC - Color Rhymes and Portion Art Tokens".
 
 <center>
 
@@ -174,7 +174,7 @@ The [NFT Bridge Palm](https://app.palm.io/nftbridge) Connects Ethereum & Palm ne
 
 ## 8. LeewayHerz NFT Swap
 
-The eighth position on the search list was given to a [blog of Leeway Herz](https://www.leewayhertz.com/nft-swapping-and-bridging/), a founder and CEO of the company bearing his name. The blog author offers a concept of an NFT trade-in or simply swapping NFTs that started losing their popularity and value for other NFTs, crypto, or a combination of NFTs & crypto.
+The eighth position on the search list was given to a blog of Leeway Herz, a founder and CEO of the company bearing his name. The blog author offers a concept of an NFT trade-in or simply swapping NFTs that started losing their popularity and value for other NFTs, crypto, or a combination of NFTs & crypto.
 
 The project does not offer a bridging solution but promotes its software development solutions for blockchains, Metaverses, IoT devices, AI, and NFT Marketplaces.
 
@@ -186,7 +186,7 @@ The project does not offer a bridging solution but promotes its software develop
 
 ## 9. AllianceBlock Bridge
 
-The ninth position is occupied by a [Media blog](https://blog.allianceblock.io/allianceblock-bridge-2-0-bridge-nfts-inspect-the-cross-messaging-protocol-and-more-5a95d6648995) featuring the second version of [AllianceBlock NFT bridge](https://alliancebridge.io/). The blog outlines FT and NFT bridging in general and informs the reader about the new features of the 2.0 version of the bridge such as reducing the time of transfer and paying for the transactions in the native tokens.
+The ninth position is occupied by a Media blog featuring the second version of `AllianceBlock NFT Bridge`. The blog outlines FT and NFT bridging in general and informs the reader about the new features of the 2.0 version of the bridge such as reducing the time of transfer and paying for the transactions in the native tokens.
 
 <center>
 
@@ -210,7 +210,7 @@ The bridge found zero out of 3 NFTs on BSC and zero out of 17 on Polygon. It was
 
 ## 10. Wormhole NFT Bridge Documentation
 
-At the tenth position, Google brought the Wormhole bridge's docs page devoted to the [NFT Bridge](https://docs.wormhole.com/wormhole/existing-applications/nft-bridge). 
+At the tenth position, Google brought the Wormhole bridge's docs page devoted to the NFT Bridge. 
 
 The document seems to be obsolete and contains self-contradictions. The first utterance claims that NFT bridging is implemented on three chains, while six chains are listed immediately below the statement.
 
