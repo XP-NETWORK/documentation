@@ -42,6 +42,9 @@ At the time of writing, the list of chain nonces are:
 |DFinity|28|
 |Hedera|29|
 |SKALE|30|
+|NEAR|31|
+|Moonbeam|32|
+|Abeychain|33|
 
 
 \* <s>Discarded/postponed the idea</s>
