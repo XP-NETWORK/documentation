@@ -96,7 +96,7 @@ uint256 private constant _BITMASK_ADDRESS = (1 << 160) - 1;
 
 ## Limitations
 
-The storage imptovements came at a cost. To avoid the overflow problem the maximum number of tokens minted in one contract is limited to 5,000.
+The storage improvements came at a cost. To avoid the overflow problem, the maximum number of tokens minted in one contract is limited to 5,000.
 
 ```ts
 // The maximum `quantity` that can be minted with {_mintERC2309}.
