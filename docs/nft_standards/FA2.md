@@ -1,6 +1,6 @@
 ---
-sidebar_label: '5. FA 2.0 - Tezos NFT'
-sidebar_position: 5
+sidebar_label: '6. FA 2.0 - Tezos NFT'
+sidebar_position: 6
 image: /cover-image.png
 description: The Most Powerful Multi-Chain NFT bridge
 ---
