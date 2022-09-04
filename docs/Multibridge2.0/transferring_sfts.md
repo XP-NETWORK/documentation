@@ -12,16 +12,18 @@ XP.NETWORK bridge supports NFT and SFT transfers. SFTs are similar to NFTs, but 
 The most popular use-case of SFTs is game utilities (weapons, armor, clothes, characters, etc.) 
 
 ## Interchangeable like FTs
-SFTs have the same value, and are completely interchangeable with other SFTs bearing the same token ID in this collection. In this, they resemble fungible tokens. 
+SFTs have the same value and are completely interchangeable with other SFTs bearing the same token ID in this collection. In this, they resemble fungible tokens. 
 
 ## Unique like NFTs
-SFTs have metadata with attributes and an asset (image, video audio, etc.) and are usually not equal in value to SFTs with other token IDs even in the same colleciton.
+SFTs have metadata with attributes and an asset (image, video audio, etc.) and are usually not equal in value to SFTs with other token IDs, even in the same collection.
 
 ## Distinguishing SFTs from NFTs in the bridge UI
 
 The two NFT cards on the left hold NFTs, while the NFT card on the right holds an SFT. In the top right corner of the NFT card, there is the amount 500 preceded by the icon:
 
 ![sfts icon](../../static/img/sft_transfer/sft-icon.1071a413ab40561eca271bc577ac6c04.svg)
+
+The icon and the amount in the top right corner indicate that the Card holds an SFT rather than an NFT.
 
 ![Distinguishing SFTs from NFTs in the bridge UI](../../static/img/sft_transfer/viewing_sfts_in_the_ui.png)
 
@@ -33,17 +35,23 @@ Click the NFT card holding SFTs. The right panel will add this item to the selec
 
 ## Approving
 
-Before the bridge contract can interact with your assets, it must get your permission. Click the slide to the right from the caption `Approve selected NFTs.` A pop-up window with the selected wallet will open. Confirm the approval transaction.
+Before the bridge contract can interact with your assets, it must get your permission. Click the slide to the right from the caption `Approve selected NFTs.` A pop-up window with the selected wallet will open. Confirm the approval transaction. This transaction gives the necessary permission to the bridge contract.
 
 ![Approving the bridge contract for SFTs](../../static/img/sft_transfer/approving_sfts.png)
 
 ## Sending
 
-After the destination address is set, an SFT is selected, and the amount is provided, the `Send` button becomes active. Click the button and confirm the transaction in the selected wallet. After the transaction succeeds, you will see the `Bridging results` panel, at least on the chain of departure. Once the transaction hashes are available for the transitions on the chains of departure & destination, you can click the links at the bottom of the panel to view the transaction results in the respective explorers of the chains.
+After the destination address is set, an SFT is selected, and the amount is provided, the `Send` button becomes active. 
+
+Click the button and confirm the transaction in the selected wallet. 
+
+After the transaction succeeds, you will see the `Bridging results` panel, at least on the chain of departure. 
+
+Once the transaction hashes are available for the transitions on the chains of departure & destination, you can click the links at the bottom of the panel to view the transaction results in the respective explorers of the chains.
 
 ![Transferring STFs](../../static/img/sft_transfer/transferring_sfts.png)
 
-For example, on IoTeX, it could look like this:
+For example, on IoTeX, a successful transaction could look like this:
 
 ![Viewing results of SFT transfer on IoTeX](../../static/img/sft_transfer/viewing_results_on_iotex.png)
 
