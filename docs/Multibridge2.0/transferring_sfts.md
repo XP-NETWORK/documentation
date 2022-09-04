@@ -9,13 +9,13 @@ description: The Most Powerful Multi-Chain NFT bridge
 
 XP.NETWORK bridge supports NFT and SFT transfers. SFTs are similar to NFTs, but their amount is greater than one.
 
-The most popular use-case SFTs is game utilities (weapons, armor, clothes, characters, etc.) 
+The most popular use-case of SFTs is game utilities (weapons, armor, clothes, characters, etc.) 
 
 ## Interchangeable like FTs
-SFTs have the same value as other SFTs and are completely interchangeable with other SFTs bearing the same token ID in this collection. In this, they resemble fungible tokens. 
+SFTs have the same value, and are completely interchangeable with other SFTs bearing the same token ID in this collection. In this, they resemble fungible tokens. 
 
 ## Unique like NFTs
-But SFTs have metadata with attributes and are usually not equal in value to SFTs with other token IDs.
+SFTs have metadata with attributes and an asset (image, video audio, etc.) and are usually not equal in value to SFTs with other token IDs even in the same colleciton.
 
 ## Distinguishing SFTs from NFTs in the bridge UI
 
