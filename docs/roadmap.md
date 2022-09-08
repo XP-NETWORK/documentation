@@ -127,6 +127,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ✅ &nbsp; Received Grants From: <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;13. Moonbeam<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;14. Abeychain<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;15. Caduceus<br/>
 ⬜ &nbsp; Mainnet integration to:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Secret Network<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; The Open Network <br/>
@@ -135,10 +136,15 @@ Follow our journey from inception to launch. Please note that the team reserves 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; SKALE <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Abeychain <br/>
 ⬜ &nbsp; Wallet integrations:<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;EVM - BitKeep<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;VeChain - Thor<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Solana wallet - Phantom<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Secret Network - Keplr<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Secret Network - Fina<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Hedera Wallets - <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Skale Wallet<br/>
+✅ &nbsp; Preserving original NFT IDs in the mapped contracts<br/>
+✅ &nbsp; Royalties support in the mapped contracts on Tezos<br/>
 ⬜ &nbsp; SFT Support for Ethereum, BSC, Polygon, Fantom, Avalanche, Harmony<br/>
 ⬜ &nbsp; Bridge Explorer<br/>
 ⬜ &nbsp; $XPNET BSC - Algorand Bridge<br/>
