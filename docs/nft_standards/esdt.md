@@ -47,133 +47,644 @@ For example, if you named your collection MyCollection, you will get something l
 
 ## Code Snippets
 
+ESDT deployment is required for customising NFT/SFT collections on Elrond before mapping. It allows setting custonm:
+1. Collection name
+2. Token ticker
+3. Roles
+### ESDT deployment project structure
+
+Excluding node_modules & generated folders
+
+```
+.
+├── package.json
+├── src
+│   ├── accounts.ts
+│   ├── constants.ts
+│   ├── erdjs_compatible_classes.ts
+│   ├── errors.ts
+│   ├── index.ts
+│   ├── interfaces.ts
+│   ├── signers.ts
+│   ├── transaction.ts
+│   ├── run.ts
+│   └── utilities.ts
+├── tsconfig.json
+└── yarn.lock
+```
+
+### index.ts
 ```ts
-import { ApiNetworkProvider } from '@elrondnetwork/erdjs-network-providers';
+export * from './accounts';
+export * from './constants';
+export * from './erdjs_compatible_classes'
+export * from './errors';
+export * from './interfaces';
+export * from './signers';
+export * from './transaction';
+export * from './utilities';
+```
 
-export const getProvider = () => {
+### Accounts
 
-  //    Testnet Setup
-  return new ApiNetworkProvider('https://devnet-api.elrond.com', {
-    timeout: 10000,
-  });
 
-  //    Mainnet setup
-  return new ApiNetworkProvider('https://api.elrond.com', {
-    timeout: 10000,
-  });
-};
+### Constants
+It's always convenient to have all the constants in one place
+```ts
+/**
+ * A built in system contract for token issuance & token management operations
+ */
+export const ESDT_RECEIVER = "erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqzllls8a5w6u";
+
+/**
+ *  ESDT issue cost (0.05 EGLD):
+ */
+export const ESDT_ISSUE_COST = 50000000000000000;
+
+/**
+ * Suggested gas limit for ESDT issue:
+ */
+export const ESDT_GAS_LIMIT = 60000000;
+
+/**
+ * esdtLocalOpertationsGasLimit
+ */
+export const ESDT_LOCAL_OPERATION_GAS_LIMIT = 300000;
+
+/**
+ * Standard Elrond argument separator: @
+ */
+export const ArgumentsSeparator = "@";
+
+/**
+ * Limits the choice of network types to those available
+ */
+export type NetworkType = "Devnet" | "Mainnet" | "Testnet"
+
+/**
+ * Public API URLs from
+ * 
+ * https://docs.elrond.com/sdk-and-tools/rest-api/api-elrond-com/
+ */
+export const PUBLIC_NETWORK_API = {
+    Devnet: "https://devnet-api.elrond.com",
+    Mainnet: "https://api.elrond.com",
+    Testnet: "https://testnet-api.elrond.com"
+}
+
+/**
+ * Elrond explorers mapper
+ */
+export const ELROND_EXPLORER = {
+    Devnet: "https://devnet-explorer.elrond.com",
+    Mainnet: "https://explorer.elrond.com",
+    Testnet: "https://testnet-explorer.elrond.com"
+}
+
+export const ESDT_TOKEN_PROPERTIES = [
+    'canFreeze',
+    'canWipe',
+    'canPause',
+    'canMint',
+    'canBurn',
+    'canChangeOwner',
+    'canUpgrade',
+    'canAddSpecialRoles',
+];
+
+export const ESDT_TOKEN_SPECIAL_ROLES = [
+    'ESDTRoleLocalBurn',
+    'ESDTRoleLocalMint'
+];
+```
+
+### ERDJS Compatible Classes
+To meet the requirements of the SDK the following classes convert relevan data to the following objects:
+
+```ts
+import {
+    IChainID,
+    INonce,
+} from './index';
+
+/**
+ * Nonce compatibility adapter
+ */
+export class Nonce implements INonce {
+        
+    _nonce: number;
+
+    constructor(nonce:number) {
+        this._nonce = nonce;
+    }
+
+    valueOf():number {
+        return this._nonce;
+    }
+}
+
+/**
+ * ChainID compatbility adapter
+ */
+export class ChainId implements IChainID {
+    _id:string;
+
+    constructor(chainId: string){
+        this._id = chainId;
+    }
+
+    valueOf():string{
+        return this._id;
+    }
+}
+```
+
+### Errors
+
+It's a great idea to think about the Error use cases in advance and hardcode some error messages right in the body of the error, like so:
+
+```ts
+export class ElrondSignerError extends Error {
+
+    // Expected error cases
+    public static MISSING_PEM = "Reason: Missing or corrupted pem key\n";
+    // Expected error fixes
+    public static MISSING_PEM_FIX = "Fix: Polulate the `ELROND_PEM=` key correctly in the environment."
+    // New error cases go here...
+
+    constructor(msg: string) {
+
+        const DEFAULT_MSG = "Could not create a UserSigner instance for Elrond";
+
+        super(`\n${DEFAULT_MSG}\n${msg}\n`);
+
+        this.name = "\nElrondSignerError:";
+
+        // Set the prototype explicitly.
+        Object.setPrototypeOf(this, ElrondSignerError.prototype);
+    }
+}
+
+export class ElrondApiError extends Error {
+
+    constructor(msg: string) {
+
+        const DEFAULT_MSG = "Elrond API could not return the requested account info.";
+
+        super(`\n${DEFAULT_MSG}\n${msg}\n`);
+
+        this.name = "\nElrondApiError:";
+
+        // Set the prototype explicitly.
+        Object.setPrototypeOf(this, ElrondApiError.prototype);
+    }
+}
+
+export class ElrondTransactionError extends Error {
+
+    constructor(msg: string) {
+
+        const DEFAULT_MSG = "Elrond API could not submit the transaction.";
+
+        super(`\n${DEFAULT_MSG}\n${msg}\n`);
+
+        this.name = "\nElrondTransactionError:";
+
+        // Set the prototype explicitly.
+        Object.setPrototypeOf(this, ElrondApiError.prototype);
+    }
+}
+```
+
+### Interfaces
+
+Sometimes, importing interfaces form a third party library is tedious. For compatibility, some can be collected in the client project:
+
+```ts
+
+/**
+ * For ref. see: https://docs.elrond.com/developers/signing-transactions/signing-transactions/
+ *
+ * Order of the fields is important for proper serialization
+*/
+export interface IUnsignedTransactionData {
+    nonce: number, // The Nonce of the Sender.
+    value: string, // The Value to transfer, as a string representation of a Big Integer (can be "0").
+    receiver: string, // Bech32 encoded address
+    sender: string, // Bech32 encoded address
+    gasPrice: number, // The desired Gas Price (per Gas Unit).
+    gasLimit: number, // The maximum amount of Gas Units to consume.
+    data?: string // base64 encoded @ separated (discard the field if empty)
+    chainId: string, // 1 | 2 | 3 | Meta
+    version: number, // The Version of the Transaction (e.g. 1)
+}
+
+/**
+ * For ref. see: https://docs.elrond.com/developers/signing-transactions/signing-transactions/
+ *
+ * Order of the fields is important for proper serialization
+*/
+export interface IUnsignedTransactionNoData {
+    nonce: number, // The Nonce of the Sender.
+    value: string, // The Value to transfer, as a string representation of a Big Integer (can be "0").
+    receiver: string, // Bech32 encoded address
+    sender: string, // Bech32 encoded address
+    gasPrice: number, // The desired Gas Price (per Gas Unit).
+    gasLimit: number, // The maximum amount of Gas Units to consume.
+    chainId: string, // 1 | 2 | 3 | Meta
+    version: number, // The Version of the Transaction (e.g. 1)
+}
+
+/**
+ * Elrond account template
+ */
+export type AccountInfo = {
+    address: string,
+    nonce: number,
+    balance: string,
+    developerReward: string,
+    username?: string,
+    code?: string,
+    codeHash?: any,
+    rootHash?: any,
+    codeMetadata?: any,
+    ownerAddress?: string
+}
+
+
+/**
+ * For ref., see: https://docs.elrond.com/sdk-and-tools/rest-api/transactions/#send-transaction
+ */
+export interface ISignedTransaction {
+    signature: string, // Hex encoded
+    senderUsername?: string, // base64 encoded
+    receiverUsername?: string, // base64 encoded
+    options?: number // The Options of the Transaction (e.g. 1)
+}
+
+/**
+ * erdjs compatible Interfaces
+ */
+export interface ISignature {
+    hex(): string;
+}
+export interface IAddress {
+    bech32(): string;
+}
+export interface ITransactionValue {
+    toString(): string;
+}
+export interface IAccountBalance {
+    toString(): string;
+}
+export interface INonce {
+    valueOf(): number;
+}
+export interface IChainID {
+    valueOf(): string;
+}
+export interface IGasLimit {
+    valueOf(): number;
+}
+export interface IGasPrice {
+    valueOf(): number;
+}
 ```
 
 ### Getting the transaction signer
 
 ```ts
-import { UserSigner } from '@elrondnetwork/erdjs';
-import {config} from 'dotenv';
+import { ElrondSignerError } from './index';
+import { UserSigner, parseUserKey } from "@elrondnetwork/erdjs-walletcore";
+import { Account } from '@elrondnetwork/erdjs';
+import { config } from 'dotenv';
 config();
 
-// Make sure to replace line breaks with '\n'
-const signer = UserSigner.fromPem(process.env.pem!);
+/**
+ * Creates an Elrond Signer from a pem string
+ * https://elrond-dev-guild.gitbook.io/scrolls/erdjs/how-tos/setup-erdjs-and-issue-esdt-token#initialize-usersigner
+ * @returns UserSigner if the pem string was provided or throws a custom error otherwise
+ */
+export const signerFromPem = (): UserSigner => {
+
+    console.log("Creating signerFromPem...");
+
+    if (process.env.ELROND_PEM!) {
+        return UserSigner.fromPem(process.env.ELROND_PEM!);
+    } else {
+        throw new ElrondSignerError(
+            ElrondSignerError.MISSING_PEM +
+            ElrondSignerError.MISSING_PEM_FIX
+        );
+    }
+
+}
+
+/**
+ * Creates a user account
+ * @returns A user Account as IAccount
+ */
+export const prepareUserAccount = async () => {
+    console.log("Creating prepareUserAccount...");
+    
+    if (process.env.ELROND_PEM!){
+        const userKey = parseUserKey(process.env.ELROND_PEM!);
+        const address = userKey.generatePublicKey().toAddress();
+        return new Account(address);
+    }else{
+        throw new ElrondSignerError(
+            ElrondSignerError.MISSING_PEM +
+            ElrondSignerError.MISSING_PEM_FIX
+        );
+    }
+    
+  };
 ```
 
+### RUN
+This file orchestrates the work of the rest of the repository. The main file to be launched.
 ```ts
 import {
-  Account,
-  Address,
-  AddressValue,
-  Balance,
-  BigUIntValue,
-  BytesValue,
-  ContractFunction,
-  Egld,
-  ExtensionProvider,
-  GasLimit,
-  ISigner,
-  NetworkConfig,
-  ProxyProvider,
-  TokenIdentifierValue,
-  Transaction,
-  TransactionHash,
-  TransactionPayload,
-  U64Value,
-  WalletConnectProvider,
-} from "@elrondnetwork/erdjs";
+    signerFromPem,
+    getAddressAsString,
+    setVerbous,
+    getNetworkId,
+    getApiProvider,
+    ESDT_RECEIVER,
+    ChainId,
+    prepareUserAccount,
+    ESDT_ISSUE_COST,
+    ESDT_LOCAL_OPERATION_GAS_LIMIT,
+    ESDT_TOKEN_PROPERTIES,
+    commonTxOperations,
+    VERBOUS
+} from './index';
+
+import {
+    Address,
+    BytesValue,
+    ContractCallPayloadBuilder,
+    U32Value,
+    BigUIntValue,
+    ContractFunction,
+    TokenPayment,
+    Transaction,
+    TypedValue,
+} from '@elrondnetwork/erdjs';
+
+import Bignumber from 'bignumber.js';
+
+(async () => {
+
+    // ESDT Token params:
+    const collectionName = "TEST-1";
+    const tokenTicker = "TESTXP";
+    const initialSupply = "0"; //Bignumber
+    const decimals = 0;
+    // Leave all required, comment all extra:
+    const tokenProperties = [
+        'canFreeze',
+        'canWipe',
+        'canPause',
+        'canMint',
+        'canBurn',
+        'canChangeOwner',
+        'canUpgrade',
+        'canAddSpecialRoles',
+    ];
+
+    setVerbous(true);
+
+    // SETUP
+    if (VERBOUS) console.log("Begin setup...");
+    
+    const signer = signerFromPem();
+    const network = "Devnet";
+    const provider = getApiProvider(network);
+    const userAccount = await prepareUserAccount();
+    const userAccountOnNetwork = await provider.getAccount(userAccount.address);
+    userAccount.update(userAccountOnNetwork);
+    const payment = TokenPayment.egldFromAmount(ESDT_ISSUE_COST);
+    const chainId = await getNetworkId(network);
+    if (VERBOUS) console.log("Setup done.");
+    
+
+    const args: TypedValue[] = [
+        BytesValue.fromUTF8(collectionName),
+        BytesValue.fromUTF8(tokenTicker),
+        new BigUIntValue(new Bignumber(initialSupply)),
+        new U32Value(decimals),
+    ];
+
+    for (const property of ESDT_TOKEN_PROPERTIES) {
+        let propertyEnabled = false;
+
+        if (tokenProperties.includes(property)) {
+            propertyEnabled = true;
+        }
+
+        args.push(BytesValue.fromUTF8(property));
+        args.push(BytesValue.fromUTF8(propertyEnabled.toString()));
+    }
+
+    const data = new ContractCallPayloadBuilder()
+      .setFunction(new ContractFunction('issue'))
+      .setArgs(args)
+      .build();
+
+      const tx = new Transaction({
+        data,
+        gasLimit: ESDT_LOCAL_OPERATION_GAS_LIMIT,
+        receiver: new Address(ESDT_RECEIVER.trim()),
+        sender: new Address(getAddressAsString(signer)),
+        value: payment,
+        chainID: new ChainId(chainId),
+      });
+
+      await commonTxOperations(tx, userAccount, signer, provider, network);
+
+
+    process.exit(0);
+})().catch((e) => {
+    console.error(e.name);
+    console.error(e.message);
+    process.exit(1);
+});
 ```
 
-### Creating a new ESDT
-
+### Transaction implementation
+It's a good idea to refactor some code implementation from the main runnig file to an external one.
 ```ts
-  const unsignedIssueESDTNft = (
-    name: string,
-    ticker: string,
-    canFreeze: boolean | undefined,
-    canWipe: boolean | undefined,
-    canTransferNFTCreateRole: boolean | undefined
+import { 
+    Account,
+    Transaction, 
+    TransactionWatcher,
+} from '@elrondnetwork/erdjs';
+import { UserSigner } from '@elrondnetwork/erdjs-walletcore';
+import { ApiNetworkProvider } from '@elrondnetwork/erdjs-network-providers';
+import {
+    ELROND_EXPLORER,
+    NetworkType,
+    VERBOUS
+} from './index';
+
+export const commonTxOperations = async (
+    tx: Transaction,
+    account: Account,
+    signer: UserSigner,
+    provider: ApiNetworkProvider,
+    network:NetworkType
   ) => {
-    let baseArgs = TransactionPayload.contractCall()
-      .setFunction(new ContractFunction("issueNonFungible"))
-      .addArg(new TokenIdentifierValue(Buffer.from(name, "utf-8")))
-      .addArg(new TokenIdentifierValue(Buffer.from(ticker, "utf-8")));
 
-    if (canFreeze !== undefined) {
-      baseArgs = baseArgs
-        .addArg(new BytesValue(Buffer.from("canFreeze", "ascii")))
-        .addArg(
-          new BytesValue(Buffer.from(canFreeze ? "true" : "false", "ascii"))
-        );
-    }
-    if (canWipe !== undefined) {
-      baseArgs = baseArgs
-        .addArg(new BytesValue(Buffer.from("canWipe", "ascii")))
-        .addArg(
-          new BytesValue(Buffer.from(canWipe ? "true" : "false", "ascii"))
-        );
-    }
-    if (canTransferNFTCreateRole !== undefined) {
-      baseArgs = baseArgs
-        .addArg(
-          new BytesValue(Buffer.from("canTransferNFTCreateRole", "ascii"))
-        )
-        .addArg(
-          new BytesValue(
-            Buffer.from(canTransferNFTCreateRole ? "true" : "false", "ascii")
-          )
-        );
-    }
+    if(VERBOUS)console.log("Executing commonTxOperations");
+    
+    tx.setNonce(account.nonce);
+    if(VERBOUS)console.log("Done set Nonce");
+    
+    account.incrementNonce();
+    console.log("Done account.incrementNonce()");
 
-    return new Transaction({
-      receiver: ESDT_ISSUE_ADDR,
-      value: new Balance(
-        Egld.getToken(),
-        Egld.getNonce(),
-        new BigNumber(ESDT_ISSUE_COST.toString())
-      ),
-      gasLimit: new GasLimit(60000000),
-      data: baseArgs.build(),
-    });
+    signer.sign(tx);
+    if(VERBOUS)console.log("Done signer.sign(tx)");
+    
+    if(VERBOUS)console.log("Sending a signed TX");
+    
+    await provider.sendTransaction(tx);
+  
+    const watcher = new TransactionWatcher(provider);
+    const transactionOnNetwork = await watcher.awaitCompleted(tx);
+    if(VERBOUS)console.log("Got transactionOnNetwork");
+  
+    const txHash = transactionOnNetwork.hash;
+    const txStatus = transactionOnNetwork.status;
+  
+    console.log(`\nTransaction status: ${txStatus}`);
+    console.log(
+      `Transaction link: ${ELROND_EXPLORER[network]}/transactions/${txHash}\n`
+    );
   };
 ```
 
-### Setting roles:
-
+### Utilities
+Some boilerplate functions live here:
 ```ts
-  const unsignedSetESDTRoles = (
-    token: string,
-    target: Address,
-    roles: ESDTRole[]
-  ) => {
-    let baseArgs = TransactionPayload.contractCall()
-      .setFunction(new ContractFunction("setSpecialRole"))
-      .addArg(new TokenIdentifierValue(Buffer.from(token)))
-      .addArg(new AddressValue(target));
+import BigNumber from "bignumber.js";
+import { 
+    ApiNetworkProvider, 
+    ProxyNetworkProvider 
+} from "@elrondnetwork/erdjs-network-providers";
+import {
+    getAccountNonce,
+    NetworkType,
+    PUBLIC_NETWORK_API
+} from './index';
+import { UserSigner } from "@elrondnetwork/erdjs-walletcore/out";
+import { Address } from "@elrondnetwork/erdjs/out";
+export let VERBOUS = false;
 
-    for (const role of roles) {
-      baseArgs = baseArgs.addArg(new BytesValue(Buffer.from(role, "utf-8")));
+/**
+ * Converts a string to a hexadecimal encoded string
+ * @param input a human readable string to be encoded
+ * @returns a hexadecimal string
+ */
+export const stringToHex = (input:string) => {
+    return Buffer.from(input).toString('hex');
+}
+
+/**
+ * Converts a hexadecimal encoded string to a human readable one
+ * @param input a hexadecimal string to be decoded
+ * @returns a human readable string
+ */
+export const hexToString = (input:string) => {
+    return Buffer.from(input, "hex").toString();
+}
+
+/**
+ * Zero padds a hex encoded string in case its length is odd
+ * @param input a hex encoded string
+ * @returns a 0 padded hex encoded string
+ */
+export const paddedHex = (input: string) => {
+    input = input || "";
+
+    if (input.length % 2 == 1) {
+        return "0" + input;
     }
 
-    return new Transaction({
-      receiver: ESDT_ISSUE_ADDR,
-      gasLimit: new GasLimit(70000000), // TODO: auto derive
-      data: baseArgs.build(),
+    return input;
+}
+
+/**
+ * Hex encodes a number
+ * @param value a number to be hex encoded
+ * @returns a string with a hex encoded BigNumber
+ */
+export const numberToHex = (value: BigNumber.Value) => {
+    const hex = new BigNumber(value).toString(16);
+    return paddedHex(hex);
+}
+
+export const setVerbous = (value:boolean) => {
+    if (VERBOUS != value){
+        VERBOUS = value;
+    }
+}
+
+/**
+ * Retrieves an account's nonce & ensures it is a number
+ * @param bech32address a valid batch32 account address
+ * @param network "Devnet" | "Mainnet" | "Testnet"
+ * @returns an account nonce as a number
+ */
+export const nonceAsNumber = async (
+    bech32address:string, 
+    network:NetworkType
+): Promise<number> => {
+    if(VERBOUS){console.log("getting nonceAsNumber...");}
+    let nonce = await getAccountNonce(
+        bech32address,
+        network
+    );
+    return nonce ? nonce : 0;
+}
+
+
+
+/**
+ * Creates a ProxyNetworkProvider from network
+ * @param network "Devnet" | "Mainnet" | "Testnet"
+ * @returns a ProxyNetworkProvider object
+ */
+export const getProxyProvider = (network:NetworkType)
+: ProxyNetworkProvider => {
+    if(VERBOUS){console.log("Setting getProxyProvider...");}
+    return new ProxyNetworkProvider(PUBLIC_NETWORK_API[network],{
+        timeout: 10000,
     });
-  };
+}
+
+/**
+ * Creates an ApiNetworkProvider object from network
+ * 
+ * Limitation 2 requests per second
+ * @param network "Devnet" | "Mainnet" | "Testnet" 
+ * @returns ApiNetworkProvider object
+ */
+export const getApiProvider = (network:NetworkType)
+: ApiNetworkProvider => {
+    if(VERBOUS){console.log("Setting getApiProvider...");}
+    return new ApiNetworkProvider(PUBLIC_NETWORK_API[network],{
+        timeout: 10000,
+    });
+}
+
+/**
+ * Retrieves address from the signer & converts to IAddress
+ * @param sender a UserSigner object
+ * @returns an IAddress packed user address
+ */
+async function getAddress(sender: UserSigner): Promise<Address> {
+    return new Address(await sender.getAddress().bech32());
+}
 ```
