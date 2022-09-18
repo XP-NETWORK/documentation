@@ -47,7 +47,7 @@ For example, if you named your collection MyCollection, you will get something l
 
 ## Code Snippets
 
-ESDT deployment is required for customising NFT/SFT collections on Elrond before mapping. It allows setting custonm:
+ESDT deployment is required for customising NFT/SFT collections on Elrond before mapping. It allows setting custom:
 1. Collection name
 2. Token ticker
 3. Roles
@@ -258,7 +258,7 @@ export class ElrondTransactionError extends Error {
 
 ### Interfaces
 
-Sometimes, importing interfaces form a third party library is tedious. For compatibility, some can be collected in the client project:
+Sometimes, importing interfaces from a third party library is tedious. For compatibility, some can be collected in the client project:
 
 ```ts
 
