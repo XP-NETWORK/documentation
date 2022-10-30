@@ -30,7 +30,7 @@ yarn issue-esdt
 ```
 
 ## 2. Setting roles
-In order to mint, burn assets roles must be granted to the accounts:
+In order to mint and burn assets, roles must be granted to the accounts:
 
 2.1 Populate the keys of the `.env` file with values
 
@@ -62,7 +62,7 @@ MINT_SUPPLY=1
 MINT_NAME="NFT Name"
 MINT_ROYALTIES=0
 MINT_ATTRIBUTES="https://your.url.here"
-# Comma separated string of values, no spaces
+# Comma-separated string of values, no spaces
 MINT_URI="https://your.url.here"
 ```
 3.2 Run the following command in the terminal:
