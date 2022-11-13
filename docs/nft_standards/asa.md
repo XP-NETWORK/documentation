@@ -10,11 +10,11 @@ description: The Most Powerful Multi-Chain NFT bridge
 Tokens on Algorand are somewhat different from those on other chains. The first important things to know are:
 
 1. Every time a user creates an asset, the user has to increase one's balance by 0.1 Algos or 100,000 micro Algos.
-2. User accounts or contracts cannot volunterily send assets to each other. The receiver must `opt-in` the asset before receiving it from the sender.
-3. If the user does not have the minimum required balance after paying the transaction fee, the transaction will fail.
-4. Token IDs are consecutive throughout the entire blockchain. If anyone mints an asset its ID is +1 from the ID of the last minted asset by anyone on the network.
+2. User accounts or contracts cannot voluntarily send assets to each other. The receiver must `opt-in` to the asset before receiving it from the sender.
+3. The transaction will only succeed if the user has the minimum required balance after paying the transaction fee.
+4. Token IDs are consecutive throughout the entire blockchain. If anyone mints an asset, its ID is +1 from the ID of the last minted asset by anyone on the network.
 
-The easiest way to mint NFTs on Algorand are the two wollowing resources:
+The easiest way to mint NFTs in Algorand is the following:
 
 https://app.algodesk.io/#/login
 
