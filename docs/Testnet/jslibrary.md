@@ -99,6 +99,40 @@ import { UserSigner } from "@elrondnetwork/erdjs/out";
 const elrondSigner = UserSigner.fromPem(process.env.ELROND_PEM!);
 ```
 
+## 4.3 Example signer object for TON
+
+```bash
+echo "TON_MNEMONIC=<replcae with space separated mnemonic>" >> .env
+```
+
+```ts
+import { config } from "dotenv";
+config();
+import {
+  AppConfigs,
+  Chain,
+  ChainFactory,
+  ChainFactoryConfigs,
+} from "xp.network";
+
+import { mnemonicToKeyPair } from "tonweb-mnemonic";
+
+(async () => {
+  const factory = ChainFactory(
+    AppConfigs.TestNet(),
+    await ChainFactoryConfigs.TestNet()
+  );
+
+  const ton = await factory.inner(Chain.TON);
+
+  const tonSigner = ton.tonKpWrapper(
+    // where TON_MNEMONIC="space separated mnemonic phrase ..."
+    await mnemonicToKeyPair(process.env.TON_MNEMONIC!.split())
+  );
+})();
+```
+
+
 ## 5. Creating inner Blockchain objects
 
 ```ts
@@ -119,6 +153,8 @@ const elrondSigner = UserSigner.fromPem(process.env.ELROND_PEM!);
   const vechain = await factory.inner(Chain.VECHAIN);       // 25
   const hedera = await factory.inner(Chain.HEDERA);         // 29
   const skale = await factory.inner(Chain.SKALE);           // 30
+  const moonbeam = await factory.inner(Chain.MOONBEAM);     // 32
+  const abeychain = await factory.inner(Chain.ABEYCHAIN);   // 33
 
   // Non-EVM chains:
   // Inner Object ====================================== Chain Nonce
@@ -129,6 +165,7 @@ const elrondSigner = UserSigner.fromPem(process.env.ELROND_PEM!);
   const solana = await factory.inner(Chain.SOLANA);         // 26
   const ton = await factory.inner(Chain.TON);               // 27
   const dfinity = await factory.inner(Chain.DFINITY);       // 28
+  const near = await factory.inner(Chain.NEAR);             // 31
 })();
 ```
 
@@ -143,6 +180,12 @@ const elrondSigner = UserSigner.fromPem(process.env.ELROND_PEM!);
   );
   // To view a list of NFTs:
   console.log("NFTs:", bscNFTs);
+
+  // TON example:
+  const tonNfts = await factory.nftList(
+    ton, // TON chain internal object
+    "tz1..." // The public key of the NFT owner in TON
+  );
 })();
 ```
 

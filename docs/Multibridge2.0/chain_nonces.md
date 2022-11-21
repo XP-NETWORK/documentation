@@ -50,7 +50,8 @@ At the time of writing, the list of chain nonces are:
 \* <s>Discarded/postponed the idea</s>
 
 Coming soon:<br/>
-- NEAR (Layer-1)
+- Casper
+- Cadeuseus
 - Cosmos ecosystem chains
 - Polkadot ecosystem chains
 - Cardano
