@@ -41,11 +41,11 @@ XP Network's NFT Bridge v2.0 is unique in many ways, leaving alone that it conne
 | 20  |![Ton](../../static/assets/chain/ton.svg)| TON| No|27|
 | 21  |![Dfinity](../../static/assets/chain/InternetComputer.svg)| Dfinity| No|28|
 | 22  |![Hedera](../../static/assets/chain/Hedera.svg)| Hedera| Yes|29|
-| 23  |<img src="../../static/assets/chain/Skale.png" alt="Skale" width="25"/>| SKALE| Yes|30|
-| 24  |<img src="../../static/assets/chain/NEAR.png" alt="NEAR" width="25"/>| NEAR| No|31|
+| 23  |<img src="/assets/chain/Skale.png" alt="Skale" width="25"/>| SKALE| Yes|30|
+| 24  |<img src="/assets/chain/NEAR.png" alt="NEAR" width="25"/>| NEAR| No|31|
 | 25  |![Moonbeam](../../static/assets/chain/Moonbeam.svg)| Moonbeam| Yes|32|
 | 26  |![AbeyChain](../../static/assets/chain/Abey.svg)| AbeyChain| Yes|33|
-| 27  |<img src="../../static/assets/chain/Aptos.png" alt="Aptos" width="25"/>| Aptos| No|34|
+| 27  |<img src="/assets/chain/Aptos.png" alt="Aptos" width="25"/>| Aptos| No|34|
 <!--  -->
 
 ## Bridge versions
