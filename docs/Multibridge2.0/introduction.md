@@ -34,9 +34,18 @@ XP Network's NFT Bridge v2.0 is unique in many ways, leaving alone that it conne
 | 13  |![Velas](../../static/assets/chain/velas.svg) | Velas| Yes|19|
 | 14  |![IoTeX](../../static/assets/chain/iotx.svg) | IoTeX| Yes|20|
 | 15  |![Aurora](../../static/assets/chain/aurora.svg) | Aurora| Yes|21|
-| 16  |![GateChain](../../static/assets/chain/GateChain.svg) | GateChain| Yes|23|
-| 17  |![Godwoken](../../static/assets/chain/godwoken.svg) | Godwoken| Yes|25|
-
+| 16  |![Godwoken](../../static/assets/chain/godwoken.svg) | Godwoken| Yes|22|
+| 17  |![GateChain](../../static/assets/chain/GateChain.svg) | GateChain| Yes|23|
+| 18  |![Secret](../../static/assets/chain/secret.svg)| Secret Network| No|24|
+| 19  |![Solana](../../static/assets/chain/Solana.svg)| Solana| No|26|
+| 20  |![Ton](../../static/assets/chain/ton.svg)| TON| No|27|
+| 21  |![Dfinity](../../static/assets/chain/InternetComputer.svg)| Dfinity| No|28|
+| 22  |![Hedera](../../static/assets/chain/Hedera.svg)| Hedera| Yes|29|
+| 23  |<img src="../../static/assets/chain/Skale.png" alt="Skale" width="25"/>| SKALE| Yes|30|
+| 24  |<img src="../../static/assets/chain/NEAR.png" alt="NEAR" width="25"/>| NEAR| No|31|
+| 25  |![Moonbeam](../../static/assets/chain/Moonbeam.svg)| Moonbeam| Yes|32|
+| 26  |![AbeyChain](../../static/assets/chain/Abey.svg)| AbeyChain| Yes|33|
+| 27  |<img src="../../static/assets/chain/Aptos.png" alt="Aptos" width="25"/>| Aptos| No|34|
 <!--  -->
 
 ## Bridge versions

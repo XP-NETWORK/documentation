@@ -45,6 +45,7 @@ At the time of writing, the list of chain nonces are:
 |NEAR|31|
 |Moonbeam|32|
 |Abeychain|33|
+|Aptos|34|
 
 
 \* <s>Discarded/postponed the idea</s>
