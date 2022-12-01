@@ -46,6 +46,7 @@ XP Network's NFT Bridge v2.0 is unique in many ways, leaving alone that it conne
 | 25  |![Moonbeam](../../static/assets/chain/Moonbeam.svg)| Moonbeam| Yes|32|
 | 26  |![AbeyChain](../../static/assets/chain/Abey.svg)| AbeyChain| Yes|33|
 | 27  |<img src="/assets/chain/Aptos.png" alt="Aptos" width="25"/>| Aptos| No|34|
+| 28 |<img src="../../static/assets/chain/caduceus.png" alt="Caduceus" width=25>| Caduceus| Yes|35|
 <!--  -->
 
 ## Bridge versions

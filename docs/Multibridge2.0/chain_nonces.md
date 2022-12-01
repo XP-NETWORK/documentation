@@ -46,13 +46,13 @@ At the time of writing, the list of chain nonces are:
 |Moonbeam|32|
 |Abeychain|33|
 |Aptos|34|
+|Caduceus|35|
 
 
 \* <s>Discarded/postponed the idea</s>
 
 Coming soon:<br/>
 - Casper
-- Cadeuseus
 - Cosmos ecosystem chains
 - Polkadot ecosystem chains
 - Cardano

@@ -33,13 +33,16 @@ For our user convenience, we've extracted and placed the contract addresses in o
 |Secret Network|24|secret18f66qjjuyudmh7q6s50hwpt9y679lanjs82jkg
 |VeChain|25|0xE860cef926E5e76E0E88fdc762417a582F849C27
 |Solana|26|-
-|TON|27|-
+|TON|27|kQAhH1me417YvScu9Rn8BXjsW_9HcalciG5LmCDT04HMJt6L
 |DFinity|28|e3io4-qaaaa-aaaak-qasua-cai
 |Hedera|29|-
 |SKALE|30|0xbED4a5b36fae07943589a0b34CC2Ec3a1c208E53
 |NEAR|31|-
 |Moonbeam|32|0xBA3Cc81cfc54a4ce99638b5da1F17b15476E7231
 |Abeychain|33|0x4ceDb46481d7118E1D292C318E37510E5919bBe6
+|Aptos|34|-
+|Caduceus|35|-
+
 
 ## Testnet
 
@@ -47,7 +50,7 @@ For our user convenience, we've extracted and placed the contract addresses in o
 |:-:|:-:|:-:|
 |ELROND|2|erd1qqqqqqqqqqqqqpgqnd6nmq4vh8e3xrxqrxgpwfldgp3sje83k4as3lusln
 |BSC|4|0x3Dd26fFf61D2a79f5fB77100d6daDBF073F334E6
-|ROPSTEN|5|0x57d2Ad1a14C77627D5f82B7A0F244Cfe391e59C5
+|GOERLY|5|0x04a5f9158829Cae5a0a549954AdEaBD47BbB3d2d
 |AVALANCHE|6|0xDdF1f6B8Ae8cd26dBE7C4C3ed9ac8E6D8B3a4FdC
 |POLYGON|7|0x224f78681099D66ceEdf4E52ee62E5a98CCB4b9e
 |FANTOM|8|0x9a287810bA8F0564DaDd9F2Ea9B7B2459497416B
@@ -72,3 +75,5 @@ For our user convenience, we've extracted and placed the contract addresses in o
 |NEAR|31|xp_bridge_1.testnet
 |Moonbeam|32|0x0F00f81162ABC95Ee6741a802A1218C67C42e714
 |Abeychain|33|0x3fe9EfFa80625B8167B2F0d8cF5697F61D77e4a2
+|Aptos|34|0x467fbe95cf51893ce4526e0959771ac1e5b9c578d351aba35b98506476221f18|
+|Caduceus|35|0x3fe9EfFa80625B8167B2F0d8cF5697F61D77e4a2|
