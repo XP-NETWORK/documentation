@@ -31,6 +31,14 @@ While building the bridge, we had to discover the differences and similarities b
 ## [04. ERC-1155D](./erc1155d.md)
 :::
 
+:::info The NFT standard for Elrond
+## [05. ESDT](./esdt.md)
+:::
+
 :::info The NFT standard for Tezos
-## [05. FA2](./FA2.md)
+## [06. FA2](./FA2.md)
+:::
+
+:::info The NFT standard for Algorand
+## [07. ASA3](./asa.md)
 :::

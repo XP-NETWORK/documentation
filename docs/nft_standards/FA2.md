@@ -29,6 +29,19 @@ The requirements were conveniently summarized by a Tezos team member Adam Shindl
 |TotalSupply|obligatory|Returns the total number of tokens in the collection|
 |AllTokens|obligatory|Returns the collection token IDs|
 
+
+## FA2 Storage Structure
+
+|Variable name|Variable Type|Description|
+|:-|:-:|:-|
+|administrator|$\color{blue}ADDRESS$|admin/owner of the contract|
+|all_tokens|$\color{blue}NAT$|total number of tokens|
+|ledger|$\color{blue}BIGMAP$|dictionary of the asset owners|
+|metadata|$\color{blue}BIGMAP$|contract's metadata|
+|operators|$\color{blue}BIGMAP$|dictionary of the operators|
+|paused|$\color{blue}BOOLEAN$|a flag whether the contract is paused|
+|token_meta|$\color{blue}BIGMAP$|metadata of individual tokens|
+
 ## Smart contract in SmartPy
 
 The tutorial suggested by the standard suggests a contract in LOGO. We're suggesting our implementation of the contract in SmartPy, another high level language that compiles to Michelson, the assembly language developed for Tezos blockchain smart contracts.
@@ -123,3 +136,47 @@ class XPNFT(FA2.FA2):
 ## Interacting with the contract on Tezos
 
 Our JavaScript library has a helper for interactions with the Bradge smart contract on Tezos. It is available in our [GitHub](https://github.com/XP-NETWORK/xpjs/blob/secretjs/src/helpers/tezos.ts).
+
+## Deploying a target contract on TEZOS
+
+### 1. Install Smartpy-cli
+```bash
+bash <(curl -s https://smartpy.io/cli/install.sh)
+~/smartpy-cli/SmartPy.sh --version
+```
+
+
+### 2. Create Python envorinment
+```bash
+python3 -m venv venv
+source venv/bin/activate
+touch requirements.txt
+```
+
+Populte the `requirements.txt` file with the library names:
+
+```txt
+autopep8
+python-dotenv
+git+https://github.com/xp-network/smartpy.git
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Create Unit Tests & Compile Smart Contracts
+```
+mkdir compilation/
+~/smartpy-cli/SmartPy.sh test contracts/xpnft.py compilation/
+~/smartpy-cli/SmartPy.sh compile contracts/xpnft.py compilation/
+```
+
+### 4. Deploy Tezos SCs (XPNFT - Example code above)
+```
+~/smartpy-cli/SmartPy.sh originate-contract --code compilation/xpnft_comp/step_000_cont_0_contract.tz --storage compilation/xpnft_comp/step_000_cont_0_storage.tz --rpc https://hangzhounet.smartpy.io --private-key <Replace with your private key>
+```
+Example output:
+```
+[INFO] - Contract <the address of your smart contract> originated!!!
+```
