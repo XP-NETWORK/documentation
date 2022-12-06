@@ -5,6 +5,8 @@ image: /cover-image.png
 description: The Most Powerful Multi-Chain NFT bridge
 ---
 
+import ReactPlayer from 'react-player'
+
 # Multi-Chain NFT Bridge v 2.0
 
 XP Network's NFT Bridge v2.0 is unique in many ways, leaving alone that it connects more blockchains than any other NFT bridge. The shortlist of the bridge advantages boils down but is not limited to:
@@ -16,6 +18,8 @@ XP Network's NFT Bridge v2.0 is unique in many ways, leaving alone that it conne
 5. The bridge explorer for tracking cross-chain NFT transactions that were previously only available to blockchains.
 6. An intuitive JavaScript library allowing for integration of the bridge into any cross-chain game, marketplace, metaverse, or DEFI project in a matter of hours.
 7. A widget that can be set up and added to a user UI in minutes with zero coding.
+
+<ReactPlayer controls url='https://www.youtube.com/watch?v=CTxtFnABUrg' />
 
 |#|Logo| Blockchain | EVM | Chain Nonce|
 |:-:|:-:|:-:|:-:|:-:|
