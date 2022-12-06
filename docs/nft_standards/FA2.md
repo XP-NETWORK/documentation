@@ -15,6 +15,8 @@ The standard describes the major features of the contract the community members 
 
 The requirements were conveniently summarized by a Tezos team member Adam Shindler in his Medieum blog ["Tezos Token Standards Simply Explained"](https://medium.com/tezos-israel/tezos-token-standards-simply-explained-352e76c1ee5b). The table below is a slightly modified version of Adam's ideas.
 
+***
+
 ## The main contract requirements
 
 |Function|Presence|Description|
@@ -47,6 +49,8 @@ The requirements were conveniently summarized by a Tezos team member Adam Shindl
 The tutorial suggested by the standard suggests a contract in LOGO. We're suggesting our implementation of the contract in SmartPy, another high level language that compiles to Michelson, the assembly language developed for Tezos blockchain smart contracts.
 
 The contract below inherits from the contract implementation in SmartPy from the official languege site and implements additionally the minting & burning functionaluty required for the bridge.
+
+***
 
 The contract below is used as a default recipient of the NFTs on the Tezos side in case only one or few NFTs are transferred. For migrating an entire collection it is a better idea to deploy a new smart contract bearing the collection name and ticker and additional business logic relevant to the project.
 
@@ -133,6 +137,8 @@ class XPNFT(FA2.FA2):
             self.data.total_supply[params.token_id] = sp.as_nat(self.data.total_supply.get(params.token_id, default_value = 0) - params.amount)
 ```
 
+***
+
 ## Interacting with the contract on Tezos
 
 Our JavaScript library has a helper for interactions with the Bradge smart contract on Tezos. It is available in our [GitHub](https://github.com/XP-NETWORK/xpjs/blob/secretjs/src/helpers/tezos.ts).
@@ -143,6 +149,12 @@ Our JavaScript library has a helper for interactions with the Bradge smart contr
 ```bash
 bash <(curl -s https://smartpy.io/cli/install.sh)
 ~/smartpy-cli/SmartPy.sh --version
+```
+
+Example output when the library is installed:
+
+```bash
+SmartPy Version: 0.9.1
 ```
 
 
