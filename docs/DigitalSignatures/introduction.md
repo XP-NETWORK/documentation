@@ -14,7 +14,7 @@ We will review several signature types and justify why we use a specific one. He
 - [1. One-time Signature](./1.ots.md)
   - [1.1 LOTS (Leslie Lamport One-Time Signature)^1](./1.ots.md#11-lots-leslie-lamport-one-time-signature1)
   - [1.2 WOTS (Winternitz One-Time Signature)^2](./1.ots.md#12-wots-winternitz-one-time-signature2)
-- 2. Multisignature
+- 2. [Multisignature](./2.Multisignature.md)
 - 3. Threshold Signature (Used by the bridge)
 - 4. Group Signature
 - 5. Ring Signature

@@ -93,6 +93,10 @@ img.searchBanarBg {
   object-position: center;
 }
 
+.white-background{
+  background-color:white;
+}
+
 .searchbanar {
   padding: 62px 0 83px;
 }
