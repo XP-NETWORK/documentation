@@ -17,7 +17,7 @@ We will review several signature types and justify why we use a specific one. He
 2. [Multisignature](./2.Multisignature.md)<br/>
   2.1 [Drawbacks of Public Key Cryptography](./2.Multisignature.md#drawbacks-of-public-key-cryptography)<br/>
   2.2 [Multisignature as a solution](./2.Multisignature.md#multisignature-as-a-solution)<br/>
-  2.3 [Classical Multisignature](./2.Multisignature.md#classical-multisignature) (Was used by the Bridge v2.0)<br/>
+  2.3 [Classical Multisignature](./2.Multisignature.md#classical-multisignature) (Was used by the Bridge v1.0)<br/>
   2.4 [Joint Multisignature](./2.Multisignature.md#joint-multisignature) (Used by the Bridge v2.0)<br/>
 3. Threshold Signature
 4. Group Signature
