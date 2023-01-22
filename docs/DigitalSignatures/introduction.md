@@ -19,10 +19,10 @@ We will review several signature types and justify why we use a specific one. He
   2.2 [Multisignature as a solution](./2.Multisignature.md#multisignature-as-a-solution)<br/>
   2.3 [Classical Multisignature](./2.Multisignature.md#classical-multisignature) (Was used by the Bridge v1.0)<br/>
   2.4 [Joint Multisignature](./2.Multisignature.md#joint-multisignature) (Used by the Bridge v2.0)<br/>
-3. Threshold Signature
-4. Group Signature
-5. Ring Signature
-6. Blind Signature
+1. [Threshold Signature](./3.Threshold.md#threshold-multisignature)
+2. Group Signature
+3. Ring Signature
+4. Blind Signature
 
 <!-- ## Secp256k1 -->
 <!-- https://wiki.bitcoinsv.io/index.php/Secp256k1
