@@ -117,14 +117,17 @@ Follow our journey from inception to launch. Please note that the team reserves 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;VeChain wallet - Sync2<br/>
 
 ✅  &nbsp; NFT Caching<br/>
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Harmony Extention Wallet<br/> -->
 
+<!-- ⬜ &nbsp; Chain Agnostic NFT Marketplace Lister (Beta)<br/> -->
+<!-- ⬜ &nbsp; XPJS Tokenization<br/> -->
 :::
 ## Q3 2022
 :::tip DONE
 ✅ &nbsp; Received Grants From: <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;13. Moonbeam<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;14. Abeychain<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;15. NEAR-(Layer-1)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;15. Caduceus<br/>
 ✅ &nbsp; Audited smart contracts for:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; Solana<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; TON <br/>
@@ -140,83 +143,50 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ✅  &nbsp; $XPNET BSC - Algorand Bridge<br/>
 :::
 
-## Q4 2022
-:::tip DONE<br/>
+## Q4 2022 - We're here
+:::caution Work In Progress<br/>
 ✅ &nbsp; Received Grants From: <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;16. Casper<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;17. Caduceus<br/>
-✅ &nbsp; Bridge Explorer<br/>
-✅ &nbsp; OpenSea Royalties Support<br/>
-✅ &nbsp; SFT Support for Ethereum, BSC, Polygon, Fantom, Avalanche, Harmony<br/>
-✅ &nbsp; Smart Contract Audits:<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Aptos<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;TON<br/>
-✅ &nbsp; Testnet integration in xpjs (JavaScript API library) with:<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; Secret Network<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; The Open Network <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; Solana<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; Hedera <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; SKALE <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; Internet Computer<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; Near (Layer-1)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; OKC<br/>
-✅ &nbsp; Testnet Wallet Integrations:<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Cosmos (Cosmostation, Keplr Wallet)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Solana wallet - Phantom<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Secret Network - Keplr<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Internet Computer - Plug<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Unstoppable Domains<br/>
-:::
-## Q1 2023 - We're here
-:::caution Work In Progress
-⬜ &nbsp;Challenge Platform<br/>
-⬜ &nbsp; Smart Contract Audits:<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;NEAR<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Internet Computer<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Skale <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Hedera <br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Secret Network <br/>
-⬜ &nbsp; Migration to v3.0 of the bridge<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Automated Contract Vulnerability Detection<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Automated Contract Whitelisting<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Automated Target Contract Deployment<br/>
-⬜ &nbsp; Mainnet & Testnet integration in the UI & Widget with:<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; OKC<br/>
+⬜ &nbsp; Mainnet integration to:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Secret Network<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Near (Layer-1)<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; The Open Network<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; The Open Network <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Solana<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Hedera<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Skale<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Hedera <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; SKALE <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Internet Computer<br/>
-⬜ &nbsp; Mainnet Wallet Integrations in the UI & Widget:<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Near (Layer-1)<br/>
+
+
+⬜ &nbsp; Wallet Integrations:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos (Cosmostation, Keplr Wallet)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Polkadot Extention<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano - Daedalus<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Solana wallet - Phantom<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Secret Network - Keplr<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Hedera Wallet<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Internet Computer - Plug<br/>
-⬜ &nbsp;Full SFT Support<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;EVM Chains<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Elrond<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Tezos<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Secret Network - Fina<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Hedera Wallets - <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Skale Wallet<br/>
 :::
-
-
-
-## Q2 2023
+## Q1 2023 
 :::info TODO
-⬜ &nbsp; Migration to v3.1 of the bridge<br/>
+
+⬜ &nbsp; Migration to v3.0 of the bridge<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;ERC-721A Support<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;ERC-998  Support<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;TX Fee payments in $XPNET<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;$XPNET Support<br/>
+⬜ &nbsp; SFT Support for Ethereum, BSC, Polygon, Fantom, Avalanche, Harmony<br/>
+⬜ &nbsp; Bridge Explorer<br/>
+⬜ &nbsp; Forged NFT detection on all the bridged chains<br/>
+⬜ &nbsp; NFT rights retention tool<br/>
+⬜ &nbsp; NFT Fractionalizer<br/>
+⬜ &nbsp; Cross-Chain NFT Minting<br/>
+⬜ &nbsp;Full SFT Support<br/>
 ⬜ &nbsp; Mainnet integration to:<br/>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
-⬜ &nbsp; NFT Fractionalizer<br/>
-:::
-
-## Q3 2023
-:::info TODO
-⬜ &nbsp; NFT Marketcap (Collection & individual NFT statistics & analytics)<br/>
-⬜ &nbsp; NFT Marketcap (Collection & individual NFT statistics & analytics)<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Polkadot<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Flow<br/>
+<!-- ⬜ &nbsp; NFTs Search (search by any parameter)<br/> -->
+<!-- ⬜ &nbsp; NFT Launchpad<br/> -->
+<!-- ⬜ &nbsp; NFT Marketcap (Collection & individual NFT statistics & analytics)<br/> -->
 :::
