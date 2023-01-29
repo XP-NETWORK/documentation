@@ -20,7 +20,7 @@ We will review several signature types and justify why we use a specific one. He
   2.3 [Classical Multisignature](./2.Multisignature.md#classical-multisignature) (Was used by the Bridge v1.0)<br/>
   2.4 [Joint Multisignature](./2.Multisignature.md#joint-multisignature) (Used by the Bridge v2.0)<br/>
 1. [Threshold Signature](./3.Threshold.md#threshold-multisignature)
-2. Group Signature
+2. [Group Signature](./4.GroupSignature.md)
 3. Ring Signature
 4. Blind Signature
 
