@@ -1,6 +1,6 @@
 ---
-sidebar_label: '7. ASA-003 Algorand NFTs'
-sidebar_position: 7
+sidebar_label: '8. ASA-003 Algorand NFTs'
+sidebar_position: 8
 image: /cover-image.png
 description: The Most Powerful Multi-Chain NFT bridge
 ---
