@@ -59,6 +59,12 @@ img[src$="centerme"] {
   margin: 0 auto;
 }
 
+img.inline {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
 html[data-theme="dark"] h1 {
   color: white;
 }
