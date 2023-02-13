@@ -3,8 +3,8 @@ import React from "react";
 
 const card = [
   {
-    description: "Who we are and what we can do for your business.",
-    title: "What is XP.NETWORK",
+    description: "The gateway for understanding XP.NETWORK technological stack.",
+    title: "Go to Documentation",
     color: "#EB5260",
     image: (
       <svg
