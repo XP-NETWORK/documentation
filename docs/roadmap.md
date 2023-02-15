@@ -172,11 +172,11 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ⬜  &nbsp;XP.Challenge Platform launch<br/>
 ✅  &nbsp;Grants From:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Bitgert<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Cronos<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Cronos<br/>
 ⬜   &nbsp;Smart Contract Audits:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;NEAR<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Skale<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Internet Computer<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Skale<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Hedera<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Secret Network<br/>
 ⬜   &nbsp;Bridge v.3.0 update:<br/>
@@ -187,9 +187,9 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ⬜   &nbsp;Mainnet integrations with the bridge, widget and XPJS:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅   &nbsp;OKC<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅   &nbsp;The Open Network<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅   &nbsp;Skale<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜   &nbsp;Secret Network<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜   &nbsp;Solana<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜   &nbsp;Aptos<br/>
 ⬜   &nbsp;Mainnet wallet integrations:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Solana - Phantom<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Secret Network - Keplr<br/>
@@ -213,7 +213,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Hedera<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Internet Computer<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Arbitrum<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Skale<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜   &nbsp;Aptos<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Bitgert<br/>
 ⬜ &nbsp;Testnet integration bridge, widget and xpjs:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
@@ -240,7 +240,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Trading activity stats per collection<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;NFT collection' news<br/>
 ⬜ &nbsp;XP.NETWORK Toolkit <br/>
-⬜ &nbsp;NFT Fractionalizer - support split NFT ownership<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;NFT Fractionalizer - support split NFT ownership<br/>
 ⬜ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
