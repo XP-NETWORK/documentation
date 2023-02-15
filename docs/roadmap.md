@@ -143,7 +143,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ✅  &nbsp; $XPNET BSC - Algorand Bridge<br/>
 :::
 
-## Q4 2022 - We're here
+## Q4 2022
 :::tip DONE<br/>
 ✅  &nbsp;Grant from Casper<br/>
 ✅  &nbsp;Grant from Caduceus<br/>
@@ -167,8 +167,8 @@ Follow our journey from inception to launch. Please note that the team reserves 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅   &nbsp;Unstoppable Domains<br/>
 
 :::
-## Q1 2023 
-:::caution We're here
+## Q1 2023  - We're here
+:::caution Caution - work in progress
 ⬜  &nbsp;XP.Challenge Platform launch<br/>
 ✅  &nbsp;Grants From:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Bitgert<br/>
