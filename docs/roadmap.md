@@ -127,7 +127,6 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ✅ &nbsp; Received Grants From: <br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;13. Moonbeam<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;14. Abeychain<br/>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;15. Caduceus<br/>
 ✅ &nbsp; Audited smart contracts for:<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; Solana<br/>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; TON <br/>
