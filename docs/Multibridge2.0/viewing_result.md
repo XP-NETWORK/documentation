@@ -15,7 +15,7 @@ In the explorer of the departure chain a user can find more information about th
 
 ![BSC Explorer](../../static/assets/5.png)
 
-If a user controlls the account on the target chain (s)he can use the bridge to check whether the NFTs have arrived to the destination. If an asset was sent to an account the sender does not controll, there's always a possibility to look up the asset in the explorer of the target network by the address of the receiver. Ususally the last transactions will be related with the recently bridged NFT.
+If a user controls the account on the target chain (s)he can use the bridge to check whether the NFTs have arrived to the destination. If an asset was sent to an account the sender does not control, there's always a possibility to look up the asset in the explorer of the target network by the address of the receiver. Usually the last transactions will be related with the recently bridged NFT.
 
 Since the bridge only displays the tokens of the departure chain the user needs to select what was previously the chain of destination in the departure chain dropdown box. (In our example Velas was the network of destination, now we're choosing it as the departure chain). 
 
@@ -33,7 +33,7 @@ Confirm connection to the new blockchain in the wallet. Press the "Switch Networ
 
 The Unifairy NFT has successfully arrived from BSC to Velas. However, we can see that its ID has changed to 17. This is the ID of the wrapped NFT in the smart contract it was minted with on the target chain.
 
-Thanks to the new smart contracts developed by XP.network, it is possible to mint wrapped NFTs with arbitrary addresses on the target chain. This fundamental change allows transferring logic togeather with the assets.
+Thanks to the new smart contracts developed by XP.network, it is possible to mint wrapped NFTs with arbitrary addresses on the target chain. This fundamental change allows transferring logic together with the assets.
 
 ![Velas View](../../static/assets/10.png)
 

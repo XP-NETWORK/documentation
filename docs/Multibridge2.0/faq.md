@@ -145,15 +145,15 @@ Many blockchain industry-related cyber attacks involve maliciously crafted smart
 
 In order for a smart contract to be whitelisted, there are several steps:
 
-1. The smart contract must be verified on the chain and its source code readable
+1. The smart contract must be verified on the chain and its source code readable.
 2. An e-mail with a request should be sent to dima@xp.network, dimau@xp.network, and kint@xp.network:
     
     The message should contain the following information:
       1. Blockchain name(Ethereum, BSC, Avalanche, Polygon, etc.)
-      2. Smart contract address
-      3. Approximate number of NFTs planned for sending
+      2. Smart contract address.
+      3. Approximate number of NFTs planned for sending.
 
-3. XP.NETWORK team members will look through the source code of the NFT smart contract
+3. XP.NETWORK team members will look through the source code of the NFT smart contract.
 4. The smart contract will be whitelisted, or the initiator will be notified that the smart contract has the code that can harm the Bridge therefore, it cannot be whitelisted.
 
 

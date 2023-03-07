@@ -19,9 +19,9 @@ XP Network's NFT Bridge v2.0 is unique in many ways, leaving alone that it conne
 6. An intuitive JavaScript library allowing for integration of the bridge into any cross-chain game, marketplace, metaverse, or DEFI project in a matter of hours.
 7. A widget that can be set up and added to a user UI in minutes with zero coding.
 
-<ReactPlayer controls url='https://www.youtube.com/watch?v=CTxtFnABUrg' />
+<ReactPlayer  className="introduction-player"  controls url='https://www.youtube.com/watch?v=CTxtFnABUrg' />
 
-|#|Logo| Blockchain | EVM | Chain Nonce|
+| &nbsp;  &nbsp;  &nbsp;  &nbsp; #  &nbsp;  &nbsp;  &nbsp;  &nbsp;| &nbsp;  &nbsp;  &nbsp;  &nbsp; Logo  &nbsp;  &nbsp;  &nbsp;  &nbsp;| &nbsp;  &nbsp;  &nbsp;  &nbsp; Blockchain  &nbsp;  &nbsp;  &nbsp;  &nbsp;| &nbsp;  &nbsp;  &nbsp;  &nbsp; EVM  &nbsp;  &nbsp;  &nbsp;  &nbsp;| &nbsp;  &nbsp;  &nbsp;  &nbsp; Chain Nonce   &nbsp;  &nbsp;  &nbsp;  &nbsp;|
 |:-:|:-:|:-:|:-:|:-:|
 | 1 |![Elrond](../../static/assets/chain/Elrond.svg) |Elrond| No|2|
 | 2  |![BSC](../../static/assets/chain/Binance.svg) |BSC| Yes|4|

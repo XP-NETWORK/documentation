@@ -20,10 +20,10 @@ Every blockchain has its benefits and drawbacks and occupies its niche. Some are
 We are a _team_ of dedicated blockchain enthusiasts working on unifying the NFT ecosystem across different network protocols, programming, and smart contract languages, as well as token standards.
 Our team comprises:
 
-- Bright business leaders and visionaries
-- Experienced blockchain, backend, and frontend developers
-- Shrewd security and DevOps professionals
-- Talented graphic designers
+- Bright business leaders and visionaries.
+- Experienced blockchain, backend, and frontend developers.
+- Shrewd security and DevOps professionals.
+- Talented graphic designers.
 - Numerous blockchain technology advocates who are helping us reach and hear every community member supporting the project.
 
 **What we do**
@@ -72,10 +72,10 @@ Our Interoperability protocols comprise the following components:
 
 Our groundbreaking technology has several advantages:
 
-- We support a wide range of EVM and Non-EVM protocols at once
-- The intuitive interface of the applications ensures a pleasant user experience
-- We have developed a cross-chain NFT listing tool
-- Our JavaScript API library allows partnered dApps to use our instruments from any programming language behind the scenes (TypeScript, Python, C#, Java, C++, Swift, etc.)
+- We support a wide range of EVM and Non-EVM protocols at once.
+- The intuitive interface of the applications ensures a pleasant user experience.
+- We have developed a cross-chain NFT listing tool.
+- Our JavaScript API library allows partnered dApps to use our instruments from any programming language behind the scenes (TypeScript, Python, C#, Java, C++, Swift, etc).
 - We work with multiple token standards and conveniently convert one standard to another while transferring assets across networks.
 - We allow our users to select the tokens they want to pay the transaction fees with, taking the burden of currency conversion.
 - We support transfers in batches to save on transaction fees.

@@ -16,7 +16,7 @@ The concept of finite-state machines can be applied to the XP.NETWORK bridge val
 
 A validator has a finite set of states S = {s1 … ss} - [idle, handling an event, paused, signing a transaction, reverting a transaction]
 
-There is a finite finite set of inputs that a validator can receive: either events broadcast by the smart contracts or results of computations (inputs I = {i1 … iJ})
+There is a  finite set of inputs that a validator can receive: either events broadcast by the smart contracts or results of computations (inputs I = {i1 … iJ})
 
 There is also a finite set of output symbols O = {o1 … oo} - [none, signature, smart contract address, +/- Validator credentials]
 States and inputs are mapped onto the so-called state transition function to determine the next state: I x S → S’

@@ -139,7 +139,7 @@ export const Navbar = () => {
         <div
           id="menu"
           className={
-            "flex md:flex md:pt-4 flex-col w-full mt-8 md:mt-0 md:flex-row items-start space-y-5 md:space-y-0 md:space-x-10"
+            "flex md:flex md:pt-4 flex-col w-full mt-8 md:mt-0 md:flex-row items-start space-y-5 md:space-y-0 md:space-x-6  lg:space-x-10"
           }
         >
           <a
