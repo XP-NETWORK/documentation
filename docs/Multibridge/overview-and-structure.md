@@ -35,31 +35,31 @@ The Multibridge is as a state mutation protocol for the connected distributed le
 
 Written in Rust for the XP.NETWORK or any other Substrate parathread, performs the following actions:
 
-1. Represents the bridge in XP.network
-2. Emits events for the validators
-3. Retrieves & locks XPNET before sending to a target blockchain
-4. Mints & burns wrapped fungible & non-fungible tokens
-5. Collects the validators' signatures
-6. Calculates the BFT threshold
+1. Represents the bridge in XP.network.
+2. Emits events for the validators.
+3. Retrieves & locks XPNET before sending to a target blockchain.
+4. Mints & burns wrapped fungible & non-fungible tokens.
+5. Collects the validators' signatures.
+6. Calculates the BFT threshold.
 
 ### B. Minter & NFT Smart Contracts
 
 Written in both Solidity (EVM chains) & Rust (Non-EVM chains), performs the following actions:
 
-1. Represent the bridge in the target blockchains
-2. Emits events for the validators
-3. Retrieves & locks native tokens before sending them to a target blockchain
-4. Mints & burns wrapped fungible & non-fungible tokens
-5. Collects the validators' signatures
-6. Calculates the BFT threshold
+1. Represent the bridge in the target blockchains.
+2. Emits events for the validators.
+3. Retrieves & locks native tokens before sending them to a target blockchain.
+4. Mints & burns wrapped fungible & non-fungible tokens.
+5. Collects the validators' signatures.
+6. Calculates the BFT threshold.
 
 ### C. Relay Validators
 
 Written in TypeScript and accompanied by the node of the bridged chains, they possess the following characteristics:
 
-1. Represented by valid accounts with private & public keys for each bridged blockchain and relaying logics
-2. Listen to the events in the bridged blockchains
-3. Sign the relayed transactions and pay the transaction fees in the target blockchain in its native tokens
+1. Represented by valid accounts with private & public keys for each bridged blockchain and relaying logics.
+2. Listen to the events in the bridged blockchains.
+3. Sign the relayed transactions and pay the transaction fees in the target blockchain in its native tokens.
 4. Responsible for dynamically adding new blockchains & tokens to the running blockchains.
 
 ### D. Target blockchain compatibility and dependency injection libraries

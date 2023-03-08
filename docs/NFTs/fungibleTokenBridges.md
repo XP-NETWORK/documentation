@@ -16,9 +16,9 @@ Blockchain coint or fungible tokens can be used for multiple purposes. For examp
 6. Lending and borrowing
 7. Lotteries
 
-XP.NETWORK uses the fungible tokens for all the abovementioned purposes but does not build FT multi-chain bridges since this nieche is already occupied by a number of solutions:
+XP.NETWORK uses the fungible tokens for all the above mentioned purposes but does not build FT multi-chain bridges since this nieche is already occupied by a number of solutions:
 
-| Bridge Name | Connected Chains / Tokens |
+| Bridge Name | Connected Chains/Tokens &nbsp; |
 |:-:|:-:|
 |[BSC Bridge](https://www.binance.org/en/bridge)|BSC, ETH, SOL, TRX & OMNI|
 |[cbridge](https://cbridge.celer.network/#/transfer)|Ethereum, BSC, Astar, Avalanche, Polygon, Arbitrum, Fantom,<br/> Metis Mainnet, Celo, Aurora, Harmony, Moonbeam, Moonriver, <br/> Optimism, Booba Network, OKExChain, HECO, Gnosis Chain, Shiden, Syscoin|

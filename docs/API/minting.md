@@ -9,7 +9,7 @@ description: The Most Powerful Multi-Chain NFT bridge
 
 Call the mint function on the factory with suitable arguments.
 
-  ## 1. Minting on Web3 Chains
+  ## 1. Minting on Web3 Chains:
 
   ```javascript
   (async () => {

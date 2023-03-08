@@ -11,7 +11,7 @@ description: The Most Powerful Multi-Chain NFT bridge
 
 The Solidity Smart Contracts represent the bridge on the EVM compatible blockchains such as BSC, Ethereum & HECO.
 
-1. XPNet.sol - is the ERC-1155 Smart Contract
+1. XPNet.sol - is the ERC-1155 Smart Contract.
 2. Minter.sol - is responsible for the rest of the multibridge-related functionality.
 
 <hr/>

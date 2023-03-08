@@ -33,7 +33,7 @@ The below diagram provides an overview of the actions carried out by validators:
 
 Helpers are pieces of code aimed at interpreting events from disparate source blockchains. If the source blockchain has a different codebase or programming language to that of XP.network, a custom helper needs to be developed.
 
-The following sections provide an overview of each type of helper currently available on XP.network
+The following sections provide an overview of each type of helper currently available on XP.network:
 
 ### Elrond Helper
 
@@ -65,8 +65,8 @@ Verifies the following transactions:
 
 1. eGLD transfer to a foreign blockchain
 2. ESDT NFT transfer to a foreign chain
-3. minting wrapped semi-fungible tokens to an account on Elrond
-4. minting wrapped NFT to an account in Elrond
+3. Minting wrapped semi-fungible tokens to an account on Elrond
+4. Minting wrapped NFT to an account in Elrond
 
 ### PolkadotPallet Helper
 

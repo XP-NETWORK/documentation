@@ -22,7 +22,7 @@ We recommend that all the smart contracts deployed on the mainnets undergo thoro
 
 The video below will walk you through the process of implementing the steps described below.
 
-<ReactPlayer controls url='https://www.youtube.com/watch?v=H5YuChS32YE' />
+<ReactPlayer className="introduction-player" controls url='https://www.youtube.com/watch?v=H5YuChS32YE' />
 
 ## 0. Installing the project
 
