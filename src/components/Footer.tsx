@@ -108,7 +108,7 @@ const footerLinks = [
         ),
       },
       {
-        name: "Linkedin",
+        name: "LinkedIn",
         href: "https://www.linkedin.com/company/xp-network/",
         target: "_blank",
         icon: (
@@ -154,7 +154,7 @@ const footerLinks = [
         ),
       },
       {
-        name: "Bitclout",
+        name: "BitClout",
         href: "https://bitclout.com/u/XPnetwork",
         target: "_blank",
         icon: (
@@ -353,7 +353,7 @@ export const Footer = () => {
                     href={link.href}
                     key={link.href}
                     target={link.target}
-                    className="flex text-sm items-center text-gray-500 dark:text-gray-400 dark:hover:text-white hover:no-underline hover:text-black"
+                    className="flex lg:flex-row text-sm items-center md:items-start md:flex-col text-gray-500  dark:text-gray-400 dark:hover:text-white hover:no-underline hover:text-black"
                   >
                     {link.icon ? (
                       <div className="w-5 mr-2 flex justify-center">
@@ -363,8 +363,11 @@ export const Footer = () => {
                       ""
                     )}
                     {link.name}
+                   
                     {link.name == "GitHub" ? (
-                      <span className="whitespace-nowrap text-xs ml-2 px-2 text-black bg-gray-200  dark:bg-gray-700 dark:text-white rounded-full">
+                      <>  
+                    
+                      <span className="whitespace-nowrap text-xs ml-2 md:ml-0  lg:ml-2 mt-0 md:mt-1 lg:mt-0  px-2 text-black bg-gray-200  dark:bg-gray-700 dark:text-white rounded-full">
                         <svg
                           className="inline-block mr-1 mb-1"
                           width="7"
@@ -374,9 +377,11 @@ export const Footer = () => {
                         >
                           <circle cx="3.5" cy="4" r="3.5" fill="#1BEA6E" />
                         </svg>
-                        Latest commit{" "}
+                      
+                        Latest commit{" "} 
                         {new Date(latestCommit).toLocaleDateString()}
                       </span>
+                      </>
                     ) : (
                       ""
                     )}

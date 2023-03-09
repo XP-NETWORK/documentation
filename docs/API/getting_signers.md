@@ -7,7 +7,7 @@ description: The Most Powerful Multi-Chain NFT bridge
 
 # 3. Getting the signer objects
 
-### 3.1 Example of getting the signer object (for manual EVM testing in the BE)
+### 3.1 Example of getting the signer object (for manual EVM testing in the BE):
 
 Avoid using 3.1 setup in production. Use it for initial or backend testing only.
 <br/>

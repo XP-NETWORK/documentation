@@ -51,6 +51,8 @@ const Home = () => {
 
         <Cards />
 
+    
+
         <h1 className="text-center mt-20 font-bold text-[34px]">
           Developer Links
         </h1>

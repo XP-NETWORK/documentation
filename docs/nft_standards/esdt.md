@@ -17,10 +17,10 @@ Like in EVM compatible chains, the major difference between fungible and non-fun
 ## Issuing steps
 
 Before an NFT can be minted on Elrond, several steps must be taken, each one of them being a submitted and signed transaction:
-1. The ESDT token must be created
-2. The roles (Minting, Burning, etc.) must be set to designated accounts
-3. Minting NFTs or SFTs
-4. Transferring the tokens to the new owner if required
+1. The ESDT token must be created.
+2. The roles (Minting, Burning, etc.) must be set to designated accounts.
+3. Minting NFTs or SFTs.
+4. Transferring the tokens to the new owner if required.
 
 ### Existing Roles: 
 

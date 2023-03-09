@@ -11,7 +11,7 @@ import ReactPlayer from 'react-player'
 ## Who needs the NFT Bridge?
 
 Watch a 5 minute video with a brief outline of the topic:
-<ReactPlayer controls url='https://www.youtube.com/watch?v=p21pCEvyDQw' />
+<ReactPlayer className="introduction-player"  controls url='https://www.youtube.com/watch?v=p21pCEvyDQw' />
 
 ## ⛩️ Bridges scale growth 📈
 Without token bridges, **blockchains** are limited to their ecosystems, like islands or oases. Assets cannot leave or enter the community boundaries. 
@@ -68,13 +68,13 @@ There's no doubt that NFT Projects can easily prolong their collections' lives b
 
 In a brief video video below we're discussing two NFT projects. They both gained profit and success after bridging that was not available to them in the original ecosystems they started from.
 
-<ReactPlayer controls url='https://www.youtube.com/watch?v=QUtH9_vURTA' />
+<ReactPlayer className="introduction-player" controls url='https://www.youtube.com/watch?v=QUtH9_vURTA' />
 
 ## 🛖 Games 🏰
-NFT-centered games can go cross-chain. That adds new, previously unavailable interaction to the game flow. NFT armies can invade the foreign kingdoms of the other chains. NFT explorers can travel in the parallel worlds of foreign chains and either return promoted with treasure and experience or be burned on the other sides of reality. They can also add extra rarity for the bridged NFTs, slightly changing the look of the asset and increasing the characters' experience.
+NFT-centered games can go cross-chain. That adds new, previously unavailable interaction to the game flow. NFT armies can invade the foreign kingdoms of the other chains. NFT explorers can travel in the parallel worlds of foreign chains and either return promoted with treasure and experience or be burned on the other sides of reality. They can also add extra rarity for the bridged NFTs, slightly changing the look of the asset and increasing the character's experience.
 
 ## 🔮 Metaverses 🪩
-NFT guests can visit Metaverse locations on various chains and gain experience or earn tokens for completing complicated quests. Colledges and universities can open metaverse courses and lectures for NFT students from different chains and accept foreign ledger currencies as tuition.
+NFT guests can visit Metaverse locations on various chains and gain experience or earn tokens for completing complicated quests. Colleges and universities can open metaverse courses and lectures for NFT students from different chains and accept foreign ledger currencies as tuition.
 
 ## 🗺️ Globalizing Markets 🏪
 Keeping all the NFTs at home means bounding them to the local ecosystem user base. Quickly increasing the demand for the goods whose life cycle is at its decline can be achieved by moving them to a *new market on another blockchain*. That is where our bridge comes into play. Marketplaces distribute their risks, and instead of putting all their eggs in one basket, go cross-chain. This way, they simultaneously expand their reach and market share.

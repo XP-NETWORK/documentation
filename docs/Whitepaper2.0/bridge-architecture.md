@@ -46,9 +46,9 @@ Below is a short description of what the XP.NETWORK experience looks like for a 
 10. The validator waits for confirmation that Bob has paid the transaction fee.
 11. Once the fee has been paid, the validator signs the transfer transaction. This transaction is a tiny file containing the following instructions:
     
-    i. which NFT should be transferred;
+    i. which NFT should be transferred.
 
-    ii. to which account on the target blockchain;
+    ii. to which account on the target blockchain.
 
     iii. transaction fee to be paid to the target chain.
 

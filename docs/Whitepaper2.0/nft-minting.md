@@ -23,11 +23,11 @@ There are several important advantages to such chain-agnostic minting:
    
 To start minting, a user needs to have:
 
-1) a wallet supported by the target blockchain: MetaMask for EVM-compatible chains and custom wallets for Solana, Cardano etc.;
+1) a wallet supported by the target blockchain: MetaMask for EVM-compatible chains and custom wallets for Solana, Cardano etc.
 
-2) enough coins of the target blockchain to pay the eventual minting fees;
+2) enough coins of the target blockchain to pay the eventual minting fees.
    
-3) an account on the target blockchain;
+3) an account on the target blockchain.
    
 4) $XPNET to pay the XP.NETWORK fee (once the beta phase is complete).
    

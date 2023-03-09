@@ -582,6 +582,14 @@ html[data-theme="light"] .footer__copyright {
   .row.footer__links .col.footer__col {
     flex-basis: 50%;
   }
+
+  .markdown{
+    max-width: 80ch !important;
+  }
+}
+
+img[alt~="Wallets-1"]{
+  width: 100% !important;
 }
 
 @media (max-width: 767px) {
@@ -654,3 +662,11 @@ html[data-theme="dark"] .admonition-info {
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .introduction-player {
+    width: 100% !important;
+  }
+}
+
+

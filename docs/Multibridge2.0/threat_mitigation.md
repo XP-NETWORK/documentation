@@ -39,7 +39,7 @@ As we can see from the table above, the advantages of one type are exactly the d
 
 ## Common Mitigation mechanisms
 
-> 1. Validators must undergo a KYC procedure. Validators' anonymity can be sacrificed for higher security. If one or multiple validators misbehave, they risk criminal prosecution in real rather than virtual worlds.
+> 1. Validators must undergo a KYC procedure. Validators anonymity can be sacrificed for higher security. If one or multiple validators misbehave, they risk criminal prosecution in real rather than virtual worlds.
 
 > 2. The bridge should be equipped with double-checking mechanisms. Every transaction must be checked for consistency, where a state change on one chain only happens if the state changes on the initiating chain.
 
