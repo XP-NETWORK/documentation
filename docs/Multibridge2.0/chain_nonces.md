@@ -14,21 +14,21 @@ At the time of writing, the list of chain nonces are:
 |Blockchain|Chain Nonce|
 |:-:|:-:|
 |Reserved|1|
-|ELROND|2|
-|<s>HECO</s>*|3|
+|MetaversX|2|
+|<s>HECO</s>[^1]|3|
 |BSC|4|
 |ETHEREUM|5|
 |AVALANCHE|6|
 |POLYGON|7|
 |FANTOM|8|
 |TRON|9|
-|<s>CELO</s>*|11|
+|<s>CELO</s>[^1]|11|
 |HARMONY|12|
-|<s>ONTOLOGY</s>*|13|
+|<s>ONTOLOGY</s>[^1]|13|
 |XDAI|14|
 |ALGORAND|15|
 |FUSE|16|
-|<s>UNIQUE</s>*|17|
+|<s>UNIQUE</s>[^1]|17|
 |TEZOS|18|
 |VELAS|19|
 |IOTEX|20|
@@ -47,12 +47,15 @@ At the time of writing, the list of chain nonces are:
 |Abeychain|33|
 |Aptos|34|
 |Caduceus|35|
+|OKC|36|
+|Arbitrum Nova|37|
+|Bitgert|38|
 
-
-\* <s>Discarded/postponed the idea</s>
 
 Coming soon:<br/>
 - Casper
 - Cosmos ecosystem chains
 - Polkadot ecosystem chains
 - Cardano
+
+[^1]: The crossed out chains are not supported any more. They are still on the list for the historical consistency of numeration.
