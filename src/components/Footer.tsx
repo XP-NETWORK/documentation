@@ -353,7 +353,7 @@ export const Footer = () => {
                     href={link.href}
                     key={link.href}
                     target={link.target}
-                    className="flex lg:flex-row text-sm items-center md:items-start md:flex-col text-gray-500  dark:text-gray-400 dark:hover:text-white hover:no-underline hover:text-black"
+                    className={`flex lg:flex-row text-sm items-center md:items-start ${link.name == "GitHub" ? " md:flex-col " : " "} text-gray-500  dark:text-gray-400 dark:hover:text-white hover:no-underline hover:text-black`}
                   >
                     {link.icon ? (
                       <div className="w-5 mr-2 flex justify-center">
