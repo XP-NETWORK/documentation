@@ -175,8 +175,8 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ⬜   &nbsp;Smart Contract Audits:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;NEAR<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Skale<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Hedera<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Internet Computer<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Hedera<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Secret Network<br/>
 ⬜   &nbsp;Bridge v.3.0 update:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Automated NFT Contract Vulnerability Detection (ACVD)<br/>
