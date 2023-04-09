@@ -592,6 +592,26 @@ img[alt~="Wallets-1"]{
   width: 100% !important;
 }
 
+.rounded50 {
+  border-radius: 50px;
+}
+.rounded40 {
+  border-radius: 40px;
+}
+.rounded30 {
+  border-radius: 30px;
+}
+.rounded20 {
+  border-radius: 20px;
+}
+.rounded10 {
+  border-radius: 10px;
+}
+
+.rounded5 {
+  border-radius: 5px;
+}
+
 @media (max-width: 767px) {
   .inpCol input {
     height: 40px;
