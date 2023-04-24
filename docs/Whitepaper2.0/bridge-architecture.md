@@ -34,7 +34,7 @@ Collect Byzantine Fault-tolerant multisinatures.
 ## Bridging flow from the end user’s viewpoint
 Below is a short description of what the XP.NETWORK experience looks like for a regular user who wishes to send an NFT to another blockchain.
 
-1. The user – we will call him Bob – first connects the wallet where his NFTs are stored to XP.network. The process is the same as for linking a wallet to a DeFi dapp.
+1. The user – we will call him Bob – first connects the wallet where his NFTs are stored to XP.NETWORK. The process is the same as for linking a wallet to a DeFi dapp.
 2. The user account associated with Bob’s wallet is injected into the bridge. The bridge has a whitelisted database of NFT smart contracts, which it scans to find any NFTs that exist on Bob’s account. In more basic terms, the bridge looks for NFTs in the wallet.
 3. All found NFTs are displayed in the XP.NETWORK UI (user interface). Bob can then locate the NFT he wishes to send.
 4. Bob selects the origin chain (where his NFT currently resides – for example, BSC) from a drop-down list, and the target chain where the NFT should be sent – for example, Avalanche.
