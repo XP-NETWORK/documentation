@@ -195,7 +195,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 :::
 
 ## Q2 2023   - We're here
-:::caution Caution - work in progress
+:::caution Caution - work in progress 
 ⬜   &nbsp;Upgrade to v3.1 of the bridge:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;ERC-721A Support - gas-efficient batch minting, transferring, and burning<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;ERC-721B Support - batch minting, burning & transferring for ERC721<br/>
