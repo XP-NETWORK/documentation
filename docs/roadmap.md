@@ -167,44 +167,42 @@ Follow our journey from inception to launch. Please note that the team reserves 
 
 :::
 ## Q1 2023  - We're here
-:::caution Caution - work in progress
-⬜  &nbsp;XP.Challenge Platform launch<br/>
+:::tip DONE<br/>
+✅  &nbsp;XP.Challenge Platform launch<br/>
 ✅  &nbsp;Grants From:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Bitgert<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Cronos<br/>
-⬜   &nbsp;Smart Contract Audits:<br/>
+✅   &nbsp;Smart Contract Audits:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;NEAR<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Skale<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Hedera<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Internet Computer<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Secret Network<br/>
-⬜   &nbsp;Bridge v.3.0 update:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Secret Network<br/>
+✅   &nbsp;Bridge v.3.0 update:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Automated NFT Contract Vulnerability Detection (ACVD)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Automated NFT Contract Whitelisting (ACW)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Decentralized Target Chain Contract Deployment (ATCD)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Discounts for $XPNET stakers on Algorand<br/>
-⬜   &nbsp;Mainnet integrations with the bridge, widget and XPJS:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Decentralized Target Chain Contract Deployment (ATCD)<br/>
+✅   &nbsp;Mainnet integrations with the bridge, widget and XPJS:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅   &nbsp;OKC<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅   &nbsp;The Open Network<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅   &nbsp;Skale<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜   &nbsp;Secret Network<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜   &nbsp;Solana<br/>
-⬜   &nbsp;Mainnet wallet integrations:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Solana - Phantom<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Secret Network - Keplr<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Aptos Wallet - Math<br/>
-⬜  &nbsp;Full SFT Support - Transferring tokens<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅   &nbsp;Solana<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅   &nbsp;Secret Network<br/>
+✅   &nbsp;Mainnet wallet integrations:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Solana - Phantom<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Secret Network - Keplr<br/>
+✅  &nbsp;Full SFT Support - Transferring tokens<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;EVM Chains - SFT indexing and transfer implementation<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;MultiversX (Elrond) - SFT ESDT implementation and support
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;MultiversX (Elrond) - SFT ESDT implementation and support
 :::
 
-## Q2 2023 
-:::info TODO
+## Q2 2023   - We're here
+:::caution Caution - work in progress
 ⬜   &nbsp;Upgrade to v3.1 of the bridge:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;ERC-721A Support - gas-efficient batch minting, transferring, and burning<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;ERC-721B Support - batch minting, burning & transferring for ERC721<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;TX fee payments in $XPNET in Algorand & BSC<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Discounts for $XPNET stakers on Algorand<br/>
 ⬜   &nbsp;Smart Contract Audits:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Internet Computer<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Cardano<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Cosmos<br/>
 ⬜ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
@@ -221,6 +219,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ⬜ &nbsp;Mainnet Wallet Integrations:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Hedera Wallet<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Internet Computer - Plug<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Aptos Wallet - Math<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
 ⬜ &nbsp;Full SFT Support<br/>
