@@ -230,10 +230,11 @@ A comparative table sounds louder than words:
 
 |Bridge Name|EVM Support|Non-EVM support|Wallet Support|Standards support|
 |:-:|:-:|:-:|:-:|:-:|
-|XP.Network|15|7|14|14|
-|Portal (Wormhole)|11|1|9|3|
-|AllianceBlock Bridge|7|0|1|4|
-|Cross-Chain Bridge|5|0|1|2|
+|XP.Network|21|7|31|14|
+|Multichain|20|5|14|3|
+|Portal (Wormhole)|15|1|9|3|
+|AllianceBlock Bridge|8|0|1|4|
+|Cross-Chain Bridge|6|0|1|4|
 |Plasma Bridge|2|0|2|2|
 |Palm Bridge|2|0|1|2|
 |StacksBridge|2|0|2|1|
