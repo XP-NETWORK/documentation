@@ -166,7 +166,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅   &nbsp;Unstoppable Domains<br/>
 
 :::
-## Q1 2023  - We're here
+## Q1 2023
 :::tip DONE<br/>
 ✅  &nbsp;XP.Challenge Platform launch<br/>
 ✅  &nbsp;Grants From:<br/>
@@ -176,7 +176,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Skale<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Hedera<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Secret Network<br/>
-✅   &nbsp;Bridge v.3.0 update:<br/>
+✅   &nbsp;Bridge v.3.0 update for [6 chains](./Multibridge3.0/2.SupportedChains.md#chains-with-auto-whitelisting-and-auto-deployment-support):<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Automated NFT Contract Vulnerability Detection (ACVD)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Automated NFT Contract Whitelisting (ACW)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Decentralized Target Chain Contract Deployment (ATCD)<br/>
