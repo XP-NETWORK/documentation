@@ -202,14 +202,14 @@ Follow our journey from inception to launch. Please note that the team reserves 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;TX fee payments in $XPNET in Algorand & BSC<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Discounts for $XPNET stakers on Algorand<br/>
 ⬜   &nbsp;Smart Contract Audits:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Internet Computer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Internet Computer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Arbitrum<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Cardano<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Cosmos<br/>
 ⬜ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Near (Layer-1)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Near (Layer-1)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Hedera<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Internet Computer<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Arbitrum<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜   &nbsp;Aptos<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Bitgert<br/>
 ⬜ &nbsp;Testnet integration bridge, widget and xpjs:<br/>
