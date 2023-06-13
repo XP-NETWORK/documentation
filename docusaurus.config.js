@@ -177,7 +177,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} XP.NETWORK`,
       },
       prism: {
-        theme: lightCodeTheme,
+        // theme: lightCodeTheme,
+        theme: darkCodeTheme,
         darkTheme: darkCodeTheme,
         additionalLanguages:['rust', 'solidity']
       },

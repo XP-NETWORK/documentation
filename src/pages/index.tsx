@@ -7,6 +7,8 @@ import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
 import { Search } from "../components/Search";
 import Head from "@docusaurus/Head";
+import Prism from 'prismjs';
+Prism.highlightAll();
 
 const Home = () => {
   useEffect(() => {
