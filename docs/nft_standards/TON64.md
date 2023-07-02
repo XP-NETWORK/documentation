@@ -1,4 +1,6 @@
 ---
+sidebar_label: '10. TIP-64 - TON NFT'
+sidebar_position: 10
 image: /cover-image.png
 description: The Most Powerful Multi-Chain NFT bridge
 ---
