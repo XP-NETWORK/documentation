@@ -174,7 +174,6 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ✅   &nbsp;Smart Contract Audits:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;NEAR<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Skale<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Hedera<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Secret Network<br/>
 ✅   &nbsp;Bridge v.3.0 update for [6 chains](./Multibridge3.0/2.SupportedChains.md#chains-with-auto-whitelisting-and-auto-deployment-support):<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Automated NFT Contract Vulnerability Detection (ACVD)<br/>
@@ -222,6 +221,8 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ✅ &nbsp;Mainnet Wallet Integrations:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Hedera Wallet<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;WalletConnect v2.0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Near Wallet<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Wallet Selector<br/>
 :::
 
 ## Q3 2023 - We're here
