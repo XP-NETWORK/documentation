@@ -16,7 +16,7 @@ jobs:
           node-version: "20.6.1"
       
       - name: Install latest Yarn
-        run: corepack prepare yarn@stable --activate
+        run: corepack prepare yarn@3.5.0 --activate
 
       - name: Install Node.js dependencies
         run: yarn install --immutable --immutable-cache --check-cache
