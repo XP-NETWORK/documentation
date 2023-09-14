@@ -18,9 +18,6 @@ jobs:
       - name: Install latest Yarn
         run: corepack prepare yarn@3.5.0 --activate
 
-      - name: Initialialize new project
-        run: yarn init -2
-
       - name: Activate latest Yarn
         run: yarn set version stable
 
