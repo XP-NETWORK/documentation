@@ -1922,6 +1922,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@docusaurus/logger@npm:2.4.1":
+  version: 2.4.1
+  resolution: "@docusaurus/logger@npm:2.4.1"
+  dependencies:
+    chalk: ^4.1.2
+    tslib: ^2.4.0
+  checksum: be81840f2df477ab633d8ced6fd3a512582e764a48d66b1c12bb20b5d4c717f349e254e33b00b9b53381dbdb24a3e3d0ca9b19511366244b3620fa19cc4c69dc
+  languageName: node
+  linkType: hard
+
 "@docusaurus/mdx-loader@npm:2.0.0-beta.8":
   version: 2.0.0-beta.8
   resolution: "@docusaurus/mdx-loader@npm:2.0.0-beta.8"
@@ -1976,6 +1986,34 @@ __metadata:
     react: ^16.8.4 || ^17.0.0
     react-dom: ^16.8.4 || ^17.0.0
   checksum: 4a1c9ef0e8506ab4d9cb4714ff7437664e238e0f2878a5eb4a2e082897bbee7ae8d0b61ba9d45ffa820beb5ce75aa0050201db815b00c18fc136aaa4c6411c21
+  languageName: node
+  linkType: hard
+
+"@docusaurus/mdx-loader@npm:^2.4.1":
+  version: 2.4.1
+  resolution: "@docusaurus/mdx-loader@npm:2.4.1"
+  dependencies:
+    "@babel/parser": ^7.18.8
+    "@babel/traverse": ^7.18.8
+    "@docusaurus/logger": 2.4.1
+    "@docusaurus/utils": 2.4.1
+    "@mdx-js/mdx": ^1.6.22
+    escape-html: ^1.0.3
+    file-loader: ^6.2.0
+    fs-extra: ^10.1.0
+    image-size: ^1.0.1
+    mdast-util-to-string: ^2.0.0
+    remark-emoji: ^2.2.0
+    stringify-object: ^3.3.0
+    tslib: ^2.4.0
+    unified: ^9.2.2
+    unist-util-visit: ^2.0.3
+    url-loader: ^4.1.1
+    webpack: ^5.73.0
+  peerDependencies:
+    react: ^16.8.4 || ^17.0.0
+    react-dom: ^16.8.4 || ^17.0.0
+  checksum: cf36bbde228a058869dfd770a85f130035a54e563b957a3cfc3191d06efdcfc272bb51b51e6225a0246b233e5d7d0ca1cb4df4b700b837aa72bbb0c9f6f6f5bd
   languageName: node
   linkType: hard
 
@@ -2530,6 +2568,35 @@ __metadata:
     "@docusaurus/types":
       optional: true
   checksum: e8bce9bbd98bf63664fcd7c0a5f8dec30dad31ed19e18d724b43189b04ecdc1174537e1d987293575ec18d421236fb92d3d39d28477e921507260a39c3f6d6d0
+  languageName: node
+  linkType: hard
+
+"@docusaurus/utils@npm:2.4.1":
+  version: 2.4.1
+  resolution: "@docusaurus/utils@npm:2.4.1"
+  dependencies:
+    "@docusaurus/logger": 2.4.1
+    "@svgr/webpack": ^6.2.1
+    escape-string-regexp: ^4.0.0
+    file-loader: ^6.2.0
+    fs-extra: ^10.1.0
+    github-slugger: ^1.4.0
+    globby: ^11.1.0
+    gray-matter: ^4.0.3
+    js-yaml: ^4.1.0
+    lodash: ^4.17.21
+    micromatch: ^4.0.5
+    resolve-pathname: ^3.0.0
+    shelljs: ^0.8.5
+    tslib: ^2.4.0
+    url-loader: ^4.1.1
+    webpack: ^5.73.0
+  peerDependencies:
+    "@docusaurus/types": "*"
+  peerDependenciesMeta:
+    "@docusaurus/types":
+      optional: true
+  checksum: 4c7e49cabe6650b027c0f698344532fb81c8aaf912f17a287fad986e008ce7c6d34d372b44974488ce160ae43ef6aad4ac7b2790bc3fe2ab05ef5fa7b9506ce9
   languageName: node
   linkType: hard
 
@@ -9817,6 +9884,7 @@ __metadata:
   resolution: "my-website@workspace:."
   dependencies:
     "@docusaurus/core": 2.0.0-beta.8
+    "@docusaurus/mdx-loader": ^2.4.1
     "@docusaurus/module-type-aliases": ^2.0.0-beta.14
     "@docusaurus/preset-classic": 2.0.0-beta.8
     "@docusaurus/theme-search-algolia": ^2.0.0-beta.8
@@ -9842,6 +9910,7 @@ __metadata:
     remark-math: 3
     rust: ^0.1.6
     tailwindcss: ^3.0.15
+    tslib: ^2.6.2
     typescript: ^4.5.4
     url-loader: ^4.1.1
     yarn: latest
@@ -13668,6 +13737,13 @@ __metadata:
   version: 2.5.0
   resolution: "tslib@npm:2.5.0"
   checksum: ae3ed5f9ce29932d049908ebfdf21b3a003a85653a9a140d614da6b767a93ef94f460e52c3d787f0e4f383546981713f165037dc2274df212ea9f8a4541004e1
+  languageName: node
+  linkType: hard
+
+"tslib@npm:^2.6.2":
+  version: 2.6.2
+  resolution: "tslib@npm:2.6.2"
+  checksum: 329ea56123005922f39642318e3d1f0f8265d1e7fcb92c633e0809521da75eeaca28d2cf96d7248229deb40e5c19adf408259f4b9640afd20d13aecc1430f3ad
   languageName: node
   linkType: hard
 

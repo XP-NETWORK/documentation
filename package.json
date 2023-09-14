@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.8",
+    "@docusaurus/mdx-loader": "^2.4.1",
     "@docusaurus/preset-classic": "2.0.0-beta.8",
     "@docusaurus/theme-search-algolia": "^2.0.0-beta.8",
     "@mdx-js/react": "^1.6.21",
@@ -35,6 +36,7 @@
     "rehype-katex": "4",
     "remark-math": "3",
     "rust": "^0.1.6",
+    "tslib": "^2.6.2",
     "url-loader": "^4.1.1",
     "yarn": "latest"
   },
