@@ -7,10 +7,22 @@ jobs:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     steps:
-      - uses: actions/checkout@v2
+      - name: Check out Git repository
+        uses: actions/checkout@v3
 
-      - name: Install dependencies
-        run: yarn install
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20.6.1"
+      
+      - name: Install latest Yarn
+        run: corepack prepare yarn@stable --activate
+
+      - name: Install Node.js dependencies
+        run: yarn install --immutable --immutable-cache --check-cache
+
+      - name: Activate latest Yarn
+        run: yarn set version stable
 
       - name: Build
         run: yarn build
