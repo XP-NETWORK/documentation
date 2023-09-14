@@ -9844,7 +9844,7 @@ __metadata:
     tailwindcss: ^3.0.15
     typescript: ^4.5.4
     url-loader: ^4.1.1
-    yarn: ^1.22.17
+    yarn: latest
   languageName: unknown
   linkType: soft
 
@@ -14848,7 +14848,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yarn@npm:^1.22.17":
+"yarn@npm:latest":
   version: 1.22.19
   resolution: "yarn@npm:1.22.19"
   bin:

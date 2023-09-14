@@ -36,7 +36,7 @@
     "remark-math": "3",
     "rust": "^0.1.6",
     "url-loader": "^4.1.1",
-    "yarn": "^1.22.17"
+    "yarn": "latest"
   },
   "browserslist": {
     "production": [
