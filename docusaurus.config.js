@@ -11,7 +11,7 @@ const katex = require("rehype-katex");
 const config = {
   title: "Welcome to the XP.NETWORK Docs",
   tagline: "",
-  url: "https://docs.xp.network",
+  url: "http://192.168.0.118:3000/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -52,15 +52,15 @@ const config = {
     ({
       algolia: {
         // If Algolia did not provide you any appId, use 'BH4D9OD16A'
-        appId: "H02IL3A4PJ",
+        appId: "930BHFF428",
 
         // Public API key: it is safe to commit it
-        apiKey: "76386cfbc243f9953cbf09ecd8647be4",
+        apiKey: "708a5d757ca8ab7567b2a733cb3426e3",
 
-        indexName: "xp_network_docs",
+        indexName: "xp",
 
         // Optional: see doc section below
-        // contextualSearch: true,
+        contextualSearch: false,
 
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
         // externalUrlRegex: "external\\.com|domain\\.com",
@@ -180,7 +180,7 @@ const config = {
         // theme: lightCodeTheme,
         theme: darkCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages:['rust', 'solidity']
+        additionalLanguages: ["rust", "solidity"],
       },
       themeConfig: {
         colorMode: {
