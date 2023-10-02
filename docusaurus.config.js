@@ -11,7 +11,7 @@ const katex = require("rehype-katex");
 const config = {
   title: "Welcome to the XP.NETWORK Docs",
   tagline: "",
-  url: "http://192.168.0.118:3000/",
+  url: "https://docs.xp.network",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
