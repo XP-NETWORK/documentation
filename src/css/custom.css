@@ -553,6 +553,18 @@ html[data-theme="light"] .footer__copyright {
   color:red;
 }
 
+.round-corner-5 {
+  border-radius: 5px;
+}
+
+.round-corner-10 {
+  border-radius: 10px;
+}
+
+.round-corner-20 {
+  border-radius: 20px;
+}
+
 /* Light Version */
 
 @media (max-width: 996px) {
