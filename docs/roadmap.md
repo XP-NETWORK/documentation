@@ -248,12 +248,12 @@ Follow our journey from inception to launch. Please note that the team reserves 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Cardano<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Cosmos<br/>
 ⬜ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Internet Computer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Internet Computer<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Aptos<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Casper<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Bitgert<br/>
 ⬜ &nbsp;Mainnet Wallet Integrations:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Internet Computer - Plug<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Internet Computer - Plug<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Aptos Wallet - Math<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
