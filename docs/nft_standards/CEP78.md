@@ -9,7 +9,7 @@ description: The Most Powerful Multi-Chain NFT bridge
 
 <center>
 
-<img src="../../static/img/standards/casper.png" alt="" width="80px"/>
+<img src="/img/standards/casper.png" alt="" width="80px"/>
 
 </center>
 
