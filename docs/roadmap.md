@@ -280,3 +280,22 @@ Follow our journey from inception to launch. Please note that the team reserves 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Tezos<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Solana<br/>
 :::
+
+## Q2 2024
+:::info TODO
+⬜   &nbsp;Upgrade to v3.3 of the bridge:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;TX fee payments in $XPNET in Algorand & BSC<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Discounts for $XPNET stakers on Algorand<br/>
+⬜ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Sui<br/>
+⬜ &nbsp;XP.NETWORK Toolkit<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;NFT metadata back-up service <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;100% on-chain NFT metadata minting<br/>
+⬜  &nbsp;NFT Marketcap (NFT collections stats & analytics) v1.0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;NFT collection ratings<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Collection market caps<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Trading activity stats per collection<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;NFT collection' news<br/>
+:::
