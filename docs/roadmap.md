@@ -225,8 +225,8 @@ Follow our journey from inception to launch. Please note that the team reserves 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Wallet Selector<br/>
 :::
 
-## Q3 2023 - We're here
-:::caution Caution - work in progress
+## Q3 2023
+:::tip DONE
 ✅   &nbsp;Upgrade to v3.1 of the bridge: No-Whitelisting<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Abeychain<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Fuse<br/>
@@ -239,55 +239,44 @@ Follow our journey from inception to launch. Please note that the team reserves 
 ✅   &nbsp;Cross-Chain Token Standard<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;EVM<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;NEAR<br/>
+✅ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Internet Computer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Hedera<br/>
+✅ &nbsp;Mainnet Wallet Integrations:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Internet Computer - Plug<br/>
+:::
+
+## Q4 2023 - We're here
+:::caution Caution - work in progress
+⬜ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Aptos<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Casper<br/>
+⬜ &nbsp;Decentralization of the bridge<br/>
+⬜ &nbsp;Metadata routing service on IPFS<br/>
+⬜ &nbsp;Decentralized bridge validator<br/>
+⬜   &nbsp;Smart Contract Audits:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Cardano<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Cosmos<br/>
+⬜ &nbsp;Testnet integration bridge, widget and xpjs:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Sui<br/>
+:::
+
+
+## Q1 2024
+:::info TODO
+⬜   &nbsp;XP.NETWORK Layer-2 NFT-oriented blockchain - scalability & optimized storage research<br/>
 ⬜   &nbsp;Upgrade to v3.2 of the bridge:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;ERC-721A Support - gas-efficient batch minting, transferring, and burning<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;ERC-998 NFT fractionalizing standard support<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;TX fee payments in $XPNET on Polygon<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;ERC-721B Support - batch minting, burning & transferring for ERC721<br/>
-⬜   &nbsp;Smart Contract Audits:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Cardano<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Cosmos<br/>
-⬜ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Internet Computer<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Aptos<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Casper<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Bitgert<br/>
 ⬜ &nbsp;Mainnet Wallet Integrations:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Internet Computer - Plug<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Aptos Wallet - Math<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
-⬜ &nbsp;Testnet integration bridge, widget and xpjs:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Sui<br/>
 ⬜ &nbsp;Full SFT Support<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Tezos<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Solana<br/>
-:::
-
-## Q4 2023 
-:::info TODO
-⬜  &nbsp;XP.NETWORK Layer-2 NFT-oriented blockchain - scalability & optimized storage research<br/>
-⬜  &nbsp;NFT Marketcap v2.0<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;NFT marketplace ratings<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;NFT marketplace marketcap data<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Trading indicators display by marketplace <br/>
-⬜ &nbsp;XP.NETWORK Toolkit<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;NFT metadata back-up service <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;100% on-chain NFT metadata minting<br/>
-⬜ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Sui<br/>
-⬜  &nbsp;NFT Marketcap (NFT collections stats & analytics) v1.0<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;NFT collection ratings<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Collection market caps<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Trading activity stats per collection<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;NFT collection' news<br/>
-⬜ &nbsp;XP.NETWORK Toolkit <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;NFT Fractionalizer - support split NFT ownership<br/>
-⬜   &nbsp;Upgrade to v3.3 of the bridge:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;TX fee payments in $XPNET in Algorand & BSC<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Discounts for $XPNET stakers on Algorand<br/>
 :::
