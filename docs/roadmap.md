@@ -247,7 +247,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 :::
 
 ## Q4 2023 - We're here
-:::caution Caution - work in progress
+:::caution Work in progress
 ⬜ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Aptos<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Casper<br/>
