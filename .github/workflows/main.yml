@@ -14,7 +14,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "20.6.1"
-      
+          
+      - name: Upgrade Yarn
+        run: yarn set version 3.5.0
+
       - name: Install latest Yarn
         run: corepack prepare yarn@3.5.0 --activate
 
