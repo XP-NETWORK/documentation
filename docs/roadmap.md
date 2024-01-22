@@ -212,7 +212,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Hedera<br/>
 ✅ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Near (Layer-1)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Hedera<br/>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Arbitrum Nova<br/>
 ✅ &nbsp;Testnet integration bridge, widget and xpjs:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Internet Computer<br/>
@@ -240,23 +240,56 @@ Follow our journey from inception to launch. Please note that the team reserves 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;EVM<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;NEAR<br/>
 ✅ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Internet Computer<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Hedera<br/>
 ✅ &nbsp;Mainnet Wallet Integrations:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Internet Computer - Plug<br/>
 :::
 
+
 ## Q4 2023 - We're here
-:::caution Work in progress
-⬜ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Aptos<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Casper<br/>
-⬜ &nbsp;Decentralization of the bridge<br/>
-⬜ &nbsp;Metadata routing service on IPFS<br/>
-⬜ &nbsp;Decentralized bridge validator<br/>
-⬜   &nbsp;Smart Contract Audits:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Cardano<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Cosmos<br/>
+:::tip DONE
+✅&nbsp;Mainnet integration bridge, widget, and xpjs:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;Aptos (Wrap up)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;Casper (Pending Casper’s CEP-78 fix)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;ICP<br/>
+✅&nbsp;Decentralization of the bridge (Code):<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;BSC<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;Polygon<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;Ethereum<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;Hedera<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;Moonbeam, Godwoken, Arbitrum Nova, VeChain, Harmony, Aurora, Avalanche, Tron, Fantom, Gnosis, GateChain, Velas, IoTeX, Abey Chain, Caduceus, SKALE, OKC, Fuse<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;ICP<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;NEAR<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;TON<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;Secret Network<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;Tezos<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;Algorand<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;MultiversX<br/>
+✅&nbsp;Metadata routing service on IPFS (refactoring)<br/>
+✅&nbsp;Decentralized bridge validator (pending validator sign-up)<br/>
+✅&nbsp;Testnet integration bridge, widget, and xpjs:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;Bitgert
+:::
+
+
+## Q1 2024
+:::info TODO
+⬜ &nbsp;XP.NETWORK Layer-2 NFT-oriented blockchain - scalability & optimized storage research<br/>
+⬜ &nbsp;Upgrade to v3.2 of the bridge:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;ERC-721A Support - gas-efficient batch minting, transferring, and burning<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;ERC-998 NFT fractionalizing standard support<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;TX fee payments in $XPNET on Polygon<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;ERC-721B Support - batch minting, burning & transferring for ERC721<br/>
+⬜ &nbsp;Mainnet Wallet Integrations:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Aptos Wallet - Math<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
+⬜ &nbsp;Full SFT Support<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Tezos<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Solana<br/>
+⬜ &nbsp;Smart Contract Audits:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
 ⬜ &nbsp;Testnet integration bridge, widget and xpjs:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
@@ -264,22 +297,6 @@ Follow our journey from inception to launch. Please note that the team reserves 
 :::
 
 
-## Q1 2024
-:::info TODO
-⬜   &nbsp;XP.NETWORK Layer-2 NFT-oriented blockchain - scalability & optimized storage research<br/>
-⬜   &nbsp;Upgrade to v3.2 of the bridge:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;ERC-721A Support - gas-efficient batch minting, transferring, and burning<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;ERC-998 NFT fractionalizing standard support<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;TX fee payments in $XPNET on Polygon<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;ERC-721B Support - batch minting, burning & transferring for ERC721<br/>
-⬜ &nbsp;Mainnet Wallet Integrations:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Aptos Wallet - Math<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cardano<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Cosmos<br/>
-⬜ &nbsp;Full SFT Support<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Tezos<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜  &nbsp;Solana<br/>
-:::
 
 ## Q2 2024
 :::info TODO
