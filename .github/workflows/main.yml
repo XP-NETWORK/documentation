@@ -14,15 +14,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "20.6.1"
-          
+
+      - name: Enable Corepack to manage Yarn
+        run: corepack enable
+
       - name: Install specified Yarn version
         run: corepack prepare yarn@4.0.2 --activate
-        
+
       - name: Activate specified Yarn version
         run: yarn set version 4.0.2
-
-      - name: Activate latest Yarn
-        run: yarn set version stable
 
       - name: Disable immutable installs
         run: yarn config set enableImmutableInstalls false
