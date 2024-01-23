@@ -245,7 +245,7 @@ Follow our journey from inception to launch. Please note that the team reserves 
 :::
 
 
-## Q4 2023 - We're here
+## Q4 2023 
 :::tip DONE
 ✅&nbsp;Mainnet integration bridge, widget, and xpjs:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅&nbsp;Aptos (Wrap up)<br/>
@@ -271,8 +271,8 @@ Follow our journey from inception to launch. Please note that the team reserves 
 :::
 
 
-## Q1 2024
-:::info TODO
+## Q1 2024 - We're here
+:::caution Work in progress
 ⬜ &nbsp;XP.NETWORK Layer-2 NFT-oriented blockchain - scalability & optimized storage research<br/>
 ⬜ &nbsp;Upgrade to v3.2 of the bridge:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;ERC-721A Support - gas-efficient batch minting, transferring, and burning<br/>
