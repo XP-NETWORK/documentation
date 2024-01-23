@@ -185,7 +185,7 @@ export const Footer = () => {
   const [latestCommit, SetLatestCommit] = useState<number>();
 
   useEffect(() => {
-    fetch("https://xpvitaldata.herokuapp.com/last-commit")
+    fetch("https://case-studies.xp.network/last-commit")
       .then((res) => res.json())
       .then((latestCommit) => {
         SetLatestCommit(Date.parse(latestCommit));
@@ -365,23 +365,30 @@ export const Footer = () => {
                     {link.name}
                    
                     {link.name == "GitHub" ? (
-                      <>  
-                    
-                      <span className="whitespace-nowrap text-xs ml-2 md:ml-0  lg:ml-2 mt-0 md:mt-1 lg:mt-0  px-2 text-black bg-gray-200  dark:bg-gray-700 dark:text-white rounded-full">
-                        <svg
-                          className="inline-block mr-1 mb-1"
-                          width="7"
-                          height="8"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle cx="3.5" cy="4" r="3.5" fill="#1BEA6E" />
-                        </svg>
-                      
-                        Latest commit{" "} 
-                        {new Date(latestCommit).toLocaleDateString()}
-                      </span>
-                      </>
+                       <>
+                       <span className="whitespace-nowrap text-xs ml-2 md:ml-0 lg:ml-2 mt-0 md:mt-1 lg:mt-0 px-2 text-black bg-gray-200 dark:bg-gray-700 dark:text-white rounded-full">
+                         <svg
+                           className="inline-block mr-1 mb-1"
+                           width="7"
+                           height="8"
+                           fill="none"
+                           xmlns="http://www.w3.org/2000/svg"
+                         >
+                           <circle cx="3.5" cy="4" r="3.5" fill="#1BEA6E" />
+                         </svg>
+                         Latest {" "}
+                         {new Date(latestCommit).toLocaleDateString("en-US", {
+                           month: "short",
+                           day: "numeric"
+                         })} 
+                        {" "} at {" "} 
+                         {new Date(latestCommit).toLocaleTimeString("en-US", {
+                           hour: '2-digit',
+                           minute: '2-digit',
+                           hour12: true
+                         })}
+                       </span>
+                     </>
                     ) : (
                       ""
                     )}
