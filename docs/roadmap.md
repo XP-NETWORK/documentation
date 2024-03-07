@@ -273,6 +273,15 @@ Follow our journey from inception to launch. Please note that the team reserves 
 
 ## Q1 2024 - We're here
 :::caution Work in progress
+✅ &nbsp;Launched our first ever open source GitHub repository for the bridge decentralized validators code<br/>
+✅ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Bitgert<br/>
+✅ &nbsp;Mainnet wallet integration:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Bitget<br/>
+✅ &nbsp;Marketing Campaigns:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Jointly with HyperMove Games on TaskOn](https://taskon.xyz/campaign/detail/32264)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Jointly with AANN.ai on Galxe](https://galxe.com/aann/campaign/GCUHDtwmtx)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Jointly with Eonian on Galxe](https://galxe.com/eonian/campaign/GCWWat4DFi)<br/>
 ⬜ &nbsp;XP.NETWORK Layer-2 NFT-oriented blockchain - scalability & optimized storage research<br/>
 ⬜ &nbsp;Upgrade to v3.2 of the bridge:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;ERC-721A Support - gas-efficient batch minting, transferring, and burning<br/>
