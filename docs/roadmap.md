@@ -282,10 +282,10 @@ Follow our journey from inception to launch. Please note that the team reserves 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with HyperMove Games on TaskOn](https://taskon.xyz/campaign/detail/32264)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with AANN.ai on Galxe](https://galxe.com/aann/campaign/GCUHDtwmtx)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with Eonian on Galxe](https://galxe.com/eonian/campaign/GCWWat4DFi)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with Cartel Punks on Galxe](add-campaign-link)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with OggyInu and Trump Mode on Galxe](add-campaign-link)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with LASMETA on Galxe](add-campaign-link)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with SHIBU Society on Galxe](add-campaign-link)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with Cartel Punks on Galxe](https://add-campaign-link)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with OggyInu and Trump Mode on Galxe](https://add-campaign-link)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with LASMETA on Galxe](https://add-campaign-link)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with SHIBU Society on Galxe](https://add-campaign-link)<br/>
 ✅ &nbsp;Cosmos smart contract<br/>
 ✅ &nbsp;Base smart contract<br/>
 ✅ &nbsp;Research - XP.NETWORK Layer-2 Gaming & NFT-oriented blockchain - scalability & optimized storage<br/>
