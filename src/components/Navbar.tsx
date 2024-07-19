@@ -14,7 +14,8 @@ export const Navbar = () => {
   const { isDarkMode, toggle: toggleDarkMode } = useDarkMode();
 
   useEffect(() => {
-    fetch("https://xpvitaldata.herokuapp.com/last-commit")
+    // fetch("https://xpvitaldata.herokuapp.com/last-commit")
+    fetch("https://case-studies.xp.network/last-commit")
       .then((res) => res.json())
       .then((latestCommit) => {
         SetLatestCommit(Date.parse(latestCommit));
