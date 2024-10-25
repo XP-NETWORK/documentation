@@ -358,21 +358,77 @@ Follow our journey from inception to launch. Please note that the team reserves 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Solana<br/>
 :::
 
-## Q3 2024 - We're here​
-
-:::info TODO
-⬜ &nbsp;XP Rush beta launch:<br/>
+## Q3 2024
+:::tip DONE
+⬜ &nbsp;XP Rush beta launch (Ongoing - release in Q4):<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; $XPNET staking<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; $XPNET utility integration<br/>
-⬜ &nbsp;Validator Program<br/>
-⬜ &nbsp;Decentralized bridge launch<br/>
-⬜ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;BLAST<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;SuperLumio<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; $XPNET utility integration<br/>
+✅ &nbsp;Validator Program sign-up form<br/>
+✅ &nbsp;Decentralized bridge launch:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;BSC<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Polygon<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Tezos<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;TON<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Base<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Hedera<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;BLAST<br/>
+✅ &nbsp;Mainnet integration bridge, widget and xpjs:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;BLAST (Decentralized Bridge)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;Casper Network (completed integration following Casper’s CEP-78 fix)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;SuperLumio (Pending Lumio mainnet)<br/>
+✅  &nbsp;Mainnet Wallet Integrations:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅  &nbsp;Casper Wallet<br/>
+✅ &nbsp;Marketing Campaigns:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with Swipelux on ZeroID](https://x.com/xpnetwork_/status/1808149715848212908)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with Uniramp on Galxe](https://x.com/xpnetwork_/status/1811726838554616122)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with Hedera on Galxe](https://x.com/xpnetwork_/status/1813971219609276587)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with Word4zz on Alphabot](https://x.com/word4zz/status/1815678802174861434)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with Atleta Network on Galxe](https://x.com/xpnetwork_/status/1816371884377747701)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with Schrödinger on Galxe](https://x.com/xpnetwork_/status/1817838371592393088)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with Peacock Coin on X](https://x.com/hbarpeacock/status/1818579576382992552)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with AtlasPad on Galxe](https://x.com/xpnetwork_/status/1820800377748324843)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with LEGENDARY HUMANITY & Caro Play on TaskOn](https://x.com/xpnetwork_/status/1823703745772868014)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with HAQQ Network on Galxe](https://x.com/xpnetwork_/status/1825408382074835363)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with KMON on Galxe](https://x.com/xpnetwork_/status/1829062699004612656)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with TOKR.FUN on Galxe, TaskOn and Intract](https://x.com/xpnetwork_/status/1831400550522614058)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with Casper Network on Galxe](https://x.com/xpnetwork_/status/1833107618971201685)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with Pirate Realm on Galxe](https://x.com/xpnetwork_/status/1836682024536485922)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp;[Joint campaign with with MemeQuest, Aurory AI, HamBit and Tectum on Galxe](https://x.com/xpnetwork_/status/1838696835059425516)<br/>
+:::
+
+## Q4 2024​ - We’re here
+:::info TODO
+⬜ &nbsp;Decentralized bridge chain integrations:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ &nbsp; MultiversX<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; ICP<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; NEAR<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Solana<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Bitgert<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Casper<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Ethereum<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Secret<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Moonbeam<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; SKALE<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Godwoken<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Arbitrum Nova<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; VeChain<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; OKC<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Harmony<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Caduceus<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Aurora<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Avalanche<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Algorand<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Fantom<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Gnosis<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; GateChain<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Velas<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; IoTeX<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Fuse<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Abey Chain<br/>
+⬜ &nbsp;Validators program launch<br/>
 ⬜ &nbsp;NFT Marketcap (NFT collections stats & analytics) v1.0<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;NFT collection ratings<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Collection market caps<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;Trading activity stats per collection<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp;NFT collection news<br/>
-⬜ &nbsp;Marketing Campaigns<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; NFT collection ratings<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Collection market caps<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; Trading activity stats per collection<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⬜ &nbsp; NFT collection news<br/>
 :::
