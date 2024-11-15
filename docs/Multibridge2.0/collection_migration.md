@@ -68,7 +68,7 @@ Signing happens locally, so there's no danger of the private key compromise.
 
 ## Temporary step - Debugging
 
-Becasue the App reliaes on external libraries and they have their dependencies that we cannot get rid of.
+Because the App reliaes on external libraries and they have their dependencies that we cannot get rid of.
 
 We've openned an issue an one of such libraries that does not let the App build and launch: https://github.com/LedgerHQ/ledger-live/issues/763
 

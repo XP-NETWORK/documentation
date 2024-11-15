@@ -26,5 +26,5 @@ Transactions on the XP.NETWORK blockchain are executed via a number of LocalActi
 
 ## Available local transactions
 1. Unfreezing the locked fungible & non-fungible tokens to a designated account in XP.network
-2. Transfering wrapped foreign fungible & non-fungible tokens
+2. Transferring wrapped foreign fungible & non-fungible tokens
 3. Calling the functions of other smart contracts

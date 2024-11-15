@@ -12,7 +12,7 @@ The JS API  library is used by the Bridge UI in the background ensuring that eve
 
 The library was designed to help dApps seamlessly integrate the bridge functionality and use it from the frontends of the existing marketplaces or NFT based games turning them into cross-chain scalable applications.
 
-To transfer NFTs accross networks developers have to take the following steps:
+To transfer NFTs across networks developers have to take the following steps:
 ## Bridging steps
 
 - [x] [1. Installing the library](./installation.md)

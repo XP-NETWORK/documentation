@@ -103,7 +103,7 @@ Verifies the following transactions:
 
 ## What types of events do validators listen for?
 
-Validators are responsible for monitoring a number of events and coordinating subsequent actions based on those events. Normal events are known simply as "events" where as events relating to NFTs are known as Unique Events.
+Validators are responsible for monitoring a number of events and coordinating subsequent actions based on those events. Normal events are known simply as "events" whereas events relating to NFTs are known as Unique Events.
 
 The following are some examples of the main types of events:
 

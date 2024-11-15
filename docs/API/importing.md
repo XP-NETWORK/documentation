@@ -18,7 +18,7 @@ import {
     ChainParams
 } from "xp.network";
 ```
-Connecting to the mainntets of all the integrated chains:
+Connecting to the mainnets of all the integrated chains:
 ```javascript
 // MAINNET Factory object creation
 const mainnetConfig = await ChainFactoryConfigs.MainNet()
